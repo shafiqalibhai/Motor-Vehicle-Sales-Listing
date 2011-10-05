@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0">
+	<name>EZ Loan Calculator</name>
+	<author>K.J. Strickland</author>
+	<creationDate>24th October 2008</creationDate>
+	<copyright>(C) 2005-2008 K.J. Strickland</copyright>
+	<license>Commercial</license>
+	<authorEmail>kathy@raptorservices.com.au</authorEmail>
+	<authorUrl>www.raptorservices.com.au</authorUrl>
+	<version>2.7</version>
+	<description>The EZ Loan Calculator module allows you to easily show a simple loan calculator on your site.</description>
+	<files>
+		<filename module="mod_ezloancalc">mod_ezloancalc.php</filename>
+		<filename module="mod_ezloancalc">mod_ezloancalc/english.php</filename>
+		<filename module="mod_ezloancalc">mod_ezloancalc/greek.php</filename>
+		<filename module="mod_ezloancalc">mod_ezloancalc/portuguese.php</filename>
+		<filename module="mod_ezloancalc">mod_ezloancalc/index.php</filename>
+	</files>
+	
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="cms12" type="list" default="1" label="Content Management System" description="Specify which CMS you're using.">
+			<option value="1">Joomla 1.0x or Mambo 4.6.3 and lower</option>
+			<option value="2">Mambo 4.6.4 and above</option>
+			<option value="3">Joomla 1.5x</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+	</params>
+</mosinstall>

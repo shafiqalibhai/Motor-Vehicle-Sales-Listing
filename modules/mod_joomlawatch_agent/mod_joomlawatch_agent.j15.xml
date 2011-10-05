@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0">
+ 	<name>JoomlaWatch Agent</name>
+	<author>Matej Koval</author>
+	<creationDate>15 Mar 2008</creationDate>
+	<copyright>www.codegravity.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-3.0.txt GNU/GPLv3</license>
+	<authorEmail>foo@codegravity.com</authorEmail>
+	<authorUrl>www.codegravity.com</authorUrl>
+	<version>1.2.5</version>
+	<description>
+	INSTRUCTIONS: This is the basic 'agent' module, which has to be inserted everywhere, where you want the visit to be recorded. It's best to 	place it into the footer of your Joomla website template.
+	</description>
+	<files>
+	<filename module="mod_joomlawatch_agent">mod_joomlawatch_agent.php</filename>
+	</files>
+</install>

@@ -1,0 +1,97 @@
+/* (C) 2007 YOOtheme.com */
+
+div.default-v div.yoo-scroller {
+}
+
+/* panel */
+div.default-v div.yoo-scroller .panel-container-t {
+	background: #FAFBFC url(styles/default-v/images/panel_t.png) 0 0 repeat-x;
+}
+
+div.default-v div.yoo-scroller .panel-container-b {
+	background: url(styles/default-v/images/panel_b.png) 0 100% repeat-x;
+}
+
+div.default-v div.yoo-scroller .panel-container-l {
+	background: url(styles/default-v/images/panel_l.png) 0 0 repeat-y;
+}
+
+div.default-v div.yoo-scroller .panel-container-r {
+	background: url(styles/default-v/images/panel_r.png) 100% 0 repeat-y;
+}
+
+div.default-v div.yoo-scroller .panel-container-tl {
+	background: url(styles/default-v/images/panel_tl.png) 0 0 no-repeat;
+}
+
+div.default-v div.yoo-scroller .panel-container-tr {
+	background: url(styles/default-v/images/panel_tr.png) 100% 0 no-repeat;
+}
+
+div.default-v div.yoo-scroller .panel-container-bl {
+	background: url(styles/default-v/images/panel_bl.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-scroller .panel-container-br {
+	padding: 2px 10px 2px 0px;
+	background: url(styles/default-v/images/panel_br.png) 100% 100% no-repeat;
+	overflow: hidden;
+}
+
+div.default-v div.yoo-scroller div.panel {
+	background: url(styles/default-v/images/panel_bg.png) 0 100% repeat-x;
+	float: left;
+	overflow: hidden;
+}
+
+div.default-v div.yoo-scroller div.panel div.slide {
+	overflow: hidden;
+}
+
+div.default-v div.yoo-scroller div.scrollarea {
+	margin: 20px 0px 20px 0px;
+	background: url(styles/default-v/images/scrollarea_m.png) 0 0 repeat-y;
+	float: right;
+	cursor: pointer;
+}
+
+div.default-v div.yoo-scroller div.scrollarea-t {
+	background: url(styles/default-v/images/scrollarea_t.png) 0 0 no-repeat;
+}
+
+div.default-v div.yoo-scroller div.scrollarea-b {
+	background: url(styles/default-v/images/scrollarea_b.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-scroller div.scrollbar {
+}
+
+div.default-v div.yoo-scroller div.scrollknob {
+	margin: 0px 2px 0px 2px;
+	width: 14px;
+	min-height: 10px;
+	background: url(styles/default-v/images/scrollknob_t.png) 0 0 no-repeat;
+}
+
+div.default-v div.yoo-scroller div.scrollknob-b {
+	padding: 10px 0px 10px 0px;
+	background: url(styles/default-v/images/scrollknob_b.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-scroller div.scrollknob-m {
+	height: 13px;
+	background: url(styles/default-v/images/scrollknob_m.png) 0 0 repeat-y;
+}
+
+div.default-v div.yoo-scroller div.forward, div.default-v div.yoo-scroller div.back {
+	width: 18px;
+	height: 21px;
+}
+
+div.default-v div.yoo-scroller div.forward {
+	background: url(styles/default-v/images/scroll_forward.png) 0 0 no-repeat;
+}
+
+div.default-v div.yoo-scroller div.back {
+	background: url(styles/default-v/images/scroll_back.png) 0 0 no-repeat;
+}

@@ -1,0 +1,71 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.list div.yoo-carousel {
+	background: #141414;
+}
+
+/* panel */
+.yootools-black div.list div.yoo-carousel .panel-container-t {
+	background: url(styles/list/black/images/panel_t.png) 0 0 repeat-x;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-b {
+	background: url(styles/list/black/images/panel_b.png) 0 100% repeat-x;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-l {
+	background: url(styles/list/black/images/panel_l.png) 0 0 repeat-y;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-r {
+	background: url(styles/list/black/images/panel_r.png) 100% 0 repeat-y;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-tl {
+	background: url(styles/list/black/images/panel_tl.png) 0 0 no-repeat;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-tr {
+	background: url(styles/list/black/images/panel_tr.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-bl {
+	background: url(styles/list/black/images/panel_bl.png) 0 100% no-repeat;
+}
+
+.yootools-black div.list div.yoo-carousel .panel-container-br {
+	background: url(styles/list/black/images/panel_br.png) 100% 100% no-repeat;
+}
+
+/* tabs */
+.yootools-black div.list div.yoo-carousel div.left ul.tabs {
+	background: url(styles/list/black/images/tabs_bg.png) 100% 0 repeat-y;
+}
+
+.yootools-black div.list div.yoo-carousel div.left ul.tabs li.selected a {
+	background: url(styles/list/black/images/tab_bg.png) 100% -30px no-repeat;
+}
+
+.yootools-black div.list div.yoo-carousel div.left ul.tabs li a span {
+	background: url(styles/list/black/images/tab_bg.png) 0 0 repeat-x;
+}
+
+.yootools-black div.list div.yoo-carousel div.left ul.tabs li.selected a span {
+	background: url(styles/list/black/images/tab_bg.png) 0 -60px no-repeat;
+}
+
+.yootools-black div.list div.yoo-carousel div.left ul.tabs li.selected a span span {
+	background: url(styles/list/black/images/tab_bg.png) 0 -90px repeat-x;
+}
+
+.yootools-black div.list div.yoo-carousel li a:link, div.list div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black iv.list div.yoo-carousel li a:hover, .yootools-black div.list div.yoo-carousel li.selected a:link, .yootools-black div.list div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+.yootools-black div.list div.yoo-carousel .article h3 {
+	color: #787878;
+}

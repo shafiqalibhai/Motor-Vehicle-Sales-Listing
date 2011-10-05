@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>smartsite</name>
+	<creationDate>July 2008</creationDate>
+	<author>Anton Nikiforov / Andy Miller</author>
+	<authorEmail>support@recly.com</authorEmail>
+	<authorUrl>http://www.recly/com</authorUrl>
+	<copyright></copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.0</version>
+	<description>SmartSite template is based on rhuk_milkyway (white) template by Andy Miller of rockettheme.com</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+<filename>template_thumbnail.png</filename>
+<filename>params.ini</filename>
+<filename>component.php</filename>
+<filenamefavicon.ico</filename>
+<filename>index.html</filename>
+<filename>css/template.css</filename>
+<filename>css/template_rtl.css</filename>
+<filename>css/ieonly.css</filename>
+<filename>css/white.css</filename>
+<filename>css/white_bg.css</filename>
+<filename>css/index.html</filename>
+<filename>html/modules.php</filename>
+<filename>html/pagination.php</filename>
+<filename>html/index.html</filename>
+<filename>images/index.html</filename>
+<filename>images/smartsite_logo.gif</filename>
+<filename>images/mw_content_b.png</filename>
+<filename>images/mw_content_b_l.png</filename>
+<filename>images/mw_content_b_r.png</filename>
+<filename>images/mw_content_t.png</filename>
+<filename>images/mw_content_t_l.png</filename>
+<filename>images/mw_content_t_r.png</filename>
+<filename>images/mw_header_b.png</filename>
+<filename>images/mw_header_l_b.png</filename>
+<filename>images/mw_header_r_b.png</filename>
+<filename>images/mw_line_grey.png</filename>
+<filename>images/mw_menu_cap_l.png</filename>
+<filename>images/mw_menu_cap_r.png</filename>
+<filename>images/mw_menu_normal_bg.png</filename>
+<filename>images/mw_menu_separator.png</filename>
+<filename>images/spacer.png</filename>
+<filename>images/white/index.html</filename>
+<filename>images/white/mw_box_bl.png</filename>
+<filename>images/white/mw_box_br.png</filename>
+<filename>images/white/mw_box_tl.png</filename>
+<filename>images/white/mw_box_tr.png</filename>
+<filename>images/white/mw_footer_b.png</filename>
+<filename>images/white/mw_footer_b_l.png</filename>
+<filename>images/white/mw_footer_b_r.png</filename>
+<filename>images/white/mw_header_t.png</filename>
+<filename>images/white/mw_header_t_l.png</filename>
+<filename>images/white/mw_header_t_r.png</filename>
+<filename>images/white/mw_menu_active_bg.png</filename>
+<filename>images/white/mw_shadow_l.png</filename>
+<filename>images/white/mw_shadow_r.png</filename>
+	</files>
+	<positions>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>footer</position>
+		<position>debug</position>
+		<position>syndicate</position>
+	</positions>
+</install>

@@ -1,0 +1,118 @@
+/**
+ * Joom!Fish - Multi Lingual extention and translation manager for Joomla!
+ * Copyright (C) 2003-2009 Think Network GmbH, Munich
+ *
+ * All rights reserved.  The Joom!Fish project is a set of extentions for
+ * the content management system Joomla!. It enables Joomla!
+ * to manage multi lingual sites especially in all dynamic information
+ * which are stored in the database.
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307,USA.
+ *
+ * The "GNU General Public License" (GPL) is available at
+ * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+ * -----------------------------------------------------------------------------
+ * $Id: joomfish.css 1251 2009-01-06 18:33:02Z apostolov $
+ * @package joomfish
+ * @subpackage joomfish
+ *
+*/
+
+
+.icon-16-joomfish {
+	background: url(../images/icon-16-joomfish.png);
+}
+
+.icon-32-joomfish {
+	background: url(../images/icon-32-joomfish.png);
+}
+
+#joomfish ul {
+	margin: 0px 0px 0px 0px;
+	padding: 1px 0px 1px 20px;
+	list-style: url(../images/dot.png);
+	border: none;
+}
+
+table.translateparams{
+	width:100%;
+}
+td.translateparams span.editlinktip{
+/*	display:none;*/
+}
+
+#manage_results div {
+	border: 1px solid #dddddd;
+	width: 98%;
+	height: 100%;
+}
+div.icon-48-extension {
+	background: url(../images/icon-48-extension.png) no-repeat left;
+}
+div.icon-48-fish {
+	background: url(../images/icon-48-fish.png) no-repeat left;
+}
+div.icon-48-help {
+	background: url(../images/icon-48-help.png) no-repeat left;
+}
+div.icon-48-info {
+	background: url(../images/icon-48-info.png) no-repeat left;
+}
+div.icon-48-language {
+	background: url(../images/icon-48-language.png) no-repeat left;
+}
+div.icon-48-manage {
+	background: url(../images/icon-48-manage.png) no-repeat left;
+}
+div.icon-48-orphan {
+	background: url(../images/icon-48-orphan.png) no-repeat left;
+}
+div.icon-48-plugin {
+	background: url(../images/icon-48-plugin.png) no-repeat left;
+}
+div.icon-48-statistics {
+	background: url(../images/icon-48-statistics.png) no-repeat left;
+}
+div.icon-48-translation {
+	background: url(../images/icon-48-translation.png) no-repeat left;
+}
+
+table.adminform a.toolbar {
+   display: block;
+	white-space: nowrap;
+	border: 1px solid #fbfbfb;
+	padding: 1px 5px;
+	cursor: pointer;
+	text-align: center;
+	width: 32px;
+}
+
+table.adminform a.toolbar:hover {
+	border-left: 1px solid #eee;
+	border-top: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+	color: #0B55C4;
+}
+
+
+table.adminform a.toolbar span { 
+	float: none; 
+	width: 32px; 
+	height: 32px; 
+	margin: 0 auto; 
+	display: block;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Joomfish - Abstraction Layer</name>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<author>Alex Kempkens, Gerain Edwards</author>
+	<authorEmail>support@joomfish.net</authorEmail>
+	<authorUrl>http://www.joomfish.net</authorUrl>
+	<creationDate>7 January 2009</creationDate>
+	<copyright>Copyright (C) 2003-2009 Think Network GmbH, Munich. All rights reserved.</copyright>
+	<version>2.0.1</version>
+	<description>When activated this bot ensures that your system is automatically translating all database queries.</description>
+	<files>
+		<filename plugin="jfdatabase">jfdatabase.php</filename>
+		<filename>jfdatabase/intercept.jdatabasemysql.php</filename>
+		<filename>jfdatabase/intercept.jdatabasemysqli.php</filename>
+		<filename>jfdatabase/jfdatabase_inherit.php</filename>
+	</files>	
+	<languages folder="">
+		<language tag="en-GB">en-GB.plg_system_jfdatabase.ini</language>
+   	</languages>	
+	<params>
+	</params>
+</install>

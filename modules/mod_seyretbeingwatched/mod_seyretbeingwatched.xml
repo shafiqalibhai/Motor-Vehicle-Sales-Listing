@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Being Watched Videos- Seyret Pro</name>
+	<author>Mustafa Dindar</author>
+	<creationDate>October 2007</creationDate>
+	<copyright>Mustafa Dindar. All rights reserved.</copyright>
+	<license></license>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>www.joomlaholic.com</authorUrl>
+	<version>0.2</version>
+	<description>This module shows beingwatched videos list in a flash container.</description>
+	<files>
+		<filename module="mod_seyretbeingwatched">mod_seyretbeingwatched.php</filename>
+		<filename module="mod_seyretbeingwatched">seyretbeingwatched.swf</filename>
+	</files>
+	<params>
+		<param name="width" type="text" default="350" label="Flash Width" description="Defines the width of flash." />
+		<param name="height" type="text" default="260" label="Flash Height" description="Defines the height of flash." />	
+		<param name="refresh" type="text" default="15" label="Refresh Time" description="Defines the refresh time as seconds." />			
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="columncount" type="text" default="3" label="Column Count" description="Defines the column count." />
+		<param name="rowcount" type="text" default="2" label="Row Count" description="Defines the row count." />
+		<param name="thumbscale" type="text" default="80" label="Thumb Scale %" description="Defines the thumb scale. Between 0-100" />
+		<param name="showreflection" type="radio" default="1" label="Show Reflection" description="Show Thumb Reflection">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="textcolor" type="text" default="222222" label="Text Color" description="Defines the color of text." />
+		<param name="textbold" type="radio" default="1" label="Title Text Bold" description="Define weight of title text.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="frontcolor" type="text" default="FBFEFF" label="Front Color" description="Defines the color of flash front face." />
+		<param name="basecolor" type="text" default="FFFFFF" label="Base Color" description="Defines the color of base. This will complement your site if you use rounded corners." />
+		<param name="borderwidth" type="text" default="1" label="Border Width" description="Defines the width of border." />
+		<param name="bordercolor" type="text" default="CBCBCB" label="Border Color" description="Defines the color of border." />
+		<param name="xround" type="text" default="10" label="X Round" description="X Round. Use 0 for no rounded borders." />
+		<param name="yround" type="text" default="10" label="Y Round" description="Y Round. Use 0 for no rounded borders." />		
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="spinnerred" type="text" default="151" label="Spinner Red Offset" description="Defines the red offset of loading spinner. Between 0-255" />
+		<param name="spinnergreen" type="text" default="151" label="Spinner Green Offset" description="Defines the green offset of loading spinner. Between 0-255" />
+		<param name="spinnerblue" type="text" default="151" label="Spinner Blue Offset" description="Defines the blue offset of loading  spinner. Between 0-255" />	
+		<param name="spnw" type="text" default="30" label="Spinner Width" description="Defines the width of loading  spinner." />			
+		<param name="spnh" type="text" default="30" label="Spinner Height" description="Defines the height of loading  spinner." />			
+
+	
+		<param name="@spacer" type="spacer" default="" label="" description="" />			
+		<param name="siteurl" type="text" default="" label="Seyret Site Url" description="Leave blank if you want to use it on your site." />		
+		
+	</params>
+</mosinstall>

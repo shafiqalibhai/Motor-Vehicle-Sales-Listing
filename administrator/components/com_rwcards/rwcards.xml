@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+	<name>RWCards</name>
+	<creationDate>13/06/2008</creationDate>
+	<author>Ralf Weber - LoadBrain</author>
+	<authorEmail>info@loadbrain.de</authorEmail>
+	<authorUrl>http://www.weberr.de</authorUrl>
+	<copyright>This component in released under the GNU/GPL License</copyright>
+	<license>GPL</license>
+	<version>3.0.12</version>
+	<description><![CDATA[RWCards is a nativ Joomla 1.5 ECards Component]]></description>
+	<files folder="site">
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<filename>rwcards.php</filename>
+		<filename>captcha/arial.ttf</filename>
+		<filename>captcha/captcha_image.php</filename>
+		<filename>captcha/checkcaptcha.php</filename>
+		<filename>captcha/class.captcha.php</filename>
+		<filename>captcha/default.ttf</filename>		
+		<filename>controllers/rwcardsfilloutcard.php</filename>
+		<filename>controllers/rwcardslistonecategory.php</filename>
+		<filename>controllers/rwcardsprelookcard.php</filename>
+		<filename>css/rwcards.filloutform.css</filename>
+		<filename>css/rwcards.previewandsend.css</filename>
+		<filename>css/rwcards.slideshow.css</filename>
+		<filename>css/windoo.aero.css</filename>
+		<filename>css/windoo.css</filename>		
+		<filename>css/windoo.aero/bg-center.gif</filename>
+		<filename>css/windoo.aero/bg-left.gif</filename>
+		<filename>css/windoo.aero/bg-right.gif</filename>
+		<filename>css/windoo.aero/buttons.gif</filename>
+		<filename>css/windoo.aero/hd-sprite.gif</filename>
+		<filename>css/windoo.aero/se-handle.gif</filename>
+		<filename>css/slimbox/closelabel.gif</filename>
+		<filename>css/slimbox/loading.gif</filename>
+		<filename>css/slimbox/nextlabel.gif</filename>
+		<filename>css/slimbox/prevlabel.gif</filename>
+		<filename>css/slimbox/slimbox.css</filename>
+		<filename>js/rwcards.gallery.js</filename>
+		<filename>js/slimbox.js</filename>
+		<filename>js/windoo.js</filename>
+		<filename>models/index.html</filename>
+		<filename>models/rwcardsfilloutcard.php</filename>
+		<filename>models/rwcardslistonecategory.php</filename>
+		<filename>models/rwcards.php</filename>
+		<filename>models/rwcardspreviewandsendcard.php</filename>
+		<filename>models/rwcardssendcard.php</filename>
+		<filename>views/index.html</filename>
+		<filename>views/rwcards/index.html</filename>
+		<filename>views/rwcards/view.html.php</filename>
+		<filename>views/rwcards/tmpl/index.html</filename>
+		<filename>views/rwcards/tmpl/default.php</filename>
+		<filename>views/rwcardsfilloutcard/index.html</filename>
+		<filename>views/rwcardsfilloutcard/view.html.php</filename>
+		<filename>views/rwcardsfilloutcard/tmpl/index.html</filename>
+		<filename>views/rwcardsfilloutcard/tmpl/rwcardsfilloutcard.php</filename>
+		<filename>views/rwcardslistonecategory/index.html</filename>
+		<filename>views/rwcardslistonecategory/view.html.php</filename>
+		<filename>views/rwcardslistonecategory/tmpl/index.html</filename>
+		<filename>views/rwcardslistonecategory/tmpl/rwcardslistonecategory.php</filename>
+		<filename>views/rwcardsprelookcard/index.html</filename>
+		<filename>views/rwcardsprelookcard/view.html.php</filename>
+		<filename>views/rwcardsprelookcard/tmpl/index.html</filename>
+		<filename>views/rwcardsprelookcard/tmpl/rwcardsprelookcard.php</filename>
+		<filename>views/rwcardssendcard/index.html</filename>
+		<filename>views/rwcardssendcard/view.html.php</filename>
+		<filename>views/rwcardssendcard/tmpl/index.html</filename>
+		<filename>views/rwcardssendcard/tmpl/rwcardssendcard.php</filename>
+		<filename>images/postmark.gif</filename>
+		<filename>images/restamp.jpg</filename>
+		<filename>images/rewritecard.jpg</filename>
+		<filename>images/stamp.jpg</filename>
+	</files>
+  <languages>
+    <language tag="de-DE">site/languages/de-DE.com_rwcards.ini</language>
+	<language tag="en-GB">site/languages/en-GB.com_rwcards.ini</language>
+  </languages>
+  
+  <installfile>install.rwcards.php</installfile>
+  <uninstallfile>uninstall.rwcards.php</uninstallfile>
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>	
+	<administration>
+		<!-- Administration Menu Section -->
+		<menu img="components/com_rwcards/images/rwcards_icon.jpg"><![CDATA[RWCards]]></menu>
+		<submenu>
+			<menu img="components/com_rwcards/images/admin_config_over.jpg" link="option=com_rwcards&amp;controller=config&amp;section=config&amp;task=view"><![CDATA[CONFIG]]></menu>
+			<menu img="components/com_rwcards/images/admin_category_over.jpg" link="option=com_rwcards&amp;controller=managecategories&amp;section=managecategories&amp;task=view"><![CDATA[MANAGE CATEGORIES]]></menu> 
+			<menu img="components/com_rwcards/images/admin_add_over.jpg" link="option=com_rwcards&amp;controller=manageecards&amp;section=manageecards&amp;task=view"><![CDATA[MANAGE ECARDS]]></menu> 
+			<menu img="components/com_rwcards/images/admin_upload_over.jpg" link="option=com_rwcards&amp;controller=manageuploadecards&amp;section=manageuploadecards&amp;task=view"><![CDATA[UPLOAD ECARDS]]></menu> 
+			<menu img="components/com_rwcards/images/admin_manage_over.jpg" link="option=com_rwcards&amp;controller=managesentcards&amp;section=managesentcards&amp;task=view"><![CDATA[MANAGE SENT CARDS]]></menu> 
+			<menu img="components/com_rwcards/images/admin_about_over.jpg" link="option=com_rwcards&amp;controller=about&amp;section=about&amp;task=view"><![CDATA[ABOUT]]></menu>
+		</submenu>
+		<!-- Administration Main File Copy Section -->
+		<!-- Note the folder attribute: This attribute describes the folder			to copy FROM in the package to install therefore filescopied	in this section are copied from /admin/ in the package -->
+		<files folder="admin">
+	<!-- Site Main File Copy Section -->
+			<filename>admin.rwcards.php</filename>		
+			<filename>controller.php</filename>
+			<filename>index.html</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+			<filename>controllers/about.php</filename>
+			<filename>controllers/config.php</filename>
+			<filename>controllers/index.html</filename>
+			<filename>controllers/managecategories.php</filename>
+			<filename>controllers/manageecards.php</filename>
+			<filename>controllers/managesentcards.php</filename>
+			<filename>controllers/rwcards.php</filename>
+			<filename>controllers/manageuploadecards.php</filename>
+			<filename>css/rwcards.css</filename>
+			<filename>css/index.html</filename>
+			<filename>models/index.html</filename>	
+			<filename>models/rwcardsconfig.php</filename>
+			<filename>models/rwcardsmanagecategories.php</filename>
+			<filename>models/rwcardsmanageecards.php</filename>
+			<filename>models/rwcardsmanagesentcards.php</filename>
+			<filename>models/rwcardsmanageuploadecards.php</filename>
+			<filename>views/rwcards/index.html</filename>
+			<filename>views/rwcards/view.html.php</filename>
+			<filename>views/rwcards/tmpl/default.php</filename>
+			<filename>views/rwcards/tmpl/index.html</filename>
+			<filename>views/rwcardsabout/index.html</filename>
+			<filename>views/rwcardsabout/view.html.php</filename>
+			<filename>views/rwcardsabout/tmpl/formabout.php</filename>
+			<filename>views/rwcardsabout/tmpl/index.html</filename>
+			<filename>views/rwcardsconfig/tmpl/index.html</filename>
+			<filename>views/rwcardsconfig/view.html.php</filename>	
+			<filename>views/rwcardsconfig/tmpl/formconfig.php</filename>
+			<filename>views/rwcardsconfig/index.html</filename>
+			<filename>views/rwcardsmanagecategories/tmpl/index.html</filename>
+			<filename>views/rwcardsmanagecategories/view.html.php</filename>
+			<filename>views/rwcardsmanagecategories/tmpl/formmanagecategories.php</filename>
+			<filename>views/rwcardsmanagecategories/tmpl/formmanageeditcategories.php</filename>
+			<filename>views/rwcardsmanagecategories/index.html</filename>
+			<filename>views/rwcardsmanageecards/tmpl/index.html</filename>
+			<filename>views/rwcardsmanageecards/view.html.php</filename>
+			<filename>views/rwcardsmanageecards/tmpl/formmanageecards.php</filename>
+			<filename>views/rwcardsmanageecards/tmpl/formmanageeditecards.php</filename>
+			<filename>views/rwcardsmanageecards/index.html</filename>
+			<filename>views/rwcardsmanagesentcards/tmpl/index.html</filename>
+			<filename>views/rwcardsmanagesentcards/view.html.php</filename>
+			<filename>views/rwcardsmanagesentcards/tmpl/formmanagesentcards.php</filename>
+			<filename>views/rwcardsmanagesentcards/index.html</filename>
+			<filename>views/rwcardsmanageuploadecards/tmpl/index.html</filename>	
+			<filename>views/rwcardsmanageuploadecards/view.html.php</filename>
+			<filename>views/rwcardsmanageuploadecards/tmpl/formuploadecards.php</filename>
+			<filename>views/rwcardsmanageuploadecards/index.html</filename>
+			<filename>tables/index.html</filename>
+			<filename>tables/rwcardscategory.php</filename>
+			<filename>tables/rwcardsconfig.php</filename>
+			<filename>tables/rwcardsdata.php</filename>				
+			<filename>tables/rwcards.php</filename>
+			<filename>images/main.png</filename>
+		 	<filename>images/admin_edit.gif</filename>
+     		<filename>images/admin_delete.gif</filename>
+      		<filename>images/admin_view.gif</filename>
+			<filename>images/admin_config_over.jpg</filename>
+			<filename>images/admin_add_over.jpg</filename>
+			<filename>images/admin_upload_over.jpg</filename>
+			<filename>images/admin_show_over.jpg</filename>
+			<filename>images/admin_manage_over.jpg</filename>
+			<filename>images/admin_category_over.jpg</filename>	
+			<filename>images/admin_about_over.jpg</filename>		
+			<filename>images/rwcards_icon.jpg</filename>
+			<filename>images/rwcards.jpg</filename>		
+			<filename>images/admin_loadbrain.gif</filename>
+		</files>
+    <languages>
+      <language tag="de-DE">admin/languages/de-DE.com_rwcards.ini</language>
+      <language tag="de-DE">admin/languages/de-DE.com_rwcards.menu.ini</language>
+      <language tag="en-GB">admin/languages/en-GB.com_rwcards.ini</language>
+      <language tag="en-GB">admin/languages/en-GB.com_rwcards.menu.ini</language>
+    </languages>				
+	</administration>
+</install>

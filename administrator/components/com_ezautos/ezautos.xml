@@ -1,0 +1,614 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+  <name>EZ Autos</name>
+  <creationDate>3.11.2008</creationDate>
+  <author>Kathy Strickland (aka PixelBunyiP)</author>
+  <copyright>(C) 2006-2008 K.J. Strickland, Raptor Developments Pty Ltd T/as Raptor Services. Commercial copyright conditions.</copyright>
+  <authorEmail>kathy@raptorservices.com.au</authorEmail>
+  <authorUrl>www.raptorservices.com.au</authorUrl>
+  <version>5.2.1</version>
+  <description><![CDATA[
+<br />
+<table>
+		<tr>
+			<td class="sectionname" valign="top">Welcome to EZ Autos - a simple Automotive sales listing component big on features and configurable options for Mambo powered sites.</td>
+		</tr>
+		<tr>
+			<td><br>
+			Now that installation is complete - it's time to set up the 
+			configuration area, specify your vehicle categories, define the 
+			secondary categorization parameters for the search/select lists and enter 
+			your vehicle listing details<br /><br /><strong>Enjoy your new software!</strong></td>
+		</tr>
+		</table>
+  ]]></description>
+  <files>
+    <filename>ezautos.php</filename>
+    <filename>ezautos.html.php</filename>
+    <filename>rss.ezautos.php</filename>
+    <filename>sef_ext.php</filename>
+    <filename>ezautos/index.php</filename>
+    <filename>ezautos/th/index.php</filename>
+    <filename>feeds/index.php</filename>
+    <filename>feeds/google.ezautos.php</filename>
+    <filename>feeds/vast.ezautos.php</filename>
+    <filename>forms/index.php</filename>
+    <filename>forms/list_templates/index.php</filename>
+    <filename>forms/list_templates/multicolumn/index.php</filename>
+    <filename>forms/list_templates/multicolumn/listshort.ezautos.php</filename>
+    <filename>forms/list_templates/template1/index.php</filename>
+    <filename>forms/list_templates/template1/listshort.ezautos.php</filename>
+    <filename>forms/list_templates/template2/index.php</filename>
+    <filename>forms/list_templates/template2/listshort.ezautos.php</filename>
+    <filename>forms/list_templates/template3/index.php</filename>
+    <filename>forms/list_templates/template3/listshort.ezautos.php</filename>
+    <filename>forms/payments/index.php</filename>
+    <filename>forms/payments/paypal/index.php</filename>
+    <filename>forms/payments/paypal/upgrade1.php</filename>
+    <filename>forms/payments/paypal/upgrade2.php</filename>
+    <filename>forms/payments/paypal/upgrade3.php</filename>
+    <filename>forms/payments/paypal/upgrade4.php</filename>
+    <filename>forms/payments/manual_payments/index.php</filename>
+    <filename>forms/payments/manual_payments/upgrade1.php</filename>
+    <filename>forms/payments/manual_payments/upgrade2.php</filename>
+    <filename>forms/payments/manual_payments/upgrade3.php</filename>
+    <filename>forms/payments/manual_payments/upgrade4.php</filename>
+    <filename>forms/print/index.php</filename>
+    <filename>forms/print/print.ezautos.php</filename>
+    <filename>forms/templates/index.php</filename>
+    <filename>forms/templates/template1/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template1/index.php</filename>
+    <filename>forms/templates/template2/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template2/index.php</filename>
+    <filename>forms/templates/template3/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template3/index.php</filename>
+    <filename>forms/templates/template4/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template4/index.php</filename>
+    <filename>forms/templates/template5/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template5/index.php</filename>
+    <filename>forms/templates/template6/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template6/index.php</filename>
+    <filename>forms/templates/template7/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template7/index.php</filename>
+    <filename>forms/templates/template8/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template8/index.php</filename>
+    <filename>forms/templates/template9/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template9/index.php</filename>
+    <filename>forms/templates/template10/viewdetails.ezautos.php</filename>
+    <filename>forms/templates/template10/index.php</filename>
+    <filename>images/index.php</filename>
+    <filename>language/english.php</filename>
+    <filename>language/french.php</filename>
+    <filename>language/greek.php</filename>
+    <filename>language/index.php</filename>
+    <filename>language/russian.php</filename>
+    <filename>language/spanish.php</filename>
+    <filename>language/turkish.php</filename>
+    <filename>library/ez_css.css</filename>
+    <filename>library/includes.js</filename>
+    <filename>library/index.php</filename>
+    <filename>library/ajax/ajax.js</filename>
+    <filename>library/ajax/index.php</filename>
+    <filename>library/flash/flvplay.swf</filename>
+    <filename>library/flash/flvskin.swf</filename>
+    <filename>library/flash/index.php</filename>
+    <filename>library/slideshow/index.php</filename>
+    <filename>library/slideshow/css/image-slideshow.css</filename>
+    <filename>library/slideshow/css/index.php</filename>
+    <filename>library/slideshow/images/index.php</filename>
+    <filename>library/slideshow/js/image-slideshow.js</filename>
+    <filename>library/slideshow/js/index.php</filename>
+    <filename>library/slimbox/index.php</filename>
+    <filename>library/slimbox/css/index.php</filename>
+    <filename>library/slimbox/css/slimbox.css</filename>
+    <filename>library/slimbox/js/index.php</filename>
+    <filename>library/slimbox/js/mootools.js</filename>
+    <filename>library/slimbox/js/slimbox.js</filename>
+    <filename>library/tabs/index.php</filename>
+    <filename>library/tabs/tab.webfx.css</filename>
+    <filename>library/tabs/tabpane.js</filename>
+    <filename>library/widgets/index.php</filename>
+    <filename>library/widgets/images/index.php</filename>
+    <filename>library/widgets/images/images1a.php</filename>
+    <filename>library/widgets/images/images1b.php</filename>
+    <filename>library/widgets/images/images2a.php</filename>
+    <filename>library/widgets/images/images2b.php</filename>
+    <filename>library/widgets/images/images3a.php</filename>
+    <filename>library/widgets/images/images3b.php</filename>
+    <filename>library/widgets/images/images4a.php</filename>
+    <filename>library/widgets/images/images4b.php</filename>
+    <filename>pdfs/index.php</filename>
+    <filename>profiles/index.php</filename>
+  </files>
+  <images>
+    <filename>images/add_lightbox.gif</filename>
+    <filename>images/arrow.png</filename>
+    <filename>images/arrow_down.png</filename>
+    <filename>images/bullet.gif</filename>
+    <filename>images/buynow.gif</filename>
+    <filename>images/edit.png</filename>
+    <filename>images/fyi.gif</filename>
+    <filename>images/marketing.png</filename>
+    <filename>images/marketing_blank.png</filename>
+    <filename>images/marketing_orig.psd</filename>
+    <filename>images/off.png</filename>
+    <filename>images/on.png</filename>
+    <filename>images/pixel.gif</filename>
+    <filename>images/preview.gif</filename>
+    <filename>images/publish_g.png</filename>
+    <filename>images/publish_x.png</filename>
+    <filename>images/remove_lightbox.gif</filename>
+    <filename>images/rss.png</filename>
+    <filename>images/rss_logo.jpg</filename>
+    <filename>images/show_lightbox.gif</filename>
+    <filename>images/sold.png</filename>
+    <filename>images/trash.png</filename>
+    <filename>images/warning.gif</filename>
+    <filename>images/wow.png</filename>
+    <filename>images/yonline.gif</filename>
+    <filename>images/yoffline.gif</filename>
+    <filename>ezautos/th/nothumb.gif</filename>
+    <filename>ezautos/nothumb.gif</filename>
+    <filename>library/slideshow/images/arrow_left.gif</filename>
+    <filename>library/slideshow/images/arrow_left_over.gif</filename>
+    <filename>library/slideshow/images/arrow_right.gif</filename>
+    <filename>library/slideshow/images/arrow_right_over.gif</filename>
+    <filename>library/slideshow/images/loading.gif</filename>
+    <filename>library/slimbox/css/closelabel.gif</filename>
+    <filename>library/slimbox/css/loading.gif</filename>
+    <filename>library/slimbox/css/nextlabel.gif</filename>
+    <filename>library/slimbox/css/prevlabel.gif</filename>
+    <filename>profiles/nothumb.jpg</filename>
+  </images>
+  <install>
+    <queries>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos` (
+          `id` int(11) NOT NULL auto_increment,
+          `cid` int(11) NOT NULL default '0',
+          `vin` varchar (30) NOT NULL default '',
+          `rego` varchar (30) NOT NULL default '',
+          `year` int (4) NOT NULL default '0',
+          `make` int(11) NOT NULL default '0',
+          `model` int(11) NOT NULL default '0',
+          `derivative` varchar (20) NOT NULL default '',
+          `engine` varchar (30) NOT NULL default '',
+          `price` decimal(15,2) NOT NULL default '0.00',
+          `price_type` varchar (50) NOT NULL default '',
+          `showprice` tinyint(1) NOT NULL default '0',
+          `trans` varchar (20) NOT NULL default '0',
+          `mileage` varchar (20) NOT NULL default '',
+          `colour` varchar (20) NOT NULL default '',
+          `intcolour` varchar (20) NOT NULL default '',
+          `fuel` varchar (30) NOT NULL default '',
+          `fuelsystem` varchar(50) NOT NULL default '',
+          `borestroke` varchar(50) NOT NULL default '',
+          `power` varchar(50) NOT NULL default '',
+          `torque` varchar(50) NOT NULL default '',
+          `weightpower` varchar(50) NOT NULL default '',
+          `frontbrakes` varchar(50) NOT NULL default '',
+          `rearbrakes` varchar(50) NOT NULL default '',
+          `wheeldims` varchar(50) NOT NULL default '',
+          `turncirc` varchar(50) NOT NULL default '',
+          `compressionratio` varchar(50) NOT NULL default '',
+          `tankcapacity` varchar(50) NOT NULL default '',
+          `extlength` varchar(50) NOT NULL default '',
+          `extwidth` varchar(50) NOT NULL default '',
+          `extheight` varchar(50) NOT NULL default '',
+          `frontsus` varchar(50) NOT NULL default '',
+          `rearsus` varchar(50) NOT NULL default '',
+          `kerbweight` varchar(50) NOT NULL default '',
+          `groundclear` varchar(50) NOT NULL default '',
+          `seatcap` varchar(50) NOT NULL default '',
+          `cityfuel` varchar(50) NOT NULL default '',
+          `highwayfuel` varchar(50) NOT NULL default '',
+          `towingcap` varchar(50) NOT NULL default '',
+          `countryorigin` varchar(50) NOT NULL default '',
+          `fronttrack` varchar(50) NOT NULL default '',
+          `reartrack` varchar(50) NOT NULL default '',
+          `wheelbase` varchar(50) NOT NULL default '',
+          `doorsbody` varchar(50) NOT NULL default '',
+          `stocknum` varchar(50) NOT NULL default '',
+          `type` int(11) NOT NULL default '0',
+          `freq` tinyint(1) NOT NULL default '0',
+          `numowners` tinyint(3) NOT NULL default '0',
+          `incltax` tinyint(1) NOT NULL default '0',
+          `co2` int(11) NOT NULL default '0',
+          `odometer` int(11) NOT NULL default '0',
+          `doors` tinyint(1) NOT NULL default '0',
+          `body` varchar(20) NOT NULL default '',
+          `finance` tinyint(1) NOT NULL default '0',
+          `deposit` varchar(20) NOT NULL default '',
+          `repayments` decimal(15,2) NOT NULL default '0.00',
+          `term` tinyint(3) NOT NULL default '0',
+          `termtype` tinyint(1) NOT NULL default '0',
+          `features` text NOT NULL default '',
+          `mileage_unit` varchar(20) NOT NULL default '',
+          `onroad` decimal(15,2) NOT NULL default '0.00',
+          `tax_exp` varchar(10) NOT NULL default '',
+          `yearreg` int(4) NOT NULL default '0',
+          `yearinsp` int(4) NOT NULL default '0',
+          `monthreg` int(2) NOT NULL default '0',
+          `monthinsp` int(2) NOT NULL default '0',
+          `yearemiss` int(4) NOT NULL default '0',
+          `monthemiss` int(2) NOT NULL default '0',
+          `nct_exp` varchar(10) NOT NULL default '',
+          `images` text NOT NULL default '',
+          `tax_class` varchar(10) NOT NULL default '',
+          `smalldesc` varchar (255) NOT NULL default '',
+          `longdesc` mediumtext NOT NULL default '',
+          `image1` varchar(70) NOT NULL default '',
+          `image2` varchar(70) NOT NULL default '',
+          `image3` varchar(70) NOT NULL default '',
+          `image4` varchar(70) NOT NULL default '',
+          `image5` varchar(70) NOT NULL default '',
+          `image6` varchar(70) NOT NULL default '',
+          `image7` varchar(70) NOT NULL default '',
+          `image8` varchar(70) NOT NULL default '',
+          `image9` varchar(70) NOT NULL default '',
+          `image10` varchar(70) NOT NULL default '',
+          `image11` varchar(70) NOT NULL default '',
+          `image12` varchar(70) NOT NULL default '',
+          `image1desc` varchar(150) NOT NULL default '',
+          `image2desc` varchar(150) NOT NULL default '',
+          `image3desc` varchar(150) NOT NULL default '',
+          `image4desc` varchar(150) NOT NULL default '',
+          `image5desc` varchar(150) NOT NULL default '',
+          `image6desc` varchar(150) NOT NULL default '',
+          `image7desc` varchar(150) NOT NULL default '',
+          `image8desc` varchar(150) NOT NULL default '',
+          `image9desc` varchar(150) NOT NULL default '',
+          `image10desc` varchar(150) NOT NULL default '',
+          `image11desc` varchar(150) NOT NULL default '',
+          `image12desc` varchar(150) NOT NULL default '',
+          `image13` varchar(70) NOT NULL default '',
+          `image14` varchar(70) NOT NULL default '',
+          `image15` varchar(70) NOT NULL default '',
+          `image16` varchar(70) NOT NULL default '',
+          `image17` varchar(70) NOT NULL default '',
+          `image18` varchar(70) NOT NULL default '',
+          `image19` varchar(70) NOT NULL default '',
+          `image20` varchar(70) NOT NULL default '',
+          `image21` varchar(70) NOT NULL default '',
+          `image22` varchar(70) NOT NULL default '',
+          `image23` varchar(70) NOT NULL default '',
+          `image24` varchar(70) NOT NULL default '',
+          `image13desc` varchar(150) NOT NULL default '',
+          `image14desc` varchar(150) NOT NULL default '',
+          `image15desc` varchar(150) NOT NULL default '',
+          `image16desc` varchar(150) NOT NULL default '',
+          `image17desc` varchar(150) NOT NULL default '',
+          `image18desc` varchar(150) NOT NULL default '',
+          `image19desc` varchar(150) NOT NULL default '',
+          `image20desc` varchar(150) NOT NULL default '',
+          `image21desc` varchar(150) NOT NULL default '',
+          `image22desc` varchar(150) NOT NULL default '',
+          `image23desc` varchar(150) NOT NULL default '',
+          `image24desc` varchar(150) NOT NULL default '',
+          `video` varchar(255) NOT NULL default '',
+          `declat` varchar(20) NOT NULL default '',
+          `declong` varchar(20) NOT NULL default '',
+          `listdate` date NOT NULL default '0000-00-00',
+          `lastupdate` varchar(20) default NULL,
+          `expdate` varchar(20) default NULL,
+          `hits` int(11) NOT NULL default '0',
+          `tag` varchar (30) NOT NULL default '',
+          `availability` varchar (30) NOT NULL default '',
+          `showfeat` tinyint (1) NOT NULL default '0',
+          `airco` tinyint (1) NOT NULL default '0',
+          `pwin` tinyint (1) NOT NULL default '0',
+          `psteer` tinyint (1) NOT NULL default '0',
+          `cruise` tinyint (1) NOT NULL default '0',
+          `airbag` tinyint (1) NOT NULL default '0',
+          `abs` tinyint (1) NOT NULL default '0',
+          `amfm` tinyint (1) NOT NULL default '0',
+          `cdp` tinyint (1) NOT NULL default '0',
+          `atheft` tinyint (1) NOT NULL default '0',
+          `tilt` tinyint (1) NOT NULL default '0',
+          `custom1a` varchar (50) NOT NULL default '',
+          `custom2a` varchar (50) NOT NULL default '',
+          `custom3a` varchar (50) NOT NULL default '',
+          `custom4a` varchar (50) NOT NULL default '',
+          `custom5a` varchar (50) NOT NULL default '',
+          `custom6a` varchar (50) NOT NULL default '',
+          `custom7a` varchar (50) NOT NULL default '',
+          `custom8a` varchar (50) NOT NULL default '',
+          `custom9a` varchar (50) NOT NULL default '',
+          `custom10a` varchar (50) NOT NULL default '',
+          `pcode` varchar(10) default '',
+          `pdfinfo` varchar(70) default '',
+          `owner` int(11) NOT NULL default '0',
+          `premium` tinyint(1) NOT NULL default '0',
+          `featured` tinyint(1) NOT NULL default '0',
+          `published` tinyint(1) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+          `metadesc` varchar(255) NOT NULL default '',
+          `metakey` varchar(255) NOT NULL default '',
+          `email_status` tinyint(1) NOT NULL default '0',
+        PRIMARY KEY  (`id`)
+        ) TYPE=MyISAM ;
+      </query>
+
+      <query>
+          CREATE TABLE IF NOT EXISTS `#__ezautos_leads` (
+          `lid` INT( 11 ) NOT NULL auto_increment,
+          `lead_name` VARCHAR(255) NOT NULL default '',
+          `hphone` VARCHAR(50) NOT NULL default '',
+          `wphone` VARCHAR(50) NOT NULL default '',
+          `mobile` VARCHAR(50) NOT NULL default '',
+          `fax` VARCHAR(50) NOT NULL default '',
+          `email` VARCHAR(100) NOT NULL default '',
+          `cid` INT(11) NOT NULL default '0',
+          `make` INT(11) NOT NULL default '0',
+          `model` INT(11) NOT NULL default '0',
+          `budget` VARCHAR(20) NOT NULL default '',
+          `maxprice` decimal(15,2) NOT NULL default '0.00',
+          `minyear` INT(4) NOT NULL default '0',
+          `maxyear` INT(4) NOT NULL default '0',
+          `source` VARCHAR(150) NOT NULL default '',
+          `comments` VARCHAR(255) NOT NULL default '',
+          `date` varchar (50) NOT NULL default '',
+          `checked_out` TINYINT(1) NOT NULL,
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` VARCHAR(50),
+          `published` tinyint(1) NOT NULL default '0',
+          `html` tinyint(1) NOT NULL default '0',
+          `listwanted` tinyint(1) NOT NULL default '0',
+          PRIMARY KEY (`lid`) 
+        ) TYPE=MyISAM;
+      </query>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_profile` (
+          `prid` int(11) NOT NULL auto_increment,
+          `mid` int(11) NOT NULL default '0',
+          `dealer_name` varchar(50) default '',
+          `dealer_company` varchar(50) default '',
+          `dealer_type` varchar(30) default '',
+          `dealer_info` varchar(255) default '',
+          `dealer_unitnum` varchar(10) default '',
+          `dealer_address1` varchar(50) default '',
+          `dealer_address2` varchar(50) default '',
+          `dealer_locality` varchar(50) default '',
+          `dealer_pcode` varchar(10) NOT NULL default '',
+          `dealer_state` varchar(50) NOT NULL default '',
+          `dealer_country` varchar(50) NOT NULL default '',
+          `show_addy` tinyint(1) NOT NULL default '0',
+          `dealer_declat` varchar(20) NOT NULL default '',
+          `dealer_declong` varchar(20) NOT NULL default '',
+          `dealer_email` varchar(50) NOT NULL default '',
+          `phone_pref` varchar(5) NOT NULL default '',
+          `dealer_phone` varchar(20) NOT NULL default '',
+          `fax_pref` varchar(5) NOT NULL default '',
+          `dealer_fax` varchar(20) NOT NULL default '',
+          `mobile_pref` varchar(5) NOT NULL default '',
+          `dealer_mobile` varchar(20) NOT NULL default '',
+          `dealer_sms` varchar(20) NOT NULL default '',
+          `show_sms` tinyint(1) NOT NULL default '0',
+          `dealer_exempt` tinyint(1) NOT NULL default '0',
+          `feat_upgr` tinyint(1) NOT NULL default '0',
+          `publish_own` tinyint(1) NOT NULL default '0',
+          `reset_own` tinyint(1) NOT NULL default '0',
+          `dealer_msn` varchar(30) NOT NULL default '',
+          `dealer_skype` varchar(30) NOT NULL default '',
+          `dealer_ymsgr` varchar(30) NOT NULL default '',
+          `dealer_icq` varchar(30) NOT NULL default '',
+          `dealer_web` varchar(255) NOT NULL default '',
+          `dealer_blog` varchar(255) NOT NULL default '',
+          `dealer_image` varchar(70) NOT NULL default '',
+          `dealer_logo` varchar(70) NOT NULL default '',
+          `dealer_pdf` varchar(70) NOT NULL default '',
+          `page_topper` varchar(70) default '',
+          `linkit` varchar(255) NOT NULL default '',
+          `dealer_bio` mediumtext NOT NULL default '',
+          `carlister` int(11) NOT NULL default '0',
+          `published` tinyint(1) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+		PRIMARY KEY  (`prid`),
+		UNIQUE KEY `mid` (`mid`)
+        ) TYPE=MyISAM;
+      </query>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_price` (
+          `pid` int(11) NOT NULL auto_increment,
+          `range` decimal(15,2) NOT NULL default '0.00',
+          `display` VARCHAR(20) NOT NULL default '',
+          `published` tinyint(1) NOT NULL default '0',
+          `ordering` int(11) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+		PRIMARY KEY  (`pid`)
+        ) TYPE=MyISAM;
+      </query>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_make` (
+          `maid` int(11) NOT NULL auto_increment,
+          `make` varchar (255) NOT NULL,
+          `make_image` varchar (50) NOT NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+		PRIMARY KEY  (`maid`)
+        ) TYPE=MyISAM;
+      </query>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_model` (
+          `moid` int(11) NOT NULL auto_increment,
+          `makeid` int(11) NOT NULL default '0',
+          `model` varchar (255) NOT NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+		PRIMARY KEY  (`moid`)
+        ) TYPE=MyISAM;
+      </query>
+
+      <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_enginesize` (
+          `esid` int(11) NOT NULL auto_increment,
+          `engine` varchar (255) NOT NULL,
+          `published` tinyint(1) NOT NULL default '0',
+          `ordering` int(11) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+		PRIMARY KEY  (`esid`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_catg` (
+          `cid` int(11) NOT NULL auto_increment,
+          `name` varchar(255) NOT NULL default '',
+          `description` varchar(255) NOT NULL default '',
+          `image` varchar(255) NOT NULL default '',
+          `taxclass` varchar(10) NOT NULL default '',
+          `access` tinyint(3) unsigned NOT NULL default '0',
+          `published` tinyint(1) NOT NULL default '0',
+          `ordering` int(11) NOT NULL default '0',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+        PRIMARY KEY  (`cid`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_lightbox` (
+          `llid` int(11) NOT NULL auto_increment,
+          `uid` int(11) NOT NULL default '0',
+          `propid` int(11) NOT NULL default '0',
+          `date` varchar(20) default NULL,
+        PRIMARY KEY  (`llid`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_content` (
+          `contid` int(11) NOT NULL auto_increment,
+          `title` varchar(50) NOT NULL default '',
+          `content` text NOT NULL default '',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+        PRIMARY KEY  (`contid`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_mail` (
+          `mailid` int(11) NOT NULL auto_increment,
+          `name` varchar(50) NOT NULL default '',
+          `email` varchar(70) NOT NULL default '',
+          `confirmed` tinyint(1) NOT NULL default '0',
+          `exported` tinyint(1) NOT NULL default '0',
+          `date` datetime NOT NULL default '0000-00-00 00:00:00',
+          `checked_out` tinyint(1) NOT NULL default '0',
+          `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+          `editor` varchar(50) default NULL,
+        PRIMARY KEY  (`mailid`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_features` (
+          `id` int(11) NOT NULL auto_increment,
+          `feature` varchar(50) NOT NULL default '',
+          `ordering` int(11) NOT NULL default '0',
+        PRIMARY KEY  (`id`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        CREATE TABLE IF NOT EXISTS `#__ezautos_postcodes` (
+          `id` int(11) NOT NULL auto_increment,
+          `pcode` varchar( 10 ) NOT NULL default '',
+          `city` varchar( 255 ) NOT NULL default '',
+          `state` char( 3 ) NOT NULL default '',
+          `county` varchar( 255 ) NOT NULL default '',
+          `latitude` varchar( 25 ) NOT NULL default '',
+          `longitude` varchar( 25 ) NOT NULL default '',
+        PRIMARY KEY  (`id`)
+        ) TYPE=MyISAM;
+      </query>
+
+     <query>
+        INSERT IGNORE INTO `#__ezautos_content` VALUES (1, 'Business Introduction', 'This is where your business introduction goes for the site.', 0, '0000-00-00 00:00:00', NULL),
+			(2, 'Members Area Introduction', 'This is where you enter your members area introduction.', 0, '0000-00-00 00:00:00', NULL),
+			(3, 'Terms of Listing', 'This is where your terms of listing goes.', 0, '0000-00-00 00:00:00', NULL),
+			(4, 'Success Page', 'This is where your success page content goes. This is the page people land on after a successful payment.', 0, '0000-00-00 00:00:00', NULL),
+			(5, 'Cancel Page', 'This is where your cancel page content goes. This is the page people land on after a cancelled or failed payment.', 0, '0000-00-00 00:00:00', NULL),
+			(6, 'Business Logo', 'This is where your business logo or special sales-related information goes. This content is displayed at the bottom of the full details pages.', 0, '0000-00-00 00:00:00', NULL)
+     </query>
+
+    </queries>
+  </install>
+
+    <installfile>install.ezautos.php</installfile>
+    <uninstallfile>uninstall.ezautos.php</uninstallfile>
+  <administration>
+    <menu act="vehicle">EZ Autos</menu>
+    <files>
+      <filename>admin.ezautos.php</filename>
+      <filename>admin.ezautos.html.php</filename>
+      <filename>config.ezautos.php</filename>
+      <filename>install.ezautos.php</filename>
+      <filename>license.php</filename>
+      <filename>toolbar.ezautos.php</filename>
+      <filename>toolbar.ezautos.html.php</filename>
+      <filename>uninstall.ezautos.php</filename>
+      <filename>images/index.php</filename>
+      <filename>includes/class.ezautos.php</filename>
+      <filename>includes/cpanel.css</filename>
+      <filename>includes/images.php</filename>
+      <filename>includes/includes.ezautos.php</filename>
+      <filename>includes/index.php</filename>
+      <filename>includes/keyserver.php</filename>
+      <filename>includes/pagenav.php</filename>
+      <filename>includes/print.php</filename>
+    </files>
+    <images>
+    <filename>images/logo.jpg</filename>
+    <filename>images/icon1.png</filename>
+    <filename>images/icon2.png</filename>
+    <filename>images/icon3.png</filename>
+    <filename>images/icon4.png</filename>
+    <filename>images/icon5.png</filename>
+    <filename>images/icon6.png</filename>
+    <filename>images/icon7.png</filename>
+    <filename>images/icon8.png</filename>
+    <filename>images/icon9.png</filename>
+    <filename>images/icon10.png</filename>
+    <filename>images/icon11.png</filename>
+    <filename>images/icon12.png</filename>
+    <filename>images/icon13.png</filename>
+    <filename>images/icon14.png</filename>
+    <filename>images/icon15.png</filename>
+    <filename>images/icon16.png</filename>
+    <filename>images/icon17.png</filename>
+    <filename>images/icon18.png</filename>
+    <filename>images/icon19.png</filename>
+    <filename>images/icon20.png</filename>
+    <filename>images/icon22.png</filename>
+    <filename>images/icon23.png</filename>
+    <filename>images/icon24.png</filename>
+    <filename>images/icon25.png</filename>
+    <filename>images/icon26.png</filename>
+    <filename>images/icon27.png</filename>
+    <filename>images/icon30.png</filename>
+    <filename>images/icon31.png</filename>
+    <filename>images/icon32.png</filename>
+    </images>
+</administration>
+</mosinstall>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="1.5" type="plugin" group="system">
+	<name>System - Modules in Content</name>
+	<description>Modules in Content ...place modules in content in Joomla!</description>
+	<version>0.1.1</version>
+	<creationDate>November 2008</creationDate>
+	<author>NoNumber! (Peter van Westen)</author>
+	<authorEmail>peter@nonumber.nl</authorEmail>
+	<authorUrl>http://www.nonumber.nl</authorUrl>
+	<copyright>Copyright (C) 2008-2010 - NoNumber! - All Rights Reserved</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<!-- Administration Files -->
+	<files>
+		<!-- main -->
+		<filename plugin="modulesincontent">modulesincontent.php</filename>
+
+		<filename>modulesincontent/CHANGELOG.txt</filename>
+		<filename>modulesincontent/index.html</filename>
+
+		<!-- elements -->
+		<filename>modulesincontent/elements/grouplevel.php</filename>
+		<filename>modulesincontent/elements/title.php</filename>
+		<filename>modulesincontent/elements/title.inc.en-GB.php</filename>
+		<filename>modulesincontent/elements/version_check.php</filename>
+		<filename>modulesincontent/elements/version_modulesincontent</filename>
+		<filename>modulesincontent/elements/index.html</filename>
+
+		<!-- images -->
+		<filename>modulesincontent/images/icon.png</filename>
+		<filename>modulesincontent/images/icon-ani.gif</filename>
+		<filename>modulesincontent/images/index.html</filename>
+	</files>
+
+	<!-- Language Files -->
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_modulesincontent.ini</language>
+	</languages>
+
+	<!-- Parameters -->
+	<params addpath="/plugins/system/modulesincontent/elements">
+		<param name="@title" type="title" default=""
+			label="Modules in Content" description="Easily place modules in your content"
+			image="../plugins/system/modulesincontent/images/icon.png"
+			url="http://www.nonumber.nl/modulesincontent"
+			download_url="http://www.nonumber.nl/download/modulesincontent"
+			help_url="http://www.nonumber.nl/modulesincontent"
+			version_url="http://www.nonumber.nl/versions"
+			version_file="version_modulesincontent" />
+
+		<param name="style" type="list" default="none" label="Default style" description="Default style (description)">
+			<option value="table">Wrapped by Table - Column (table)</option>
+			<option value="horz">Wrapped by Table - Horizontal (horz)</option>
+			<option value="xhtml">Wrapped by Divs (xhtml)</option>
+			<option value="rounded">Wrapped by Multiple Divs (rounded)</option>
+			<option value="none">No wrapping - raw output (none)</option>
+		</param>
+		<param name="override_style" type="radio" default="1" label="Enable style overriding" description="Enable style overriding (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@security" type="title" show_apply="true" label="Security Settings" description="Security Settings (description)" />
+		<param name="articles_enable" type="radio" default="1" label="Enable in articles" description="Enable in articles (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="articles_security_level" type="grouplevel" default="23" label="Article Security Level" description="Article Security Level (description)" />
+		<param name="secscats_enable" type="radio" default="1" label="Enable in sections/categories" description="Enable in sections/categories (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="@other" type="title" show_apply="true" label="Other Settings" description="Other Settings (description)" />
+		<param name="handle_loadposition" type="radio" default="0" label="Handle {loadposition} tags" description="Handle {loadposition} tags (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="show_update" type="radio" default="1" label="Show update icon" description="Show update icon (description)">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+	</params>
+
+</install>

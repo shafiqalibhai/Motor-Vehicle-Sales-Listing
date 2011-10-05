@@ -1,0 +1,22 @@
+/* (C) 2007 YOOtheme.com */
+
+a:focus { outline: none; }
+
+div.yoo-drawer { 
+	position: relative;
+}
+
+div.yoo-drawer ul.list {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+}
+ 
+div.yoo-drawer ul.list .item {
+	margin: 0px;
+	padding: 0px;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}

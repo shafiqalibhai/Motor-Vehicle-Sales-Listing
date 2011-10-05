@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>French Language for Seyret</name>
+	<packageversion>2</packageversion>
+	<type>language</type>
+	<date>07.10.2008</date>
+	<author>Felix Dr. Dimitric</author>
+	<authorEmail>felix@eliopro.com</authorEmail>
+	<authorUrl>http://eliopro.com/maginot</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>French language file for Seyret. Translated by felix Dr. Dimitric</description>
+	<targetfolder>/components/com_seyret/language</targetfolder>
+	<compatibility>0.2.8.1</compatibility>
+	<files>
+		<filename>french.xml</filename>
+		<filename>french.php</filename>
+	</files>
+</seyretxml>

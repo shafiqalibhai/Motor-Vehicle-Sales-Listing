@@ -1,0 +1,321 @@
+table.seyretadminouter {
+	background-color: #FBFBFB;
+	border:solid;
+	border-width: 1px;
+	border-color: #66A736;
+	width: 100%;
+	color:#333333;
+
+}
+
+
+table.seyretadmininner {
+	background-color: #FFFFFF;
+	border: solid;
+	border-width: 1px;
+	border-color: #66A736;
+	width: 100%;
+	vertical-align:top;
+	border-collapse: collapse;
+}
+
+table.intro{
+	background-color: #F7FBF4;
+	border:solid;
+	border-width: 1px;
+	border-color: #66A736;
+	color:#333333;
+
+	font-size:12px;
+	font-weight:bold;
+	font-family: Tahoma;
+}
+
+table.intro th{
+	background-color: #F0F8EA;
+	color:#66A736;
+
+	font-size:12px;
+	font-family:Tahoma;
+	font-weight:bold;
+}
+
+
+td.seyretadminheader, .seyretadminheader{
+
+	color:#66A736;
+	font-size:18px;
+	font-weight:bold;
+	text-align:left;
+	background-color:#FFFFFF;
+}
+
+div#treeContainer td{
+	font-family:Tahoma;
+	font-size:11px;
+	color: #000066;
+	font-weight: bold;
+	text-decoration:none;
+	margin: 0px;
+
+}
+
+div#treeContainer img{
+	vertical-align:middle;
+	border: 0px;
+	padding-right:5px;
+	
+}
+
+div#treeContainer a:link, a:visited{
+	color: #000066;
+}
+	
+
+div#treeContainer a:hover{
+	color: #993300;
+	font-weight: bold;
+	text-decoration:none;
+}
+	
+.permissionsheading{
+width:100%;
+font-size:12px;
+font-weight:bold;
+border:1px dashed #FF6600;
+color:#006600;
+display:block;
+padding:3px;
+
+}	
+
+
+.seyretinputbox{
+border:#666666 1px solid;
+background-color:#CCCCCC;
+
+}
+
+
+table.seyretfileinfotable{
+border:#999999 1px solid;
+}
+
+table.seyretfileinfotable th{
+border:#999999 1px solid;
+color:#000033;
+font-size:14px;
+background: none;
+text-align:left;
+
+}
+
+
+.permissionsrow1{
+background-color:#F7FADE;
+}
+
+.permissionsrow2{
+background-color:#F3E38C;
+}
+
+
+div#seyretmenuheader{
+text-align:center;
+font-size:13px;
+font-weight:bold;
+color:#66A736;
+padding:5px;
+background-color:#F0F8EA;
+border:1px solid #66A736;
+margin-bottom:10px;
+}
+
+.seyretmenurow{
+padding:5px;
+font-weight:bold;
+border-bottom:1px solid #66A736;
+padding-left:30px;
+background-repeat:no-repeat;
+}
+
+div#seyretmenucategories{
+background-image:url('../images/categories.png');
+}
+
+div#seyretmenuvideos{
+background-image:url('../images/videos.png');
+}
+
+div#seyretmenudiagnostics{
+background-image:url('../images/categories.png');
+}
+
+div#seyretmenudonations{
+background-image:url('../images/donation.png');
+}
+
+div#seyretmenuimageads{
+background-image:url('../images/imageads.png');
+}
+
+div#seyretmenuvideoads{
+background-image:url('../images/admanagement.png');
+}
+
+div#seyretmenuconfig{
+background-image:url('../images/config.png');
+}
+
+div#seyretmenupermissions{
+background-image:url('../images/permissions.png');
+}
+
+div#seyretmenuextras{
+background-image:url('../images/extras.png');
+}
+
+div#seyretmenuuninstall{
+background-image:url('../images/uninstall.png');
+}
+
+div#seyretmenuintro{
+background-image:url('../images/closed_folder.png');
+}
+
+
+div#seyretmenuplugins{
+background-image:url('../images/plugins.png');
+}
+
+
+
+.upgradetopromethodheader{
+border: 1px solid #3300CC; 
+padding: 10px; 
+color: #3300CC; 
+font-size: 12px;
+margin-top:10px;
+
+}
+
+.upgradetopromethod{
+padding-top: 10px; 
+font-size: 12px;
+
+
+
+}
+
+div#moveproheader{
+border-bottom: 1px solid #3300CC; 
+padding: 10px; 
+color: #3300CC; 
+font-size: 14px;
+margin-top:10px;
+}
+
+
+div#moveproinfo{
+
+padding: 10px; 
+
+font-size: 12px;
+
+}
+
+
+.button1left{
+width:14px;
+height:36px;
+padding:0px;
+margin:0px;
+background-image:url(../images/button1left.png);
+float:left;
+}
+.button1right{
+width:14px;
+height:36px;
+padding:0px;
+margin:0px;
+background-image:url(../images/button1right.png);
+float:left;
+}
+
+.button1mid{
+height:36px;
+padding-top:10px;
+color:#003300;
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0px;
+background-image:url(../images/button1mid.png);
+float:left;
+background-repeat:repeat-x;
+}
+
+.button2left{
+width:14px;
+height:36px;
+padding:0px;
+margin:0px;
+background-image:url(../images/button2left.png);
+float:left;
+}
+.button2right{
+width:14px;
+height:36px;
+padding:0px;
+margin:0px;
+background-image:url(../images/button2right.png);
+float:left;
+}
+
+.button2mid{
+height:36px;
+padding-top:10px;
+color:#000000;
+font-size:12px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+margin:0px;
+background-image:url(../images/button2mid.png);
+float:left;
+background-repeat:repeat-x;
+}
+
+
+.couponcode{
+font-family:"Courier New", Courier, monospace;
+font-size:16px;
+padding:20px;
+border:double 1px #990000;
+width:300px;
+text-align:center;
+font-weight:bold;
+margin:10px;
+}
+
+.movelimit{
+padding:20px;
+border:double 1px #990000;
+width:300px;
+text-align:center;
+font-weight:bold;
+margin:10px;
+}
+
+.couponcodeinfo{
+padding:10px;
+font-size:12px;
+}
+
+
+.plugininfo{
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+padding:20px;
+color:#990000;
+font-style:italic;
+
+}

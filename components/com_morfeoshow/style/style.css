@@ -1,0 +1,83 @@
+.tinytext{
+font-size: 10px;
+}
+
+.smalltext{
+font-size: 12px;
+}
+
+.medtext{
+font-size: 14px;
+}
+
+a{
+text-decoration: underline;
+}
+
+#container{}
+
+.toggler {color: #222;margin: 0;padding: 2px 5px;background: #eee;border-bottom: 1px solid #DDD;border-right: 1px solid #DDD;border-top: 1px solid #F5F5F5;border-left: 1px solid #F5F5F5;font-size: 13px;font-weight: normal;font-family: 'Andale Mono', sans-serif;}
+
+
+fieldset.morfeo { border: 0px solid #ccc; margin: 0 0 0 0; }
+fieldset.flickr { border: 1px solid #ccc; margin: 0 3px 3px 3px; }
+
+fieldset {
+	margin-bottom: 10px;
+	border: 1px #ccc solid;
+	padding: 5px;
+	text-align: left;
+}
+
+fieldset p {  margin: 10px 0px;  }
+
+legend    {
+	color: #0B55C4;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.gallerytable {
+	border-right: solid 1px #d5d5d5;
+	border-bottom: solid 1px #d5d5d5;	
+	padding: 3px;
+	margin: 5px;
+	width: 100%;
+	text-align: center;	
+}
+
+
+table.desctable {
+}
+
+table.fototable {
+
+}
+
+table.fltable {
+
+}
+
+img#front {
+	margin-top: 20px;
+	width: 618px;
+	height: 128px;
+	position: absolute;
+	right: 10px;
+	float: right;
+}
+
+
+img#front {
+	background: url(../images/front1.png) 0 0 no-repeat;
+}
+
+a.nounder {
+	text-decoration: none;
+	border: 0;
+	cursor: pointer;
+}
+
+a.nounder:hover {
+	text-decoration: none;
+}

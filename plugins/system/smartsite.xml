@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - Smartsite</name>
+	<author>Anton Nikiforov</author>
+	<creationDate>July 2008</creationDate>
+	<copyright>Copyright (C) 2008 Recly Interactive. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@recly.com</authorEmail>
+	<authorUrl>www.recly.com</authorUrl>
+	<version>1.0</version>
+	<description>Smartsite-specific system plugin</description>
+	<files>
+		<filename plugin="smartsite">smartsite.php</filename>
+	</files>
+
+</install>

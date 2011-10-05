@@ -1,0 +1,21 @@
+/**
+ * Changelog
+ *
+ * @package    Modules in Content
+ * @version    0.1.1
+ * @since      File available since Release 0.1.0
+ *
+ * @author     Peter van Westen <peter@nonumber.nl>
+ * @link       http://www.nonumber.nl/rereplacer
+ * @copyright  Copyright (C) 2008 NoNumber! All Rights Reserved
+ * @license    http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+ */
+
+04-Nov-2008 : v0.1.1
+[] Fixed issue with Sourcerer modules not working through the {module} tag
+[] Added option to also handle {loadposition} tags (from the core plugin Load Module)
+[] Changed behavior when tag is used where it is not allowed or doesn't pass security level. Now the tag is stripped and replaced by a html comment.
+[] Security level now only looks at the authors level, not also at the modifiers level. 
+
+30-Oct-2008 : v0.1.0
+[] First release

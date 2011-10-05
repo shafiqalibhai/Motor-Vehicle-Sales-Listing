@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="component" version="1.0.0">
+<name>jDownloads</name>
+<creationDate>December 2008</creationDate>
+<author>Arno Betz</author>
+<copyright>(C) 2008 www.Joomlaaddons.de</copyright>
+<authorEmail>info@joomlaaddons.de</authorEmail>
+<authorUrl>www.Joomlaaddons.de</authorUrl>
+<version>1.4 RC</version>
+<description>Download Management Component for Joomla! 1.0.x and Joomla 1.5.x (Legacy Mode).</description>
+<files>
+	<filename>jdownloads.php</filename>
+	<filename>jdownloads.html.php</filename>
+	<filename>jdownloads.class.php</filename>
+    <filename>jdownloads.js</filename>
+    <filename>jdownloads_fe.css</filename>
+	<filename>index.html</filename>
+    <filename>languages/german.php</filename>
+    <filename>languages/germanf.php</filename>
+    <filename>languages/germani.php</filename>
+    <filename>languages/english.php</filename>
+    <filename>languages/turkish.php</filename>
+	<filename>languages/dutch.php</filename>
+	<filename>languages/french.php</filename>
+    <filename>languages/german.utf8.php</filename>
+    <filename>languages/germani.utf8.php</filename>
+    <filename>languages/english.utf8.php</filename>
+    <filename>languages/turkish.utf8.php</filename>
+    <filename>languages/dutch.utf8.php</filename>
+    <filename>languages/french.utf8.php</filename>
+    <filename>languages/brazilian_portuguese.php</filename>
+    <filename>languages/brazilian_portuguese.utf8.php</filename>    
+    <filename>languages/norwegian.php</filename>
+    <filename>languages/norwegian.utf8.php</filename>
+	<filename>languages/serbian_lat.utf8.php</filename>
+    <filename>languages/serbian_lat.php</filename> 
+    <filename>languages/italian.utf8.php</filename>
+    <filename>languages/italian.php</filename>
+    <filename>languages/index.html</filename>
+    <filename>lightbox/index.html</filename>
+    <filename>lightbox/lightbox.js</filename>
+    <filename>lightbox/lightbox.css</filename>
+    <filename>lightbox/loading.gif</filename>
+    <filename>lightbox/overlay.png</filename>
+    <filename>lightbox/close.gif</filename>
+</files>
+    <images>
+	<filename>images/index.html</filename>
+	<filename>images/button_bg.png</filename>
+	<filename>images/new_window.png</filename>
+	<filename>images/upload.png</filename>
+	<filename>images/link_extern.gif</filename>
+	<filename>images/upload_ok.png</filename>
+	<filename>images/upload_stop.png</filename>		
+	<filename>images/search.png</filename>
+	<filename>images/home_fe.png</filename>	
+	<filename>images/summary.png</filename>
+    <filename>images/offline.png</filename>
+    <filename>images/form_no_value.png</filename>
+    <filename>fileimages/index.html</filename>
+    <filename>fileimages/word.png</filename>
+	<filename>fileimages/xml.png</filename>
+	<filename>fileimages/real.png</filename>
+	<filename>fileimages/rtf.png</filename>
+	<filename>fileimages/postscript.png</filename>
+	<filename>fileimages/pdf.png</filename>
+    <filename>fileimages/7zip.png</filename>
+    <filename>fileimages/aiff.png</filename>
+    <filename>fileimages/arj.png</filename>
+    <filename>fileimages/bzip.png</filename>
+    <filename>fileimages/iso.png</filename>
+    <filename>fileimages/tgz.png</filename>
+    <filename>fileimages/java.png</filename>
+    <filename>fileimages/java-archive.png</filename>
+    <filename>fileimages/lhz.png</filename>
+    <filename>fileimages/perl.png</filename>
+    <filename>fileimages/rar.png</filename>
+    <filename>fileimages/tarz.png</filename>
+    <filename>fileimages/wma.png</filename>
+    <filename>fileimages/zip.png</filename>
+    <filename>fileimages/wav.png</filename>
+    <filename>fileimages/binary.png</filename>
+    <filename>fileimages/document.png</filename>
+    <filename>fileimages/font_truetype.png</filename>
+    <filename>fileimages/font_type1.png</filename>
+    <filename>fileimages/excel.png</filename>
+    <filename>fileimages/image-bmp.png</filename>
+    <filename>fileimages/image-gif.png</filename>
+    <filename>fileimages/image-png.png</filename>
+    <filename>fileimages/image-tiff.png</filename>
+    <filename>fileimages/image-psd.png</filename>
+    <filename>fileimages/image-jpeg.png</filename>
+    <filename>fileimages/text.png</filename>
+    <filename>fileimages/archive.png</filename>
+    <filename>fileimages/lha.png</filename>
+    <filename>fileimages/script.png</filename>
+    <filename>fileimages/tar.png</filename>
+    <filename>fileimages/mp3.png</filename>
+    <filename>fileimages/ogg.png</filename>
+    <filename>fileimages/font.png</filename>
+    <filename>fileimages/joomla.png</filename>
+    <filename>fileimages/html.png</filename>
+    <filename>fileimages/template.png</filename>
+    <filename>fileimages/calendar.png</filename>
+    <filename>fileimages/php.png</filename>
+    <filename>catimages/index.html</filename>
+	<filename>catimages/internet.png</filename>
+    <filename>catimages/video.png</filename>
+    <filename>catimages/office.png</filename>
+    <filename>catimages/multimedia.png</filename>
+    <filename>catimages/multimedia2.png</filename>
+    <filename>catimages/dictionary.png</filename>
+    <filename>catimages/audio.png</filename>
+    <filename>catimages/sound.png</filename>
+    <filename>catimages/font.png</filename>
+    <filename>catimages/desktop.png</filename>
+    <filename>catimages/graphics.png</filename>
+    <filename>catimages/games.png</filename>
+    <filename>catimages/accessories.png</filename>
+    <filename>catimages/folder.png</filename>
+    <filename>catimages/folder_net.png</filename>
+    <filename>catimages/folder_doc.png</filename>
+    <filename>catimages/folder_blue.png</filename>
+    <filename>catimages/folder_grey.png</filename>
+    <filename>catimages/folder_green.png</filename>
+    <filename>catimages/folder_public.png</filename>
+    <filename>catimages/folder_music.png</filename>
+    <filename>catimages/folder_images.png</filename>
+    <filename>catimages/folder_html.png</filename>
+    <filename>catimages/folder_documents.png</filename>
+    <filename>catimages/folder_video.png</filename>
+    <filename>catimages/folder_blue_2.png</filename>
+    <filename>catimages/dictionary2.png</filename>
+    <filename>catimages/guitar.png</filename>
+    <filename>catimages/joomla.png</filename>
+    <filename>catimages/bible.png</filename>
+    <filename>catimages/book.png</filename>
+    <filename>catimages/heart.png</filename>
+    <filename>catimages/hint.png</filename>
+    <filename>catimages/chess.png</filename>
+    <filename>catimages/blackjack.png</filename>
+    <filename>catimages/desktop2.png</filename>
+    <filename>catimages/graphics2.png</filename>
+    <filename>catimages/design.png</filename>
+    <filename>catimages/tools.png</filename>
+    <filename>miniimages/index.html</filename>    
+    <filename>miniimages/stuff.png</filename>
+    <filename>miniimages/currency.png</filename>    
+    <filename>miniimages/license.png</filename>
+    <filename>miniimages/weblink.png</filename>
+    <filename>miniimages/contact.png</filename>
+    <filename>miniimages/date.png</filename>
+    <filename>miniimages/language.png</filename>
+    <filename>miniimages/system.png</filename>
+    <filename>miniimages/download.png</filename>    
+    <filename>downloadimages/index.html</filename>
+    <filename>downloadimages/download2.png</filename>    
+    <filename>downloadimages/download3.gif</filename>
+    <filename>downloadimages/download.gif</filename>
+    <filename>downloadimages/blue_01.gif</filename>
+    <filename>downloadimages/blue_02.gif</filename>
+    <filename>downloadimages/blue_03.gif</filename>
+    <filename>downloadimages/blue_04.gif</filename>
+    <filename>downloadimages/blue_05.gif</filename>
+    <filename>downloadimages/blue_06.gif</filename>
+    <filename>downloadimages/brown_01.gif</filename>
+    <filename>downloadimages/brown_02.gif</filename>
+    <filename>downloadimages/brown_03.gif</filename>
+    <filename>downloadimages/green_01.gif</filename>
+    <filename>downloadimages/grey_01.gif</filename>
+    <filename>downloadimages/grey_02.gif</filename>
+    <filename>downloadimages/download_blue.png</filename>
+    <filename>downloadimages/download_green.png</filename> 
+    <filename>downloadimages/download_red.png</filename> 
+    <filename>downloadimages/mirror_green.png</filename> 
+    <filename>downloadimages/mirror_green1.png</filename> 
+    <filename>downloadimages/mirror_green2.png</filename>
+    <filename>downloadimages/mirror_blue.png</filename> 
+    <filename>downloadimages/mirror_blue1.png</filename> 
+    <filename>downloadimages/mirror_blue2.png</filename> 
+    <filename>downloadimages/mirror_red.png</filename> 
+    <filename>downloadimages/mirror_red1.png</filename> 
+    <filename>downloadimages/mirror_red2.png</filename>  
+    <filename>downloadimages/mirror.gif</filename> 
+    <filename>downloadimages/mirror1.gif</filename> 
+    <filename>downloadimages/mirror2.gif</filename> 
+    <filename>hotimages/index.html</filename>
+    <filename>hotimages/hotfile.gif</filename> 
+    <filename>hotimages/green_01.gif</filename> 
+    <filename>hotimages/grey_01.gif</filename> 
+    <filename>hotimages/blue_03.gif</filename> 
+    <filename>hotimages/red.png</filename> 
+    <filename>hotimages/blue.png</filename> 
+    <filename>hotimages/green.png</filename> 
+    <filename>hotimages/green2.png</filename> 
+    <filename>hotimages/yellow.png</filename> 
+    <filename>hotimages/orange.png</filename> 
+    <filename>hotimages/grey.png</filename> 
+    <filename>hotimages/sephia.png</filename> 
+    <filename>newimages/index.html</filename>
+    <filename>newimages/newfile.gif</filename>           
+    <filename>newimages/green_01.gif</filename> 
+    <filename>newimages/grey_01.gif</filename> 
+    <filename>newimages/blue_03.gif</filename> 
+    <filename>newimages/blue.png</filename> 
+    <filename>newimages/green.png</filename> 
+    <filename>newimages/green2.png</filename> 
+    <filename>newimages/orange.png</filename> 
+    <filename>newimages/yellow.png</filename>
+    <filename>newimages/red.png</filename>
+    <filename>newimages/sephia.png</filename>
+    <filename>newimages/grey.png</filename>
+    <filename>updimages/index.html</filename>    
+    <filename>updimages/blue.png</filename>
+    <filename>updimages/green.png</filename>
+    <filename>updimages/green2.png</filename>
+    <filename>updimages/yellow.png</filename>
+    <filename>updimages/orange.png</filename>
+    <filename>updimages/sephia.png</filename>
+    <filename>updimages/grey.png</filename>
+    <filename>updimages/red.png</filename>
+    <filename>screenshots/index.html</filename>
+    <filename>screenshots/no_pic.gif</filename>               
+    <filename>screenshots/thumbnails/index.html</filename>
+    <filename>screenshots/thumbnails/no_pic.gif</filename>
+    <filename>headerimages/index.html</filename>
+    <filename>headerimages/upload_aqua.png</filename>
+    <filename>headerimages/upload_blue.png</filename>
+    <filename>headerimages/home.png</filename>
+    </images>
+<install>
+<queries>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__jdownloads_config` (
+	  `id` int(11) NOT NULL AUTO_INCREMENT,
+	  `setting_name` varchar(64) NOT NULL default '',
+	  `setting_value` text NOT NULL,
+	  PRIMARY KEY  (`id`)
+	);
+	</query>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__jdownloads_cats` (
+		`cat_id` INT NOT NULL AUTO_INCREMENT,
+		`cat_top_id` VARCHAR( 255 ) NOT NULL,
+		`cat_dir` text NOT NULL,
+		`parent_id` INT NOT NULL ,
+		`cat_title` VARCHAR( 255 ) NOT NULL,
+		`cat_description` TEXT NOT NULL,
+	  	`cat_pic` VARCHAR( 255 ) NOT NULL,
+	  	`cat_access` VARCHAR( 3 ) NOT NULL default '00',
+        `metakey` TEXT NOT NULL default '',
+        `metadesc` TEXT NOT NULL default '',
+	  	`ordering` tinyint(4) NOT NULL default '0',
+	  	`published` tinyint(1) NOT NULL default '0',
+	  	`checked_out` int(11) NOT NULL default '0',
+	  	`checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+       PRIMARY KEY  (`cat_id`)
+    );
+	</query>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__jdownloads_files` (
+		  `file_id` int(11) NOT NULL AUTO_INCREMENT,
+		  `file_title` varchar(255) NOT NULL default '',
+		  `description` longtext NOT NULL default '',
+		  `description_long` longtext NOT NULL default '',
+          `file_pic` varchar(255) NOT NULL default '',
+    	  `thumbnail` varchar(255) NOT NULL default '',
+          `price` varchar(20) NOT NULL default '',
+          `release` varchar(255) NOT NULL default '',
+    	  `language` tinyint(2) NOT NULL default '0',
+    	  `system` tinyint(2) NOT NULL default '0',
+		  `license` varchar(255) NOT NULL default '',
+		  `url_license` varchar(255) NOT NULL default '',
+		  `size` varchar(255) NOT NULL default '',
+		  `date_added` datetime NOT NULL default '0000-00-00 00:00:00',
+		  `url_download` varchar(255) NOT NULL default '',
+          `extern_file` varchar(255) NOT NULL default '',
+          `extern_site` tinyint(1) NOT NULL default '0',
+          `mirror_1` varchar(255) NOT NULL default '',
+          `mirror_2` varchar(255) NOT NULL default '',
+	      `extern_site_mirror_1` tinyint(1) NOT NULL default '0',
+          `extern_site_mirror_2` tinyint(1) NOT NULL default '0',
+          `url_home` varchar(255) NOT NULL default '',
+		  `author` varchar(255) NOT NULL default '',
+		  `url_author` varchar(255) NOT NULL default '',
+		  `created_by` varchar(255) NOT NULL default '',
+		  `created_mail` varchar(255) NOT NULL default '',
+		  `modified_by` varchar(255) NOT NULL default '',
+		  `modified_date` datetime NOT NULL default '0000-00-00 00:00:00',		  
+		  `downloads` int(11) NOT NULL default '0',
+		  `cat_id` int(11) NOT NULL default '0',
+          `metakey` TEXT NOT NULL default '',
+          `metadesc` TEXT NOT NULL default '',
+          `update_active` tinyint(1) NOT NULL default '0',
+		  `ordering` int(11) NOT NULL default '0',
+		  `published` tinyint(1) NOT NULL default '0',
+		  `checked_out` int(11) NOT NULL default '0',
+		  `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+		  PRIMARY KEY  (`file_id`)
+	);
+	</query>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__jdownloads_license` (
+	  `id` int(11) NOT NULL AUTO_INCREMENT,
+	  `license_title` varchar(64) NOT NULL default '',
+	  `license_text` longtext NOT NULL,
+      `license_url` varchar(255) NOT NULL default '',
+      `checked_out` int(11) NOT NULL default '0',
+	  `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+	  PRIMARY KEY  (`id`)
+	);
+	</query>
+	<query>
+	CREATE TABLE IF NOT EXISTS `#__jdownloads_templates` (
+	  `id` int(11) NOT NULL AUTO_INCREMENT,
+	  `template_name` varchar(64) NOT NULL default '',
+	  `template_typ` tinyint(2) NOT NULL default '0',
+	  `template_text` longtext NOT NULL,
+	  `template_active` tinyint(1) NOT NULL default '0',
+	  `locked` tinyint(1) NOT NULL default '0',
+      `note` tinytext NOT NULL,
+      `checkbox_off` tinyint(1) NOT NULL default '0',
+      `symbol_off` tinyint(1) NOT NULL default '0',
+      `checked_out` int(11) NOT NULL default '0',
+	  `checked_out_time` datetime NOT NULL default '0000-00-00 00:00:00',
+	  PRIMARY KEY  (`id`)
+	);
+    </query>
+</queries>
+</install>
+      <installfile>install.jdownloads.php</installfile>
+      <uninstallfile>uninstall.jdownloads.php</uninstallfile>
+<administration>
+<files>
+	<filename>admin.jdownloads.php</filename>
+	<filename>admin.jdownloads.html.php</filename>
+	<filename>check.restore.jdownloads.php</filename>
+	<filename>toolbar.jdownloads.php</filename>
+	<filename>toolbar.jdownloads.html.php</filename>
+	<filename>index.html</filename>
+	<filename>htaccess.txt</filename>
+    <filename>style.css</filename>
+	<filename>jdownloads.xml</filename>
+	<filename>joomfish/jdownloads_config.xml</filename>
+	<filename>joomfish/jdownloads_cats.xml</filename>
+	<filename>joomfish/jdownloads_files.xml</filename>
+    <filename>joomfish/jdownloads_templates.xml</filename> 
+    <filename>mod_jdownloads_top_1.1.zip</filename>
+</files>
+    <images> 
+    <filename>images/jdownloads.jpg</filename>
+	<filename>images/categories.png</filename>
+	<filename>images/downloads.png</filename>
+	<filename>images/support.png</filename>
+	<filename>images/config.png</filename>
+	<filename>images/licenses.png</filename>
+	<filename>images/template.png</filename>
+	<filename>images/layouts.png</filename>
+	<filename>images/active.png</filename>
+	<filename>images/addedit.png</filename>
+	<filename>images/backup.png</filename>
+	<filename>images/restore.png</filename>
+	<filename>images/m_active.png</filename>
+	<filename>images/m_jdownloads.gif</filename>
+	<filename>images/m_downloads.gif</filename>
+	<filename>images/m_home.gif</filename>
+	<filename>images/m_categories.gif</filename>
+	<filename>images/m_licenses.gif</filename>
+	<filename>images/m_templates.gif</filename>
+	<filename>images/m_config.gif</filename>
+	<filename>images/m_backup.gif</filename>
+	<filename>images/m_restore.gif</filename>
+	<filename>images/m_info.gif</filename>
+	<filename>images/warning.png</filename>
+	<filename>images/help.png</filename>
+	<filename>images/home.png</filename>
+	<filename>images/css.png</filename>
+	<filename>images/info.png</filename>
+	<filename>images/downloads_2.png</filename>
+	<filename>images/categories_2.png</filename>
+	<filename>images/config_2.png</filename>
+	<filename>images/dir_edit.png</filename>
+	<filename>images/dir_edit_2.png</filename>
+	<filename>images/downloads_cats.gif</filename>
+	<filename>images/downloads_files.gif</filename>
+    <filename>images/downloads_details.gif</filename>
+    <filename>images/langmanager.png</filename>
+	<filename>images/summary.gif</filename>
+	<filename>images/email.gif</filename> 
+    <filename>images/index.html</filename>
+    </images>
+</administration>
+</mosinstall>

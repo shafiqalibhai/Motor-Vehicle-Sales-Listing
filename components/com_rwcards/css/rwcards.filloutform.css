@@ -1,0 +1,95 @@
+.rwcards, .rwcardsfull 
+{
+border: 1px #999 solid;
+font-size: 12px;
+text-align:center;
+}
+
+.rwcardsImage
+{
+border: 1px #999 solid;
+width:auto;
+padding: 10px;
+margin-bottom:20px;
+}
+* html .rwcardsfull  /* this is recognized by IE only */
+{
+  width: auto;  /* total width, only for IE5.x/Win */
+  w\idth: auto; /* content width for other IE */
+}
+
+.rwcardsfull
+{
+	width:auto;
+	padding: 10px;
+	margin-bottom:20px;
+	margin-left:0px;
+	text-align:center;
+}
+
+
+* html .rwcards  /* this is recognized by IE only */
+{
+  width: auto;  /* total width, only for IE5.x/Win */
+  w\idth: auto; /* content width for other IE */
+}
+
+.rwcards
+{
+	height: 158px;
+	width: 208px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.rwcardsLeftForm
+{
+	width: 50%;
+	float: left;
+}
+.rwcardsRightForm
+{
+	width: 49%;
+	float: right;
+	text-align:right;
+	border-left: 1px #999 dotted;
+	
+}
+
+
+.rwcards_buttons_bottom
+{
+	margin-top:20px;
+	margin-bottom:5px;
+	border-top: 1px #999 dotted;
+	font-size: 12px;
+	text-align: center;
+}
+
+.selectbox
+{
+	font-size: 12px;
+}
+
+.rwcards_inputbox
+{
+	width:170px;
+	border: 1px groove black;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	size:12px;
+}
+
+ .rwcards_button
+{
+	width:150px;
+	border: 1px groove black;
+	
+}
+
+.rwcardsClr 
+{
+	clear: both;
+}

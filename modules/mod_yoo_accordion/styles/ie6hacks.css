@@ -1,0 +1,11 @@
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-accordion dl div {
+	zoom: 1;
+	position: relative;
+}
+
+div.yoo-accordion dd div {
+	zoom: normal;
+	position: static;
+}

@@ -1,0 +1,542 @@
+<?xml version="1.0"?>
+<install version="1.5" type="plugin" group="editors">
+	<name>Editor - JoomlaFCK</name>
+	<version>2.6.1</version>
+	<creationDate>December 2007</creationDate>
+	<author>WebxSolution Ltd</author>
+	<authorUrl>http://www.webxsolution.com</authorUrl>
+	<license>GPL</license>
+	<description>DESCJOOMLAFCK</description>
+	<files>
+	<filename plugin="fckeditor">fckeditor.php</filename>
+	<filename>fckconfigjoomla.js</filename>
+	<filename>fckeditor/fckconfig.js</filename>
+	<filename>fckeditor/fckeditor.js</filename>
+	<filename>fckeditor/fckeditor.php</filename>
+	<filename>fckeditor/fckeditor_php4.php</filename>
+	<filename>fckeditor/fckeditor_php5.php</filename>
+	<filename>fckeditor/fckpackager.xml</filename>
+	<filename>fckeditor/fckstyles.xml</filename>
+	<filename>fckeditor/fckstyles_template.xml</filename>
+	<filename>fckeditor/fcktemplates.xml</filename>
+	<filename>fckeditor/editor/fckdebug.html</filename>
+	<filename>fckeditor/editor/fckdialog.html</filename>
+	<filename>fckeditor/editor/fckeditor.html</filename>
+	<filename>fckeditor/editor/fckeditor.original.html</filename>
+	<filename>fckeditor/editor/css/fck_editorarea.css</filename>
+	<filename>fckeditor/editor/css/fck_internal.css</filename>
+	<filename>fckeditor/editor/css/fck_showtableborders_gecko.css</filename>
+	<filename>fckeditor/editor/css/behaviors/disablehandles.htc</filename>
+	<filename>fckeditor/editor/css/behaviors/showtableborders.htc</filename>
+	<filename>fckeditor/editor/css/images/block_address.png</filename>
+	<filename>fckeditor/editor/css/images/block_blockquote.png</filename>
+	<filename>fckeditor/editor/css/images/block_div.png</filename>
+	<filename>fckeditor/editor/css/images/block_h1.png</filename>
+	<filename>fckeditor/editor/css/images/block_h2.png</filename>
+	<filename>fckeditor/editor/css/images/block_h3.png</filename>
+	<filename>fckeditor/editor/css/images/block_h4.png</filename>
+	<filename>fckeditor/editor/css/images/block_h5.png</filename>
+	<filename>fckeditor/editor/css/images/block_h6.png</filename>
+	<filename>fckeditor/editor/css/images/block_p.png</filename>
+	<filename>fckeditor/editor/css/images/block_pre.png</filename>
+	<filename>fckeditor/editor/css/images/fck_anchor.gif</filename>
+	<filename>fckeditor/editor/css/images/fck_flashlogo.gif</filename>
+	<filename>fckeditor/editor/css/images/fck_hiddenfield.gif</filename>
+	<filename>fckeditor/editor/css/images/fck_pagebreak.gif</filename>
+	<filename>fckeditor/editor/css/images/fck_plugin.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_about.html</filename>
+	<filename>fckeditor/editor/dialog/fck_about.php</filename>
+	<filename>fckeditor/editor/dialog/fck_anchor.html</filename>
+	<filename>fckeditor/editor/dialog/fck_button.html</filename>
+	<filename>fckeditor/editor/dialog/fck_checkbox.html</filename>
+	<filename>fckeditor/editor/dialog/fck_colorselector.html</filename>
+	<filename>fckeditor/editor/dialog/fck_docprops.html</filename>
+	<filename>fckeditor/editor/dialog/fck_flash.html</filename>
+	<filename>fckeditor/editor/dialog/fck_form.html</filename>
+	<filename>fckeditor/editor/dialog/fck_hiddenfield.html</filename>
+	<filename>fckeditor/editor/dialog/fck_image.html</filename>
+	<filename>fckeditor/editor/dialog/fck_link.html</filename>
+	<filename>fckeditor/editor/dialog/fck_listprop.html</filename>
+	<filename>fckeditor/editor/dialog/fck_paste.html</filename>
+	<filename>fckeditor/editor/dialog/fck_radiobutton.html</filename>
+	<filename>fckeditor/editor/dialog/fck_replace.html</filename>
+	<filename>fckeditor/editor/dialog/fck_select.html</filename>
+	<filename>fckeditor/editor/dialog/fck_smiley.html</filename>
+	<filename>fckeditor/editor/dialog/fck_source.html</filename>
+	<filename>fckeditor/editor/dialog/fck_specialchar.html</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages.html</filename>
+	<filename>fckeditor/editor/dialog/fck_table.html</filename>
+	<filename>fckeditor/editor/dialog/fck_tablecell.html</filename>
+	<filename>fckeditor/editor/dialog/fck_template.html</filename>
+	<filename>fckeditor/editor/dialog/fck_textarea.html</filename>
+	<filename>fckeditor/editor/dialog/fck_textfield.html</filename>
+	<filename>fckeditor/editor/dialog/common/fck_dialog_common.css</filename>
+	<filename>fckeditor/editor/dialog/common/fck_dialog_common.js</filename>
+	<filename>fckeditor/editor/dialog/common/images/locked.gif</filename>
+	<filename>fckeditor/editor/dialog/common/images/reset.gif</filename>
+	<filename>fckeditor/editor/dialog/common/images/unlocked.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_about/JoomlaFCKlogo.png</filename>
+	<filename>fckeditor/editor/dialog/fck_about/logo_fckeditor.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_about/logo_fredck.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_about/phoenix.png</filename>
+	<filename>fckeditor/editor/dialog/fck_about/Thumbs.db</filename>
+	<filename>fckeditor/editor/dialog/fck_about/sponsors/spellchecker_net.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_about/sponsors/Thumbs.db</filename>
+	<filename>fckeditor/editor/dialog/fck_docprops/fck_document_preview.html</filename>
+	<filename>fckeditor/editor/dialog/fck_flash/fck_flash.js</filename>
+	<filename>fckeditor/editor/dialog/fck_flash/fck_flash_preview.html</filename>
+	<filename>fckeditor/editor/dialog/fck_image/fck_image.js</filename>
+	<filename>fckeditor/editor/dialog/fck_image/fck_image_preview.html</filename>
+	<filename>fckeditor/editor/dialog/fck_link/fck_link.js</filename>
+	<filename>fckeditor/editor/dialog/fck_select/fck_select.js</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/blank.html</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/controls.html</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/controlWindow.js</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellchecker.html</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellChecker.js</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/spellerStyle.css</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/wordWindow.js</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.cfm</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.php</filename>
+	<filename>fckeditor/editor/dialog/fck_spellerpages/spellerpages/server-scripts/spellchecker.pl</filename>
+	<filename>fckeditor/editor/dialog/fck_template/images/template1.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_template/images/template2.gif</filename>
+	<filename>fckeditor/editor/dialog/fck_template/images/template3.gif</filename>
+	<filename>fckeditor/editor/dtd/fck_dtd_test.html</filename>
+	<filename>fckeditor/editor/dtd/fck_xhtml10strict.js</filename>
+	<filename>fckeditor/editor/dtd/fck_xhtml10transitional.js</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/blank.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/browser.css</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/browser.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmactualfolder.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmcreatefolder.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmfolders.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmresourceslist.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmresourcetype.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/frmupload.html</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/iepngfix.htc</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/Thumbs.db</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/ButtonArrow.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/Folder.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/Folder32.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/FolderOpened.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/FolderOpened32.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/FolderUp.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/spacer.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/ai.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/avi.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/bmp.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/cs.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/default.icon.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/dll.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/doc.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/exe.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/fla.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/gif.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/htm.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/html.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/jpg.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/js.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/mdb.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/mp3.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/pdf.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/png.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/ppt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/rdp.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/swf.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/swt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/Thumbs.db</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/txt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/vsd.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/xls.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/xml.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/zip.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/ai.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/avi.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/bmp.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/cs.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/default.icon.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/dll.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/doc.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/exe.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/fla.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/gif.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/htm.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/html.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/jpg.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/js.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/mdb.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/mp3.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/pdf.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/png.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/ppt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/rdp.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/swf.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/swt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/Thumbs.db</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/txt.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/vsd.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/xls.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/xml.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/images/icons/32/zip.gif</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/js/common.js</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/js/fckxml.js</filename>
+	<filename>fckeditor/editor/filemanager/browser/default/js/JFCKFileBrowserImages.js</filename>
+	<filename>fckeditor/editor/filemanager/connectors/test.html</filename>
+	<filename>fckeditor/editor/filemanager/connectors/uploadtest.html</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/basexml.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/commands.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/config.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/connector.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/error_log</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/io.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/phpcompat.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/upload.php</filename>
+	<filename>fckeditor/editor/filemanager/connectors/php/util.php</filename>
+	<filename>fckeditor/editor/images/anchor.gif</filename>
+	<filename>fckeditor/editor/images/arrow_ltr.gif</filename>
+	<filename>fckeditor/editor/images/arrow_rtl.gif</filename>
+	<filename>fckeditor/editor/images/spacer.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/angel_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/angry_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/broken_heart.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/cake.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/confused_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/cry_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/devil_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/embaressed_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/envelope.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/heart.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/kiss.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/lightbulb.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/omg_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/regular_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/sad_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/shades_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/teeth_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/thumbs_down.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/thumbs_up.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/tounge_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/whatchutalkingabout_smile.gif</filename>
+	<filename>fckeditor/editor/images/smiley/msn/wink_smile.gif</filename>
+	<filename>fckeditor/editor/istyles/aa.gif</filename>
+	<filename>fckeditor/editor/istyles/fckplugin.js</filename>
+	<filename>fckeditor/editor/istyles/icon.gif</filename>
+	<filename>fckeditor/editor/istyles/istyles.html</filename>
+	<filename>fckeditor/editor/istyles/Thumbs.db</filename>
+	<filename>fckeditor/editor/istyles/images/browse.gif</filename>
+	<filename>fckeditor/editor/istyles/images/select_arrow.gif</filename>
+	<filename>fckeditor/editor/istyles/images/select_arrow_down.gif</filename>
+	<filename>fckeditor/editor/istyles/images/select_arrow_over.gif</filename>
+	<filename>fckeditor/editor/istyles/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/istyles/istyles/aa.css</filename>
+	<filename>fckeditor/editor/istyles/istyles/aa.js</filename>
+	<filename>fckeditor/editor/istyles/istyles/images/browse.gif</filename>
+	<filename>fckeditor/editor/istyles/istyles/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/istyles/lang/en.js</filename>
+	<filename>fckeditor/editor/js/fckadobeair.js</filename>
+	<filename>fckeditor/editor/js/fckeditorcode_gecko.js</filename>
+	<filename>fckeditor/editor/js/fckeditorcode_ie.js</filename>
+	<filename>fckeditor/editor/lang/af.js</filename>
+	<filename>fckeditor/editor/lang/ar.js</filename>
+	<filename>fckeditor/editor/lang/bg.js</filename>
+	<filename>fckeditor/editor/lang/bn.js</filename>
+	<filename>fckeditor/editor/lang/bs.js</filename>
+	<filename>fckeditor/editor/lang/ca.js</filename>
+	<filename>fckeditor/editor/lang/cs.js</filename>
+	<filename>fckeditor/editor/lang/da.js</filename>
+	<filename>fckeditor/editor/lang/de.js</filename>
+	<filename>fckeditor/editor/lang/el.js</filename>
+	<filename>fckeditor/editor/lang/en-au.js</filename>
+	<filename>fckeditor/editor/lang/en-ca.js</filename>
+	<filename>fckeditor/editor/lang/en-uk.js</filename>
+	<filename>fckeditor/editor/lang/en.js</filename>
+	<filename>fckeditor/editor/lang/eo.js</filename>
+	<filename>fckeditor/editor/lang/es.js</filename>
+	<filename>fckeditor/editor/lang/et.js</filename>
+	<filename>fckeditor/editor/lang/eu.js</filename>
+	<filename>fckeditor/editor/lang/fa.js</filename>
+	<filename>fckeditor/editor/lang/fi.js</filename>
+	<filename>fckeditor/editor/lang/fo.js</filename>
+	<filename>fckeditor/editor/lang/fr-ca.js</filename>
+	<filename>fckeditor/editor/lang/fr.js</filename>
+	<filename>fckeditor/editor/lang/gl.js</filename>
+	<filename>fckeditor/editor/lang/gu.js</filename>
+	<filename>fckeditor/editor/lang/he.js</filename>
+	<filename>fckeditor/editor/lang/hi.js</filename>
+	<filename>fckeditor/editor/lang/hr.js</filename>
+	<filename>fckeditor/editor/lang/hu.js</filename>
+	<filename>fckeditor/editor/lang/it.js</filename>
+	<filename>fckeditor/editor/lang/ja.js</filename>
+	<filename>fckeditor/editor/lang/km.js</filename>
+	<filename>fckeditor/editor/lang/ko.js</filename>
+	<filename>fckeditor/editor/lang/lt.js</filename>
+	<filename>fckeditor/editor/lang/lv.js</filename>
+	<filename>fckeditor/editor/lang/mn.js</filename>
+	<filename>fckeditor/editor/lang/ms.js</filename>
+	<filename>fckeditor/editor/lang/nb.js</filename>
+	<filename>fckeditor/editor/lang/nl.js</filename>
+	<filename>fckeditor/editor/lang/no.js</filename>
+	<filename>fckeditor/editor/lang/pl.js</filename>
+	<filename>fckeditor/editor/lang/pt-br.js</filename>
+	<filename>fckeditor/editor/lang/pt.js</filename>
+	<filename>fckeditor/editor/lang/ro.js</filename>
+	<filename>fckeditor/editor/lang/ru.js</filename>
+	<filename>fckeditor/editor/lang/sk.js</filename>
+	<filename>fckeditor/editor/lang/sl.js</filename>
+	<filename>fckeditor/editor/lang/sr-latn.js</filename>
+	<filename>fckeditor/editor/lang/sr.js</filename>
+	<filename>fckeditor/editor/lang/sv.js</filename>
+	<filename>fckeditor/editor/lang/th.js</filename>
+	<filename>fckeditor/editor/lang/tr.js</filename>
+	<filename>fckeditor/editor/lang/uk.js</filename>
+	<filename>fckeditor/editor/lang/vi.js</filename>
+	<filename>fckeditor/editor/lang/zh-cn.js</filename>
+	<filename>fckeditor/editor/lang/zh.js</filename>
+	<filename>fckeditor/editor/lang/_translationstatus.txt</filename>
+	<filename>fckeditor/editor/plugins/formatsource/fckplugin.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/FormatSource.gif</filename>
+	<filename>fckeditor/editor/plugins/formatsource/Thumbs.db</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/de.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/el.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/en.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/es.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/fr.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/it.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/ja.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/ko.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/nl.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/pt.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/ru.js</filename>
+	<filename>fckeditor/editor/plugins/formatsource/lang/zh.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/config.php</filename>
+	<filename>fckeditor/editor/plugins/jlink/error_handler.php</filename>
+	<filename>fckeditor/editor/plugins/jlink/fckconfig.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/fckplugin.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/fckxml.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/fck_JLink.html</filename>
+	<filename>fckeditor/editor/plugins/jlink/index.html</filename>
+	<filename>fckeditor/editor/plugins/jlink/jLink.gif</filename>
+	<filename>fckeditor/editor/plugins/jlink/suggest.class.php</filename>
+	<filename>fckeditor/editor/plugins/jlink/suggest.css</filename>
+	<filename>fckeditor/editor/plugins/jlink/suggest.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/suggest.php</filename>
+	<filename>fckeditor/editor/plugins/jlink/Thumbs.db</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/de.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/el.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/en.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/es.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/fr.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/it.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/ko.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/nl.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/pt.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/ru.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/za.js</filename>
+	<filename>fckeditor/editor/plugins/jlink/lang/zh.js</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/fckplugin.js</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/blank.html</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/controls.html</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/controlWindow.js</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/dictionary.txt</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/fck_spellerpages.html</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/spellchecker.html</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/spellChecker.js</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/spellchecker.php</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/spellerStyle.css</filename>
+	<filename>fckeditor/editor/plugins/pspellcheck/spellcheck/wordWindow.js</filename>
+	<filename>fckeditor/editor/plugins/stylesheet/fckplugin.js</filename>
+	<filename>fckeditor/editor/plugins/stylesheet/index.html</filename>
+	<filename>fckeditor/editor/plugins/stylesheet/lang/en.js</filename>
+	<filename>fckeditor/editor/skins/_fckviewstrips.html</filename>
+	<filename>fckeditor/editor/skins/default/fck_dialog.css</filename>
+	<filename>fckeditor/editor/skins/default/fck_dialog_ie6.js</filename>
+	<filename>fckeditor/editor/skins/default/fck_editor.css</filename>
+	<filename>fckeditor/editor/skins/default/fck_strip.gif</filename>
+	<filename>fckeditor/editor/skins/default/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/default/images/dialog.sides.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/dialog.sides.png</filename>
+	<filename>fckeditor/editor/skins/default/images/dialog.sides.rtl.png</filename>
+	<filename>fckeditor/editor/skins/default/images/sprites.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/sprites.png</filename>
+	<filename>fckeditor/editor/skins/default/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.arrowright.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.buttonarrow.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.collapse.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.end.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.expand.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.separator.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/toolbar.start.gif</filename>
+	<filename>fckeditor/editor/skins/default/images/tree-bg.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/fck_dialog.css</filename>
+	<filename>fckeditor/editor/skins/office2003/fck_dialog_ie6.js</filename>
+	<filename>fckeditor/editor/skins/office2003/fck_editor.css</filename>
+	<filename>fckeditor/editor/skins/office2003/fck_strip.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2003/images/dialog.sides.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/dialog.sides.png</filename>
+	<filename>fckeditor/editor/skins/office2003/images/dialog.sides.rtl.png</filename>
+	<filename>fckeditor/editor/skins/office2003/images/sprites.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/sprites.png</filename>
+	<filename>fckeditor/editor/skins/office2003/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.arrowright.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.bg.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.buttonarrow.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.collapse.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.end.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.expand.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.separator.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/toolbar.start.gif</filename>
+	<filename>fckeditor/editor/skins/office2003/images/tree-bg.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/fck_dialog.css</filename>
+	<filename>fckeditor/editor/skins/office2003blue/fck_editor.css</filename>
+	<filename>fckeditor/editor/skins/office2003blue/fck_strip.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/contextmenu.background.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/contextmenu.itemhoverbackground.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.arrowright.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.background.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.buttonarrow.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.collapse.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.end.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.expand.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.itemhoverbackground.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.separator.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/toolbar.start.gif</filename>
+	<filename>fckeditor/editor/skins/office2003blue/images/tree-bg.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/fck_dialog.css</filename>
+	<filename>fckeditor/editor/skins/office2007/fck_dialog.css.old</filename>
+	<filename>fckeditor/editor/skins/office2007/fck_dialog_ie6.js</filename>
+	<filename>fckeditor/editor/skins/office2007/fck_editor.css</filename>
+	<filename>fckeditor/editor/skins/office2007/fck_strip.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2007/images/bg.png</filename>
+	<filename>fckeditor/editor/skins/office2007/images/dialog.sides.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/dialog.sides.png</filename>
+	<filename>fckeditor/editor/skins/office2007/images/dialog.sides.rtl.png</filename>
+	<filename>fckeditor/editor/skins/office2007/images/sprites.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/sprites.png</filename>
+	<filename>fckeditor/editor/skins/office2007/images/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.arrowright.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.bg.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.buttonarrow.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.collapse.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.end.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.expand.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.overbg.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.separator.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/toolbar.start.gif</filename>
+	<filename>fckeditor/editor/skins/office2007/images/tree-bg.gif</filename>
+	<filename>fckeditor/editor/skins/silver/fck_dialog.css</filename>
+	<filename>fckeditor/editor/skins/silver/fck_dialog_ie6.js</filename>
+	<filename>fckeditor/editor/skins/silver/fck_editor.css</filename>
+	<filename>fckeditor/editor/skins/silver/fck_strip.gif</filename>
+	<filename>fckeditor/editor/skins/silver/Thumbs.db</filename>
+	<filename>fckeditor/editor/skins/silver/images/dialog.sides.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/dialog.sides.png</filename>
+	<filename>fckeditor/editor/skins/silver/images/dialog.sides.rtl.png</filename>
+	<filename>fckeditor/editor/skins/silver/images/sprites.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/sprites.png</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.arrowright.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.buttonarrow.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.buttonbg.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.collapse.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.end.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.expand.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.separator.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/toolbar.start.gif</filename>
+	<filename>fckeditor/editor/skins/silver/images/tree-bg.gif</filename>
+</files>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_editors_fckeditor.ini</language>
+	</languages>
+	<params>
+		<param name="toolbar" type="list" default="Advanced" label="Administrator End Toolbar Mode" description="FUNCTIONBK">
+			<option value="Advanced">Advanced</option>
+			<option value="Creative">Creative</option>
+			<option value="Blog">Blog</option>
+			<option value="Default">Default</option>
+		</param>
+		<param name="toolbar_ft" type="list" default="Advanced" label="FrontEnd Toolbar Mode" description="FUNCTIONFT">
+			<option value="Advanced">Advanced</option>
+			<option value="Creative">Creative</option>
+			<option value="Blog">Blog</option>
+			<option value="Default">Default</option>
+		</param>
+		<param name="skin" type="list" default="office2007" label="Skin" description="EDITORSKIN">
+			<option value="default">default</option>
+			<option value="office2007">office2007</option>
+			<option value="office2003">office2003</option>
+			<option value="office2003blue">office2003blue</option>
+			<option value="silver">silver</option>
+		</param>
+		<param name="content_css" type="radio" default="1" label="Use Template CSS classes?" description="LOADCSSTMPT">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="editor_css" type="radio" default="0" label="Use Editor CSS classes?" description="LOADCSSED">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+ 		<param name="content_css_custom" type="text" default="" label="Use Custom CSS Classes?" description="CUSLOADCSS"/>
+ 		<param name="imagePath" type="text" default="/images/stories/" label="Location of the Images?" description="IMGPATH"/>
+ 		<param name="text_direction" type="list" default="ltr" label="Text Direction" description="TXTDIRN">
+ 			<option value="ltr">Left to Right</option>
+ 			<option value="rtl">Right to Left</option>
+ 		</param>
+		<param name="entermode" type="list" default="0" label="Enter Mode" description="DESCENTERMODE">
+			<option value="0">BR Elements</option>
+ 			<option value="1">P Elements</option>
+ 			<option value="2">Div Elements</option>
+ 		</param>
+		<param name="shiftentermode" type="list" default="1" label="Shift Enter Mode" description="DESCSHIFTENTERMODE">
+			<option value="0">BR Elements</option>
+ 			<option value="1">P Elements</option>
+ 			<option value="2">Div Elements</option>
+ 		</param>
+		<param name="wwidth" type="text" default="100%" label="width" description="The width of Editor"/>
+		<param name="hheight" type="text" default="480" label="height" description="The height of Editor"/>
+	</params>
+	<params group="advanced">
+		<param name="showerrors" type="radio" default="1" label="Display Errors" description="DESCSHOWERROR">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>		
+		<param name="lang_mode" type="radio" default="1" label="Language Selection Mode" description="DESCLANGMODE">
+ 			<option value="0">Manual</option>
+ 			<option value="1">Joomla! Default</option>
+			<option value ="2">Browser Default</option>
+ 		</param>
+ 		<param name="lang_code" type="text" default="en" label="Language Code" description="DESCLANGCODE"/>
+ 		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="htmlentities" type="radio" default="0" label="Process HTML Entities" description="DESCPROCHTMLENT">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="includelatinentities" type="radio" default="0" label="Include Latin Entities" description="DESCINCLATINENT">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="includegreekentities" type="radio" default="0" label="Include Greek Entities" description="DESCINCGREEKENT">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="numericentities" type="radio" default="0" label="Process Numeric Entities" description="DECPROCNUMENT">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="UserRelativeFilePath" type="radio" default="0" label="Use Relative path for Images" description="USERELPATH">
+ 			<option value="0">No</option>
+ 			<option value="1">Yes</option>
+ 		</param>
+		<param name="FormatSource" type="radio" default="1" label="Auto Format Source OFF" description="FMTSRC">
+ 			<option value="1">Yes</option>
+ 			<option value="0">No</option>
+		</param>
+		<param name="add_stylesheet_path" type="text" default="" label="Location For Additional Stylesheets" description="DESCADDCSSSHEET"/>
+			<param name="add_stylesheet" type="text" default="" label="Additional Stylesheets" description="DESCADDCSSHEETNAMES"/>
+		<param name="bgcolor" type="text" default="#FFFFFF" label="Background Color" description="DESCBKCOLOR"/>	
+	</params>
+</install>

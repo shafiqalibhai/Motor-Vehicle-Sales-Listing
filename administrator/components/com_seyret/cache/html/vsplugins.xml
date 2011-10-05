@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<videoserverplugins>
+	 <vsplugin name="3dpixelstyle" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="3dpixelstyle Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>6zdxt0sh3er7lpvu9oq2</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="abrutis.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="abrutis.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>9gq3jw8bvdikolz2nxut</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="arabic" packtype="language" targetfolder="/components/com_seyret/language" vspdname="Arabic Language for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>tjkfuos4hy2g9zcw71nv</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="atomicred" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Atomicred Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>06z1c7lbir395fe4tnmk</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="blip.tv" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Bliptv Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>5w1v8njbpiotz649edcs</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="break.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Break.com Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>6mhvp41u2zwry583toxn</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="brightcove.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Brightcove Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>soxqhztci5p9f3wd0kj4</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="brightcove.tv" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Brightcove.tv Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>emn7lgiws20vqrc5uph8</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="clipfish.de" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Clipfish.de Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>kt7xynrlpdzq10cm6uwo</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="comet" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Comet Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>eiusbqjcpwfdn8vlogxy</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="controlpanel" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Controlpanel Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>ecnd5l2f4js79wpt18v3</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="crackle.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="crackle.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>d58joe0pni172xy4rfb9</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="dailymotion" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Dailymotion Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>9soib0zp17uxfmhen2qt</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="dangdang" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Dangdang Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>l5qbs80mn7361c49ipdv</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultarabic" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/arabic" vspdname="Arabic Buttons for Default Theme">
+		<pversion>3</pversion>
+		<downloadcode>on4tdeiz8mjvrs6k5bpg</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultenglish" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/english" vspdname="English Buttons for Default Theme">
+		<pversion>1</pversion>
+		<downloadcode>b9espwg5yqr6lkudv8m3</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultfrench" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/french" vspdname="French Buttons for Default Theme">
+		<pversion>1</pversion>
+		<downloadcode>ru5mcdp0ezxv4i1728ws</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultgerman" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/german" vspdname="German Buttons for Default Theme">
+		<pversion>1</pversion>
+		<downloadcode>b4vwy792loknhfscr35m</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultitalian" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/italian" vspdname="Italian Buttons for Seyret Default Theme">
+		<pversion>2</pversion>
+		<downloadcode>zfspdn62kuex9o00mgwb</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="defaultturkish" packtype="localizedbuttons" targetfolder="/components/com_seyret/themes/default/images/turkish" vspdname="Turkish Buttons for Default Theme">
+		<pversion>1</pversion>
+		<downloadcode>z7gldwv48on23qbm0rs9</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="discussfb" packtype="tool" targetfolder="/components/com_seyret/plugins/comment" vspdname="Fireboard Discuss Plugin for Seyret">
+		<pversion>3</pversion>
+		<downloadcode>l7wunxqtyjk4f3ziresh</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="fashion" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Fashion Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>2r8qpywnovf04569bxmz</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="festival" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Festival Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>xcepudgj308tvyb6iz5o</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="french" packtype="language" targetfolder="/components/com_seyret/language" vspdname="French Language for Seyret">
+		<pversion>3</pversion>
+		<downloadcode>vu1j0bhpywfgic4snrmx</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="gametrailers.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Gametrailers Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>cpvo06wlyx1384s2hdkj</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="getid3" packtype="tool" targetfolder="/seyretfiles/tools/getid3" vspdname="getid3 Package - version 1.7.8b2">
+		<pversion>1</pversion>
+		<downloadcode>3k204wvx6hmgdf1qiz9b</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="glumbert.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Glumbert.com Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>w8742mgd0b31i6houe5n</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="gofish.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Gofish.com Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>po9j3fyzq1egm6vx0wsi</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="google" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Google Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>ltg0peni4vko1df5yzhw</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="guba.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Guba.com Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>emq6grij7lc4u28b0syk</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="howcast.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="howcast.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>k6iv023jedqfgo8mnh1s</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="icecreamsneaka" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Icecreamsneaka Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>p0xtlg43kc9msjowb2u5</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="izlesene.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Izlesene.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>hscbkfl6ep3ogtj9vd4i</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="kleur" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Kleur Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>vjesbo5n34t96p8r2iwc</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="koreus.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="koreus.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>2hxc8e6dmbj40i1ukfyp</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="livevideo.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Livevideo.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>zm8wslo7u1gqd4iyvptj</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="localfile" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Localfile Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>b9f1ctzh3irgs2eu700m</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="magma" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Magma Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>s70pdtrjefzq832h1vk5</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="megavideo.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Megavideo.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>5jb9skm2vlx1cezqrwdi</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="metacafe" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Metacafe Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>k642g9w5x3jdzqi1n0fy</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="metarby10" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Metarby10 Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>3804pm267hroyzi5tkx9</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="mojoflix.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Mojoflix Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>05gt8x6b4ornjsev2f1p</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="motionbox.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="motionbox.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>hx6v8pnuyq3jz5srw0e7</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="movieweb.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Movieweb Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>n27fe5g0dkcmywj3sl8h</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="myspace.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Myspace.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>cr0091w6zyj2i3tqnpbd</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="myspacetv.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Myspacetv.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>kf9v5xcz26lr7mjwdbyq</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="myvideo.de" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Myvideo.de Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>s0qrf6xmlkvgyue7h51d</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="nacht" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Nacht Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>uyjdxr8vpzf4ehgimbs7</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="neon" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Neon Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>1qsiwpetuhc7o3lbkd4g</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="neufstream.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Neufstream Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>nyjrtkpiz63qevl4mg82</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="pearlized" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Pearlized Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>2q6j9pz8hs1bl0dcxtnw</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="pikniktube" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Pikniktube Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>7zm84ux5picvy2n1w93t</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="pixelize" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Pixelize Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>mplhvjwixnz0cekyst1o</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="playcasso" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Playcasso Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>cw2yzv0xshl1fpu5rted</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="player" packtype="tool" targetfolder="/components/com_seyret/localplayer" vspdname="JW Player 4.2">
+		<pversion>1</pversion>
+		<downloadcode>gnud8meypzxtorilc49j</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="putfile.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Putfile.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>it5udblcnxyhmes4qpg0</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="revver.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Revver Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>9tyd0npgv2kjosbmuxqw</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="rutube.ru" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="rutube.ru Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>viluz9qdo38521yrhxcn</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="schoon" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Schoon Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>i23gb0lzd7q94kmpcfnv</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="sclipo.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Sclipo Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>cmf1lpi9xzeshq27wo3t</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="sevenload.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Sevenload Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>716prq4xbjid8cluz0mf</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="seyret_default1" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Seyret_default1 Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>xef0vlksh7mcubnqy92i</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="silverywhite" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Silverywhite Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>bj6yzrw3t5kuqgv91oci</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="snel" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Snel Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>kyjmuopr81sxihz309f2</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="snowvision.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Snowvision Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>fkwbve2it01scymrxu8d</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="stijl" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Stijl Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>3ikw2jsxlqn7pyg1orvh</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="streetfire.net" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="streetfire.net Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>ivtf7ly8m6p5d3hk0zse</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="stupidvideos.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Stupidvideos Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>ihqrw5mtogcj9y76fpnd</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="thatvideosite.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="thatvideosite.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>4ynb3hpw15qz2fsr6ueg</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="traganja" packtype="playerskin" targetfolder="/components/com_seyret/localplayer/skins" vspdname="Traganja Skin for Seyret Player">
+		<pversion>1</pversion>
+		<downloadcode>9buzfv8mnldr2ctjkpog</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="trtube.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Trtube Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>04ocmfg93qkiw8rzb5ny</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="uzmantv.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Uzmantv Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>nm85ld39vbkfjpwegurq</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="veoh.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Veoh Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>fh4t9le26i08x51cqyou</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="viddyou.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="viddyou.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>xmp6t8zfgweoc405khnb</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="video.milliyet.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Video Milliyet Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>jc4npsrvde2y9kq6tm13</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="video.msn.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Video MSN Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>vq2ozprel39iswfjycxu</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="video.yahoo.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Video Yahoo Plugin for Seyret">
+		<pversion>8</pversion>
+		<downloadcode>fnt1cv8yho0qp352im49</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="videoclick.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="videoclick.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>zv865qs3dio974x0lfyp</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="vidiac.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Vidiac Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>j70qrvfc19ugsx4bkmih</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="vidilife.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="vidilife.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>ucqx6h9w38tilpkyove5</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="vimeo.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Vimeo Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>2nvh76mdc59gfwtujib0</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="vsocial.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="vsocial.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>y0q3uv5z9hbgx1fj64ci</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="wegame.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="wegame.com Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>h5e81qjsk3liwg24yb6r</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="yikers.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="yikers.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>ohu7bnt681sfqcrvjypg</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="youtube" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="Youtube Plugin for Seyret">
+		<pversion>7</pversion>
+		<downloadcode>gisj3pqutkvycn1mwxdh</downloadcode>
+	 </vsplugin>
+	 <vsplugin name="zippyvideos.com" packtype="videoserver" targetfolder="/components/com_seyret/plugins/videoserver" vspdname="zippyvideos.com Plugin for Seyret">
+		<pversion>1</pversion>
+		<downloadcode>q452ybo9lfkcugvwexm7</downloadcode>
+	 </vsplugin>
+</videoserverplugins>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+  <name>Tabs &amp; Slides (in content items)</name>
+  <author>JoomlaWorks</author>
+  <creationDate>20/05/2008</creationDate>
+  <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+  <authorEmail>contact@joomlaworks.gr</authorEmail>
+  <authorUrl>www.joomlaworks.gr</authorUrl>
+  <version>2.4</version>
+  <description>JWTS_DESC</description>
+  <params>
+    <param name="@spacer" type="spacer" default="=== Slides Configuration ===" label="" description="" />
+    <param name="slides_slidespeed" type="text" default="30" label="Slide Speed" description="Higher value equals faster slide speed." />
+    <param name="slides_timer" type="text" default="10" label="Slide Timer" description="Lower value equals faster slide time." />
+  </params>
+  <files>
+    <filename plugin="jwts">jwts.php</filename>
+    <filename plugin="jwts">plugin_jw_ts/logo.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/slide_bg.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/slide_bg_b.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/slide_bg_l.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/slide_bg_r.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/star.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/tab_bg.png</filename>
+    <filename plugin="jwts">plugin_jw_ts/tabs_slides.css</filename>
+    <filename plugin="jwts">plugin_jw_ts/tabs_slides.js</filename>
+    <filename plugin="jwts">plugin_jw_ts/tabs_slides_comp.js</filename>
+    <filename plugin="jwts">plugin_jw_ts/tabs_slides_def_loader.js</filename>
+    <filename plugin="jwts">plugin_jw_ts/tabs_slides_opt_loader.js</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">language/en-GB/en-GB.plg_content_jwts.ini</language>
+  </languages>
+</install>

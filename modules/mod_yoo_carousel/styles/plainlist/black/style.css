@@ -1,0 +1,33 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.plainlist div.yoo-carousel {
+	background: #1E1E1E;
+}
+
+/* tabs */
+.yootools-black div.plainlist div.yoo-carousel ul.tabs li a {
+	background: url(styles/plainlist/black/images/tab_bg.png) 0 0 repeat-x;
+}
+
+.yootools-black div.plainlist div.yoo-carousel ul.tabs li.selected a {
+	background: url(styles/plainlist/black/images/tab_bg.png) 0 -40px repeat-x;
+}
+
+.yootools-black div.plainlist div.yoo-carousel ul.tabs li.selected a span {
+	color: #ffffff;
+}
+
+.yootools-black div.plainlist div.yoo-carousel li a:link,
+.yootools-black div.plainlist div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black div.plainlist div.yoo-carousel li a:hover,
+.yootools-black div.plainlist div.yoo-carousel li.selected a:link,
+.yootools-black div.plainlist div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+.yootools-black div.plainlist div.yoo-carousel .article h3 {
+	color: #646464;
+}

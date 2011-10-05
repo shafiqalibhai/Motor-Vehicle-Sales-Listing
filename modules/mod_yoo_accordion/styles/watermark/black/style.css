@@ -1,0 +1,18 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.watermark div.yoo-accordion {
+	border: 1px solid #323232;
+	background: url(styles/watermark/black/images/watermark.png) 50% 40% no-repeat;
+}
+
+.yootools-black div.watermark div.yoo-accordion dt.toggler {
+	background: url(styles/watermark/black/images/item_header.png) 0 0 repeat-x;
+}
+
+.yootools-black div.watermark div.yoo-accordion dd div.article {
+	background: url(styles/watermark/black/images/item_header.png) 0 100% repeat-x;
+}
+
+.yootools-black div.watermark div.yoo-accordion dd.last div.article {
+	background: none;
+}

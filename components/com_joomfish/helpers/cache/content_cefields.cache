@@ -1,0 +1,1 @@
+a:2:{s:10:"textFields";a:6:{i:0;s:5:"alias";i:1;s:9:"introtext";i:2;s:8:"fulltext";i:3;s:7:"metakey";i:4;s:10:"publish_up";i:5;s:12:"publish_down";}s:10:"fieldTypes";a:6:{s:5:"alias";s:4:"text";s:9:"introtext";s:8:"htmltext";s:8:"fulltext";s:8:"htmltext";s:7:"metakey";s:4:"text";s:10:"publish_up";s:4:"text";s:12:"publish_down";s:4:"text";}}

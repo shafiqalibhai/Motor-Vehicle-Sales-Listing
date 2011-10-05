@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Polls</name>
+  <author>A. Kempkens</author>
+  <version>2.0.1</version>
+  <description>Definition for the core poll component</description>
+  <reference>
+  	<table name="polls">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title" translate="1">Title</field>
+  		<field type="text" name="alias" translate="1" posthandler="filterTitle">Alias</field>
+  		<field type="checked_out_by" name="checked_out" translate="0">Check out by</field>
+  		<field type="checked_out_date" name="checked_out_time" translate="0">Check out date</field>
+  	</table>
+  </reference>
+</joomfish>

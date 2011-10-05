@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Dutch Language for Seyret</name>
+	<packageversion>4</packageversion>
+	<type>language</type>
+	<date>25.07.2008</date>
+	<author>Lex van Dommelen</author>
+	<authorEmail>adminm@yeos.nl</authorEmail>
+	<authorUrl>http://www.yeos.nl</authorUrl>
+	<copyright>2008 Lex van Dommelen</copyright>
+	<description>Dutch language file for Seyret.</description>
+	<targetfolder>/components/com_seyret/language</targetfolder>
+	<files>
+		<filename>dutch.xml</filename>
+		<filename>dutch.php</filename>
+	</files>
+</seyretxml>

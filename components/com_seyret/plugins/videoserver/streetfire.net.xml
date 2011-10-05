@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>streetfire.net Plugin for Seyret</name>
+	<packageversion>1</packageversion>
+	<type>videoserver</type>
+	<date>15.10.2008</date>
+	<author>Mustafa Dindar</author>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaholic.com</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>streetfire.net plugin for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/plugins/videoserver</targetfolder>
+	<compatibility>0.2.8.1; 0.2.8.2</compatibility>
+	<files>
+		<filename>streetfire.net.xml</filename>
+		<filename>streetfire.net.php</filename>
+	</files>
+</seyretxml>

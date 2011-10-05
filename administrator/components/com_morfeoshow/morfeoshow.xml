@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>MorfeoShow</name>
+	<author>Vamba</author>
+	<creationDate>Agosto 2008</creationDate>
+	<copyright>Copyright (C) 2005 - 2008 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>matt@ignitewebdesign.co.nz</authorEmail>
+	<authorUrl>www.joomlaitalia.com.com</authorUrl>
+	<version>1.2.0</version>
+	<description>MorfeoShow Component for Joomla! 1.5 More than a Simple Gallery this project based on Matthew Thomson ignitegallery component.</description>
+	<installfile>install.morfeoshow.php</installfile>
+	<uninstallfile>uninstall.morfeoshow.php</uninstallfile>	
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">install.mysql.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+		</sql>
+	</uninstall>
+		<files folder="component">
+			<filename>index.html</filename>
+			<filename>gallery.swf</filename>
+			<filename>gallery.xml</filename>
+			<filename>morfeoshow.html.php</filename>
+			<filename>morfeoshow.php</filename>
+			<filename>router.php</filename>
+			<filename>images/index.html</filename>
+			<filename>images/front.png</filename>
+			<filename>images/loading.gif</filename>
+			<filename>images/no.png</filename>
+			<filename>images/overlay-85.png</filename>
+			<filename>myphoto/index.html</filename>			
+			<filename>src/imagerotator.swf</filename>
+			<filename>src/polaroid.swf</filename>			
+			<filename>src/postcard.swf</filename>
+			<filename>src/shadowbox.js</filename>			
+			<filename>src/viewer.swf</filename>		
+			<filename>src/index.html</filename>
+			<filename>src/adapter/index.html</filename>
+			<filename>src/adapter/shadowbox-base.js</filename>			
+			<filename>src/adapter/shadowbox-dojo.js</filename>
+			<filename>src/adapter/shadowbox-jquery.js</filename>
+			<filename>src/adapter/shadowbox-mootools.js</filename>
+			<filename>src/adapter/shadowbox-prototype.js</filename>
+			<filename>src/adapter/shadowbox-yui.js</filename>	
+			<filename>src/js/index.html</filename>
+			<filename>src/js/dojo.js</filename>			
+			<filename>src/js/gmapez-2.js</filename>
+			<filename>src/js/jquery-1.2.3.pack.js</filename>
+			<filename>src/js/jquery.blockUI-1.33.pack.js</filename>
+			<filename>src/js/jquery.history.pack.js</filename>
+			<filename>src/js/mootools.js</filename>
+			<filename>src/js/picas.js</filename>			
+			<filename>src/js/prototype.js</filename>	
+			<filename>src/js/swfobject.js</filename>
+			<filename>src/js/yui-utilities.js</filename>			
+			<filename>src/js/css/index.html</filename>		
+			<filename>src/js/css/pic.css</filename>
+			<filename>src/lang/index.html</filename>
+			<filename>src/lang/shadowbox-de.js</filename>	
+			<filename>src/lang/shadowbox-en.js</filename>	
+			<filename>src/lang/shadowbox-es.js</filename>	
+			<filename>src/lang/shadowbox-fr.js</filename>	
+			<filename>src/lang/shadowbox-it.js</filename>	
+			<filename>src/lang/shadowbox-nl.js</filename>	
+			<filename>src/lang/shadowbox-pl.js</filename>	
+			<filename>src/lang/shadowbox-pt.js</filename>	
+			<filename>src/lang/shadowbox-ru.js</filename>				
+			<filename>src/player/index.html</filename>	
+			<filename>src/player/shadowbox-img.js</filename>
+			<filename>src/skin/index.html</filename>	
+			<filename>src/skin/classic/index.html</filename>
+			<filename>src/skin/classic/loading.gif</filename>
+			<filename>src/skin/classic/skin.css</filename>
+			<filename>src/skin/classic/skin.js</filename>
+			<filename>src/skin/classic/icons/index.html</filename>			
+			<filename>src/skin/classic/icons/close.png</filename>
+			<filename>src/skin/classic/icons/next.png</filename>
+			<filename>src/skin/classic/icons/pause.png</filename>
+			<filename>src/skin/classic/icons/play.png</filename>
+			<filename>src/skin/classic/icons/previous.png</filename>			
+			<filename>style/style.css</filename>
+			<filename>style/index.html</filename>
+			<filename>tpl/index.html</filename>
+			<filename>tpl/classic/index.html</filename>
+			<filename>tpl/classic/fancybox1.php</filename>	
+			<filename>tpl/classic/fancybox2.php</filename>
+			<filename>tpl/classic/fancybox3.php</filename>	
+			<filename>tpl/classic/fancybox4.php</filename>				
+			<filename>tpl/classic/shadowbox1.php</filename>	
+			<filename>tpl/classic/shadowbox2.php</filename>
+			<filename>tpl/classic/shadowbox3.php</filename>	
+			<filename>tpl/classic/shadowbox4.php</filename>			
+			<filename>tpl/flickrsingle/index.html</filename>
+			<filename>tpl/flickrsingle/flickrsingle.php</filename>			
+			<filename>tpl/imagerotator/index.html</filename>
+			<filename>tpl/imagerotator/imagerotator.php</filename>			
+			<filename>tpl/imageviewer/index.html</filename>
+			<filename>tpl/imageviewer/imageviewer.php</filename>			
+			<filename>tpl/picasa/index.html</filename>
+			<filename>tpl/picasa/picasa.php</filename>			
+			<filename>tpl/polaroid/index.html</filename>
+			<filename>tpl/polaroid/polaroid.php</filename>			
+			<filename>tpl/postcard/index.html</filename>
+			<filename>tpl/postcard/postcard.php</filename>
+			<filename>tpl/resources/index.html</filename>
+			<filename>tpl/resources/boxover/index.html</filename>
+			<filename>tpl/resources/boxover/boxover.js</filename>			
+			<filename>tpl/resources/fancy/index.html</filename>
+			<filename>tpl/resources/fancy/bg.png</filename>
+			<filename>tpl/resources/fancy/fancy.css</filename>
+			<filename>tpl/resources/fancy/fancy_closebox.png</filename>
+			<filename>tpl/resources/fancy/fancy_left.gif</filename>
+			<filename>tpl/resources/fancy/fancy_progress.png</filename>
+			<filename>tpl/resources/fancy/fancy_right.gif</filename>
+			<filename>tpl/resources/fancy/fancy_shadow_e.png</filename>
+			<filename>tpl/resources/fancy/fancy_shadow_n.png</filename>			
+			<filename>tpl/resources/fancy/fancy_shadow_ne.png</filename>
+			<filename>tpl/resources/fancy/fancy_shadow_nw.png</filename>	
+			<filename>tpl/resources/fancy/fancy_shadow_s.png</filename>
+			<filename>tpl/resources/fancy/fancy_shadow_se.png</filename>	
+			<filename>tpl/resources/fancy/fancy_shadow_sw.png</filename>
+			<filename>tpl/resources/fancy/fancy_shadow_w.png</filename>				
+			<filename>tpl/resources/fancy/fancy_title_left.png</filename>
+			<filename>tpl/resources/fancy/fancy_title_main.png</filename>	
+			<filename>tpl/resources/fancy/fancy_title_right.png</filename>
+			<filename>tpl/resources/fancy/jquery.fancybox-1.0.0.js</filename>	
+			<filename>tpl/resources/fancy/jquery.pngFix.pack.js</filename>
+			<filename>tpl/resources/lightbox/index.html</filename>
+			<filename>tpl/resources/lightbox/blank.gif</filename>
+			<filename>tpl/resources/lightbox/close.png</filename>			
+			<filename>tpl/resources/lightbox/lb.css</filename>
+			<filename>tpl/resources/lightbox/lb.js</filename>
+			<filename>tpl/resources/lightbox/load.gif</filename>
+			<filename>tpl/resources/lightbox/next.gif</filename>
+			<filename>tpl/resources/lightbox/prev.gif</filename>
+			<filename>tpl/resources/phpFlickr/index.html</filename>
+			<filename>tpl/resources/phpFlickr/phpFlickr.php</filename>
+			<filename>tpl/resources/phpFlickr/auth.php</filename>
+			<filename>tpl/resources/phpFlickr/getToken.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB.php</filename>			
+			<filename>tpl/resources/phpFlickr/PEAR/PEAR.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/index.html</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB/index.html</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB/common.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB/mysql.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB/pgsql.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/DB/storage.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/HTTP/index.html</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/HTTP/Request.php</filename>
+			<filename>tpl/resources/phpFlickr/PEAR/HTTP/Request/index.html</filename>	
+			<filename>tpl/resources/phpFlickr/PEAR/HTTP/Request/Listener.php</filename>	
+			<filename>tpl/resources/phpFlickr/PEAR/Net/index.html</filename>	
+			<filename>tpl/resources/phpFlickr/PEAR/Net/Socket.php</filename>	
+			<filename>tpl/resources/phpFlickr/PEAR/Net/URL.php</filename>				
+		</files>
+	<languages folder="component/lang">
+		<language tag="de-DE">de-DE.com_morfeoshow.ini</language>	
+		<language tag="fr-FR">fr-FR.com_morfeoshow.ini</language>	
+		<language tag="en-GB">en-GB.com_morfeoshow.ini</language>
+		<language tag="it-IT">it-IT.com_morfeoshow.ini</language>
+	</languages>	
+	<administration>
+		<menu img="components/com_morfeoshow/images/tool.png">MorfeoShow</menu>
+		<menu link="option=com_morfeoshow">MorfeoShow</menu>
+			<submenu>
+			<menu img="components/com_morfeoshow/images/gall.png" link="option=com_morfeoshow">Galleries</menu>
+			<menu img="components/com_morfeoshow/images/conf.png" link="option=com_morfeoshow&amp;task=showSettings">Configuration</menu>				
+			<menu img="components/com_morfeoshow/images/infor.png" link="option=com_morfeoshow&amp;task=info">Info</menu>				
+			</submenu>		
+		<files folder="admin">
+			<filename>admin.morfeoshow.php</filename>
+			<filename>admin.morfeoshow.html.php</filename>
+			<filename>index.html</filename>
+			<filename>install.mysql.sql</filename>
+			<filename>settings.php</filename>			
+			<filename>toolbar.morfeoshow.php</filename>
+			<filename>toolbar.morfeoshow.html.php</filename>
+			<filename>uninstall.mysql.sql</filename>
+			<filename>css/border.png</filename>
+			<filename>css/button1_left.png</filename>
+			<filename>css/button1_next.png</filename>
+			<filename>css/crn_bl_light.png</filename>
+			<filename>css/crn_br_light.png</filename>
+			<filename>css/crn_tl_light.png</filename>
+			<filename>css/crn_tr_light.png</filename>
+			<filename>css/index.html</filename>
+			<filename>css/install.css</filename>
+			<filename>helpers/configuration.php</filename>
+			<filename>helpers/deltempdir.php</filename>
+			<filename>helpers/gallery.php</filename>
+			<filename>helpers/index.html</filename>	
+			<filename>helpers/menu.php</filename>
+			<filename>helpers/photo.php</filename>
+			<filename>helpers/upload.php</filename>
+			<filename>helpers/xml.php</filename>			
+			<filename>images/ban.gif</filename>
+			<filename>images/conf.png</filename>			
+			<filename>images/delete.png</filename>	
+			<filename>images/edit.png</filename>
+			<filename>images/flickr.png</filename>
+			<filename>images/flickrmap.png</filename>
+			<filename>images/gall.png</filename>			
+			<filename>images/gallerie.png</filename>
+			<filename>images/google.png</filename>
+			<filename>images/icon.css</filename>
+			<filename>images/img.png</filename>
+			<filename>images/img1.png</filename>				
+			<filename>images/immagini.png</filename>
+			<filename>images/infor.png</filename>			
+			<filename>images/install.png</filename>			
+			<filename>images/logoflickr.png</filename>
+			<filename>images/logogoogle.png</filename>
+			<filename>images/logopicasa.png</filename>
+			<filename>images/logo.png</filename>			
+			<filename>images/menu.png</filename>
+			<filename>images/modifica.png</filename>
+			<filename>images/nuova.png</filename>	
+			<filename>images/pica.png</filename>			
+			<filename>images/tool.png</filename>	
+			<filename>images/upload.png</filename>
+			<filename>images/vlogo.png</filename>			
+			<filename>images/index.html</filename>
+			<filename>tables/index.html</filename>			
+			<filename>tables/morfeoshow.php</filename>
+			<filename>tables/morfeoshow_img.php</filename>
+			<filename>tables/morfeoshow_rating.php</filename>
+			<filename>view/addgallery.php</filename>	
+			<filename>view/addphoto.php</filename>	
+			<filename>view/config.php</filename>	
+			<filename>view/editgallery.php</filename>	
+			<filename>view/editphoto.php</filename>	
+			<filename>view/index.html</filename>
+			<filename>view/info.php</filename>	
+			<filename>view/photo.php</filename>	
+			<filename>view/postinstall.php</filename>
+			<filename>view/showgallery.php</filename>			
+		</files>
+		<languages folder="admin/lang">
+			<language tag="de-DE">de-DE.com_morfeoshow.ini</language>		
+			<language tag="fr-FR">fr-FR.com_morfeoshow.ini</language>		
+			<language tag="en-GB">en-GB.com_morfeoshow.ini</language>
+			<language tag="es-ES">es-ES.com_morfeoshow.ini</language>			
+			<language tag="it-IT">it-IT.com_morfeoshow.ini</language>
+			<language tag="nl-NL">nl-NL.com_morfeoshow.ini</language>			
+		</languages>
+		<media folder="admin" destination="com_oziogallery/images">
+			<filename>images/tool.png</filename>
+		</media>		
+	</administration>
+	
+</install>

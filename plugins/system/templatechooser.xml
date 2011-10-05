@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<install version="1.5" type="plugin" group="system">
+   <name>Template Chooser</name>
+   <version>4.0.0</version>
+   <author>Ulti Joomla</author>
+   <creationDate>February 2009</creationDate>
+   <copyright>(C) 2009 Ulti Joomla. All rights reserved.</copyright>
+   <license>GNU/GPL</license>
+   <authorEmail>largowww@gmail.com</authorEmail>
+   <description>
+     <![CDATA[ 
+       This is the plugin of the Template Chooser module. 
+       <br><br>
+       Usage: The plugin has to be enabled make the Template Chooser module work. All parameters are included in the module
+       <br>
+       Check the plugin website for support: <a href="http://www.ultijoomla.be">Ulti Joomla</a>  
+      ]]> 
+   </description>
+	<files>
+        <filename plugin="templatechooser">templatechooser.php</filename>
+    </files>
+	<params>
+	</params>
+</install>

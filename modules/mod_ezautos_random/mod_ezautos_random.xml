@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>EZ Autos Random Listing</name>
+	<author>K.J. Strickland</author>
+	<creationDate>14th October 2008</creationDate>
+	<copyright>(C) 2006-2008 K.J. Strickland</copyright>
+	<license>Commercial</license>
+	<authorEmail>kathy@raptorservices.com.au</authorEmail>
+	<authorUrl>www.raptorservices.com.au</authorUrl>
+	<version>3.14</version>
+	<description>This module shows a random EZ Autos vehicle listing.</description>
+	<files>
+		<filename module="mod_ezautos_random">mod_ezautos_random.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="count" type="text" default="5" label="Total Listings" description="The number of random listings to display at any one time (default is 5)" />
+		<param name="align" type="text" default="center" label="Horizontal Alignment" description="The horizontal alignment of image and text (default is center)" />
+		<param name="horizspace" type="text" default="10" label="Horizontal Space (px)" description="Horizontal space between image and next bit (default is 10)" />
+		<param name="colcount" type="text" default="1" label="Column Count" description="Number of columns across the page (default is 1)" />
+		<param name="colwidth" type="text" default="100%" label="Column Width" description="Width of columns in terms of percentage - you must include the percentage sign (default is 100% for a single-column output)" />
+		<param name="slimbox2" type="list" default="1" label="Type of Image Display" description="Select what sort of image system to use with the previews">
+			<option value="0">Image Only</option>
+			<option value="1">Slimbox Preview</option>
+			<option value="2">Javascript Pop-up</option>
+		</param>
+		<param name="popwidth3" type="text" default="200" label="Popup Image Width (px)" description="Width to resize popup image to (default is 200 pixels wide)" />
+	</params>
+</mosinstall>

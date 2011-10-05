@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+  <name>Weblinks</name>
+  <author>A. Kempkens</author>
+  <version>2.0.1</version>
+  <description>Definition for the core web links component</description>
+  <reference>
+  	<table name="weblinks">
+  		<field type="referenceid" name="id" translate="0">ID</field>
+  		<field type="titletext" name="title" translate="1">Title</field>
+  		<field type="textarea" name="description" translate="1">Description</field>
+  		<field type="text" name="url" translate="1">URL</field>
+  	</table>
+  </reference>
+</joomfish>

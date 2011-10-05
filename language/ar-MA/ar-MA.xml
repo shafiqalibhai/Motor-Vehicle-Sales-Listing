@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metafile version="1.5"  client="site" >
+	<tag>ar-MA</tag>
+	<name>Arabic (Arab World)</name>
+	<description>هذه الحزمة تحتوى على ملفات اللغة العربية لواجهة الموقع لجملة! 1.5.7</description>
+	<version>1.5.7</version>
+	<creationDate>2008-09-30</creationDate>
+	<author>Azeddine Hmimssa</author>
+	<authorUrl>www.alamwaal.com</authorUrl>
+	<authorEmail>hazdine@gmail.com</authorEmail>
+	<copyright>(C) 2005 Open Source Matters. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<metadata>
+		<name>Arabic (Arab World)</name>
+		<tag>ar-MA</tag>
+		<rtl>1</rtl>
+		<locale>ar, ar-MA, ma, ara_MA,ar_MA, ar_EG, arabic, arabic-ma, ar, ar_MA.utf8, maroc, morocco, Arabic, Arabic_Maroc, Arabic_Morocco, Arabic_Egypt</locale>
+		<winCodePage>windows-1256</winCodePage>
+		<backwardLang>arabic</backwardLang>
+		<pdfFontName>freeserif</pdfFontName>
+	</metadata>
+	<params></params>
+</metafile>

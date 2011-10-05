@@ -1,0 +1,68 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.default div.yoo-carousel {
+	background: #141414;
+}
+
+/* tabs */
+.yootools-black div.default div.yoo-carousel div.top ul.tabs {
+	background: url(styles/default/black/images/tab_bg.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li a {
+	background: url(styles/default/black/images/tab_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li.selected a {
+	background: url(styles/default/black/images/tab_m.png) 0 -40px repeat-x;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li a span {
+	background: url(styles/default/black/images/tab_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li.selected a span {
+	background: url(styles/default/black/images/tab_l.png) 0 -40px no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li a span span {
+	background: url(styles/default/black/images/tab_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel div.top ul.tabs li.selected a span span {
+	background: url(styles/default/black/images/tab_r.png) 100% -40px no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel li a:link, .yootools-black div.default div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black div.default div.yoo-carousel li a:hover, .yootools-black div.default div.yoo-carousel li.selected a:link, .yootools-black div.default div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+/* buttons */
+.yootools-black div.default div.yoo-carousel .prev span {
+	background: url(styles/default/black/images/button_prev.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel .next span {
+	background: url(styles/default/black/images/button_next.png) 100% 0 no-repeat;
+}
+
+/* scroller */
+.yootools-black div.default div.yoo-carousel .panel-container {
+	background: url(styles/default/black/images/panel_b.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default div.yoo-carousel .panel-container-bl {
+	background: url(styles/default/black/images/panel_bl.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel .panel-container-br {
+	background: url(styles/default/black/images/panel_br.png) 100% 100% no-repeat;
+}
+
+.yootools-black div.default div.yoo-carousel .article h3 {
+	color: #787878;
+}

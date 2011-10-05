@@ -1,0 +1,60 @@
+/* (C) 2007 YOOtheme.com */
+
+div.plainlist div.yoo-carousel {
+	background: #F0F0F0;
+}
+
+/* tabs */
+div.plainlist div.yoo-carousel ul.tabs li a {
+	background: url(styles/plainlist/images/tab_bg.png) 0 0 repeat-x;
+}
+
+div.plainlist div.yoo-carousel ul.tabs li.selected a {
+	background: url(styles/plainlist/images/tab_bg.png) 0 -40px repeat-x;
+}
+
+div.plainlist div.yoo-carousel ul.tabs li a span {
+	padding: 5px 5px 0px 10px;
+	height: 35px;
+	line-height: 15px;
+	font-size: 12px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+div.plainlist div.yoo-carousel ul.tabs li.selected a span {
+	color: #ffffff;
+}
+
+div.plainlist div.yoo-carousel li a:link,
+div.plainlist div.yoo-carousel li a:visited {
+	color: #969696;
+	text-decoration: none;
+}
+
+div.plainlist div.yoo-carousel li a:hover,
+div.plainlist div.yoo-carousel li.selected a:link,
+div.plainlist div.yoo-carousel li.selected a:visited {
+	color: #646464;
+	text-decoration: none;
+}
+
+/* scroller */
+div.plainlist div.yoo-carousel div.frame {
+	float: left;
+}
+
+/* article */
+div.plainlist div.yoo-carousel .article {
+	font-size: 95%;
+	line-height: 125%;
+}
+
+div.plainlist div.yoo-carousel .article h3 {
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	line-height: 100%;
+	font-size: 150%;
+	font-weight: bold;
+	color: #323232;
+}

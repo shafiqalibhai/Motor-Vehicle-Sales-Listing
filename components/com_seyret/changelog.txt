@@ -1,0 +1,228 @@
+*********************************************************
+*                      S E Y R E T                      *
+*             V I D E O   C O M P O N E N T             *
+*                  www.joomlaholic.com                  *
+*********************************************************
+
+CHANGELOG FOR SEYRET VIDEO COMPONENT
+
+
+=========================================================
+01/11/2008 - 0.2.8.2 Bugfix Release
+=========================================================
+
+-New : Video column counts on Seyret Main Page are controllable from configuration now.
+-New : Saving video thumbnails on own server - optional.
+-New : Saving category thumbnails on own server - optional.
+-New : Alpha user points support for pro users.
+-New : Lots of new plugins for pro users available on plugin update system.
+-Update : JW Player is updated to 4.2
+-Bugfix : Javascript error on some toolbar buttons.
+-Bugfix : Fireboard plugin breaks Seyret with older versions.
+-Bugfix : Player name is wrong for localfiles - non pro version.
+-Bugfix : Non-working plugins on some servers with AJAX.
+-Bugfix : Safari empty embed box fixed.
+=========================================================
+06/10/2008 - 0.2.8.1 Bugfix Release
+=========================================================
+
+-New : LongTail Video Ad system implemented.
+-New : Player is upgraded to latest version. 
+-New : A new cute player skin is added to package.
+-New : Due to license agreements with LongTail Company, image and video ads features are dropped.
+-New : Yahoo video plugin was added.
+-New : Video Response System enable/disable control on configuration page.
+-Removed : Stage6 plugins are dropped.
+-Bugfix : Attempt creating cache folder on front end if not exists.
+-Bugfix : Video responses are gone after clearing cache.
+-Bugfix : Redirect problem on some systems.
+-Bugfix : 404 problem with javascript file. Thanks cleberlr.
+-Bugfix : Users cannot see delete button even they have rights to delete videos.
+
+=========================================================
+24/06/2008 - 0.2.8 Bugfix Release
+=========================================================
+
+-New : Flash based dashboard system. Connection errors will not obstacle entering Seyret admin page.
+-New : Video response system for pro users. 
+-New : Plugin update system has version compatibility control now.
+-New : Duplicate video control on video submission. 
+-New : Vidiac.com plugin added. 
+-New : Pro license move feature. Coupon support for pro upgrades. (Test Stage, not enabled for all pro sites.) 
+-New : Lame support can be disabled from Seyret admin. This will help to check user ffmpeg installation.
+-Bugfix : Joomla Editor doesn't get video details on video edit page.
+-Bugfix : Clean notices.
+-Bugfix : Subcategories are not sorted in alphabetical order.
+-Bugfix : Cannot delete image ads.
+-Bugfix : Unpublished videos can be seen with direct link.
+-Bugfix : Being watched videos module shows unpublished videos.
+-Bugfix : this.tab error on IE.
+-Bugfix : Indent problem on mainpage with IE.
+-Bugfix : Stronger parameter control on video add step needed.
+-Bugfix : Pagination error on J! 1.5 Seyret video page.
+-Bugfix : Warnings on Edit Video page on J!1.5.
+
+
+=========================================================
+19/04/2008 - 0.2.7.9 Bugfix Release
+=========================================================
+
+-Bugfix : Pro problem on https.
+-Bugfix : Missing categories on Seyret main page.
+-New : Filters on admin videos list page.
+-New : Package update system for pro users. Beta feature.
+-New : JComments support. All credits goes to http://www.joomlatune.com/
+
+=========================================================
+19/03/2008 - 0.2.7.8 Bugfix Release
+=========================================================
+
+
+-Bugfix : Html cache problem in multilanguage sites.
+-Bugfix : Pro uploader localization problem.
+-Bugfix : Automatic html cache refreshing is missing.
+-Bugfix : Session is lost on pro upload process with J!1.5.
+-Bugfix : "Right click and save" message is not localized.
+-Bugfix : Categories video pagination error.
+-Bugfix : Google original video links are stored wrong.
+-Bugfix : mpeg upload error.
+-Bugfix : comma is not accepted as seperator in video tags.
+-Bugfix : Width and height problem until player is loaded.
+-Bugfix : divx problems on IE.
+-Bugfix : ffmpeg missing parameters.
+-Bugfix : www problem in pro versions on J!1.5.
+-Bugfix : Refresh button is missing.
+-New : joomla module support. 9 module positions on Seyret template with {seyretmod1}...{seyretmod9}
+-New : A better Being Watched Videos system.
+-New : Support for embedding videos in modules with pro support.
+-New : mov support added.
+-New : "Read more" control added for long descriptions.
+-New : Batch conversion for old non-flv videos.
+-New : New default template. There are also very slight changes on core, for better templating.
+
+=========================================================
+10/02/2008 - 0.2.7.7 A Small Milestone :) Release
+=========================================================
+
+-New : J!1.5 Legacy Mode support. Needs to be tested more.
+-New : Added rmvb and asx support for localfiles.
+-New : RSS link generator. Users will be able to select feed options.
+-New : Users can edit and delete own videos if permission is given.
+-New : Configurations will be restored on new upgrades (post 0.2.7.7).
+-New : Terms of use for Seyret added.
+-New : getid3 support added. Playtime of uploaded videos etc will be analysed. 
+-New : ffmpeg support added.
+-New : Executing environment definitions support for shared hostings added.
+-New : flv conversion support with ffmpeg is added as optional for pro users.
+-New : Thumbnail extraction support with ffmpeg is added as optional for pro users.
+-New : Upload Status Bar implemented for pro users.
+-New : Optional "original location of remote videos" link added.
+-New : Html cache system implemented for better performance. Needs to be tested more.
+-Change : Change voting stars with better ones.
+-Change : Seyret Admin menu is changed to make Seyret compatible with J!1.5 series.
+-Change : Curl timeout duration is increased to 30, some servers are too slow :).
+-Change : HTML editor for video description is optional now.
+-Bugfix : Search results are not in correct date order. Fixed by yli.
+-Bugfix : Even though pro definitions update goes wrong, it shows that Seyret pro is up-to-date.
+-Bugfix : Avi videos are not displayed for local videos.
+-Bugfix : If connection to joomlaholic fails, wrong pro status message is displayed.
+-Bugfix : Corrupted error doesn't disappear on page refresh.
+-Bugfix : Cannot delete permissions level.
+-Bugfix : Google connection test seems to be failed when Google redirects .
+-Bugfix : Wrong permissions are set when upload goes problematically.
+-Bugfix : Php codes appear on some servers while adding video.
+-Bugfix : "No comment" option is added to configuration.
+-Bugfix : Javascript error if fireboard is not installed.
+-Bugfix : Javascript errors on some pages due to image ads.
+-Bugfix : RSS encoding problem.
+-Update : Removed unmaintained language files.
+-Update : Plugin updates.
+
+
+=========================================================
+04/11/2007 - 0.2.7.6 Bugfix Release
+=========================================================
+
+-Change : Improved pro management system.
+-Bugfix : Pro update fails on some servers if allow_url_fopen is off.
+-Update : French language file updated.
+
+=========================================================
+30/10/2007 - 0.2.7.5 Bugfix Release
+=========================================================
+
+-Update : Dutch language file updated.
+-Changed : AJAX removed in video link adding step to enable html editor bots for description.
+-Changed : Video link input box has SEF links now.
+-New : HTML editor for description field.
+-New : Bookmark feature added.
+-New : Video tags are added to meta-keywords.
+-New : Auto approve pro version. No need to click any buttons now.
+-Bugfix : Seyretfiles folder tree is not created. Fixed. 
+-Bugfix : Backup-pro feature is broken. Fixed. 
+-Bugfix : On admin videos list, missing images. 
+-Bugfix : On some servers, security mod dosn't allow video adding.
+-Bugfix : Video ads are not working with localvideos. Fixed.
+-Bugfix : Seyret admin goes to diagnostics before upgrade, problem fixed.
+-Bugfix : Strip " tags from title when adding a video.
+-Bugfix : Report videos bug solved.
+
+=========================================================
+07/09/2007 - 0.2.7.4 Bugfix Release
+=========================================================
+
+-New : Clear cache tool added to diagnostic section. Will be useful for pro users.
+-New : FTP tool added to override file ownership problem.
+-New : Diagnostic tools is added.
+-New : uzmantv.com plugin is added.
+-New : megavideo.com plugin is added.
+-Remove : Bolt.com plugin is removed. Bolt is not online more.
+-Bugfix : Some html fixes.
+-Bugfix : Radiobutton problem with explorer in video add.
+-Bugfix : Myvideo.de thumbnail problem.
+-Bugfix : RSS shows unpublished videos.
+
+=========================================================
+25/08/2007 - 0.2.7.3 Bugfix Release
+=========================================================
+
+-New : Control to disable Pro functions from configuration panel.
+
+-Bugfix : Myspacetv style links don't work. Added a new plugin.
+-Bugfix : Module position bug with Fireboard plugin. Itemid corrected.
+-Bugfix : Javascript Domready event causes problems on some sites. Changed to load.
+
+=========================================================
+20/08/2007 - 0.2.7.2 Bugfix Release
+=========================================================
+
+-Bugfix : Users can see video details while uploading.
+-Bugfix : Sorting buttons don't work when SEO is enabled.
+-Bugfix : Javascript Stack Overflow Problem
+
+=========================================================
+18/08/2007 - 0.2.7.1 Bugfix release
+=========================================================
+
+-Bugfix : Localfile flv problem. Doesn't stream.
+
+=========================================================
+18/08/2007 - 0.2.7 Public Release
+=========================================================
+
+-Bugfix : Search query brings unpublished videos.
+-Bugfix : Video ads are always showing a joomlaholic video.
+-Bugfix : mp3 files have deneme.jpg issue.
+-Bugfix : Fullscreen isn't working correctly.
+-Bugfix : Update pro isn't working if allow_url_fopen is off.
+-Bugfix : Video details have wrong characters while applying a link for non-latin encodings.
+-Bugfix : In explorer there is a cross on thumbnails. blang.gif should be blank.gif.
+-Bugfix : Seyret.js onload function overrides old onload.
+
+-New : Stage6 divx plugin added to package.
+-New : Added divx support for localfiles-Thanks to gitawego.
+-New : Fullscreen button on player.
+=========================================================
+24/06/2007 - 0.2.6.9a Unexpected Release
+=========================================================
+Changelog not available before 0.2.6.9a

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="template">
+	<name>Greenish</name>
+	<creationDate>20 Jan 09</creationDate>
+	<author>Wonderweb.fr</author>
+	<copyright>Wonderweb Design Team</copyright>
+	<authorEmail>maher@Wonderweb.fr</authorEmail>
+	<authorUrl>www.Wonderweb.fr</authorUrl>
+	<version>1.0</version>
+	<description>Greenish</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>ja_templatetools_1.5.php</filename>
+		<filename>ja_vars_1.5.php</filename>
+		<filename>params.ini</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>ja_menus</folder>
+		<folder>css</folder>
+		<folder>js</folder> 
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_ja_wonderweb.ini</language>
+	</languages>
+	<administration>
+    	<languages>
+			<language tag="en-GB">admin/en-GB.tpl_ja_wonderweb.ini</language>
+		</languages>
+    </administration>
+
+	<positions>
+	 <position>header</position>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>banner</position>
+	<position>bannertop</position>
+		<position>left</position>
+		<position>left2</position>
+		<position>right</position>
+		<position>right1</position>
+		<position>right2</position>
+		<position>right3</position>
+		<position>right_top</position>
+		<position>top</position>
+		<position>ja-slideshow</position>
+		<position>ja-tabs</position>
+		<position>usermain</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+	</positions>
+
+	<params>
+		<param name="logoType" type="list" default="image" label="Logo type" description="LOGO TYPE DESCRIPTION">
+			<option value="image">Image</option>
+			<option value="text">Text</option>
+		</param>
+		<param name="logoText" type="text" default="" size="50" label="Logo text" description="LOGO TEXT DESCRIPTION" />
+		<param name="sloganText" type="text" default="" size="50" label="Slogan" description="SLOGAN DESCRIPTION" />
+
+		<param name="ja_font" type="list" default="3" label="Font size" description="FONT SIZE DESCRIPTION">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+		</param>
+
+		<param name="usertool_color" type="list" default="4" label="Enable Style Switching" description="Enable/disable style switching on frontend">
+			<option value="0">Disable</option>
+			<option value="4">Enable</option>
+		</param>
+		<param name="ja_color" type="list" default="default" label="Default Style" description="Default style. If Style Switching is enabled, the selected style on frontpage will be saved. You must disable Style Switching or clear cookie to activate the new default style">
+			<option value="default">Classic</option>
+			<option value="spring">Spring</option>
+			<option value="summer">Summer</option>
+			<option value="autumn">Autumn</option>
+			<option value="winter">Winter</option>
+			<option value="sexy">Sexy</option>
+			<option value="jean">Jean</option>
+		</param>
+
+		<param name="menutype" type="menu" default="mainmenu" label="Menu Type" description="MENU TYPE DESCRIPTION" />
+		<param name="ja_menu" type="list" default="2" label="Menu Module" description="MENU'S TYPE">
+		  <option value="none">Disable</option>
+		  <option value="split">Split Menu</option>
+		  <option value="css">CSS Menu</option>
+		  <option value="moo">Moo Menu</option>
+		</param>
+
+	</params>
+</install>

@@ -1,0 +1,21 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.default div.yoo-accordion {
+	border: 1px solid #323232;
+}
+
+.yootools-black div.default div.yoo-accordion dt.toggler {
+	background: url(styles/default/black/images/item_header.png) 0 0 repeat-x;
+}
+
+.yootools-black div.default div.yoo-accordion dt:hover.toggler, .yootools-black div.default div.yoo-accordion dt.sfhover {
+	background: url(styles/default/black/images/item_header.png) 0 -30px repeat-x;
+}
+
+.yootools-black div.default div.yoo-accordion dd div.article {
+	border-bottom: 1px solid #000000;
+}
+
+.yootools-black div.default div.yoo-accordion dd.last div.article {
+	border-bottom: none;
+}

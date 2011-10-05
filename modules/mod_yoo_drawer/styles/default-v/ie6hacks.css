@@ -1,0 +1,34 @@
+/* (C) 2007 YOOtheme.com */
+
+div.default-v div.yoo-drawer .header-l {
+	background: url(styles/default-v/images/header_l_ie6.png) 0 0 no-repeat;
+}
+
+div.default-v div.yoo-drawer .header-r {
+	background: url(styles/default-v/images/header_r_ie6.png) 100% 0 no-repeat;
+}
+
+div.default-v div.yoo-drawer .item-bl {
+	margin-top: -10px;
+	background: url(styles/default-v/images/item_bl_ie6.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .active .item-bl {
+	background: url(styles/default-v/images/item_bl_hover_ie6.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .item-br {
+	background: url(styles/default-v/images/item_br_ie6.png) 100% 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .active .item-br {
+	background: url(styles/default-v/images/item_br_hover_ie6.png) 100% 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .item-b {
+	background: url(styles/default-v/images/item_b_ie6.png) 0 100% repeat-x;
+}
+
+div.default-v div.yoo-drawer .active .item-b {
+	background: url(styles/default-v/images/item_b_hover_ie6.png) 0 100% repeat-x;
+}

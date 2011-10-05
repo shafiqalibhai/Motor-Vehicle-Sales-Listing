@@ -1,0 +1,1 @@
+[17-Jan-2009 03:35:58] PHP Warning:  rmdir(pro) [<a href='function.rmdir'>function.rmdir</a>]: Directory not empty in /home/icode/public_html/administrator/components/com_seyret/admin.seyret.php on line 2801

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Festival Skin for Seyret Player</name>
+	<packageversion>1</packageversion>
+	<type>playerskin</type>
+	<date>27.08.2008</date>
+	<author>LongTail Video</author>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.lontailvideo.com</authorUrl>
+	<copyright>2008 LongTail Video</copyright>
+	<description>Festival Skin for flv player</description>
+	<targetfolder>/components/com_seyret/localplayer/skins</targetfolder>
+	<compatibility>0.2.8.1</compatibility>
+	<files>
+		<filename>festival.xml</filename>
+		<filename>festival.swf</filename>
+	</files>
+</seyretxml>

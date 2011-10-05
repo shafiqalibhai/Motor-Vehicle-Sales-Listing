@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content" method="upgrade">
+	<name>Content - JVideo</name>
+	<author>Infinovison</author>
+	<creationDate>September 2008</creationDate>
+	<copyright>Copyright (C) 2008 Infinovision.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@infinovision.com</authorEmail>
+	<authorUrl>http://www.infinovision.com</authorUrl>
+	<version>0.3.11c Beta</version>
+	<description>Provides support for JVideo content tags</description>
+	<files>
+		<filename plugin="jvideo_content">jvideo_content.php</filename>
+	</files>
+	<params>
+	</params>
+</install>

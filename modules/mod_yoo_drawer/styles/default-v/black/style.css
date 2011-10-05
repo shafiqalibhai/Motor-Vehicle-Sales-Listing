@@ -1,0 +1,56 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.default-v div.yoo-drawer .header-l {
+	background: url(styles/default-v/black/images/header_l.png) 0 0 no-repeat;
+	color: #646464;
+}
+
+.yootools-black div.default-v div.yoo-drawer .header-r {
+	background: url(styles/default-v/black/images/header_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-drawer .header-m {
+	background: url(styles/default-v/black/images/header_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-drawer .item-bg {
+	border-left: 1px solid #323232;
+	border-right: 1px solid #323232;
+	background: #141414;
+}
+
+.yootools-black div.default-v div.yoo-drawer .item-m {
+	background: #141414;
+}
+
+.yootools-black div.default-v div.yoo-drawer .active .item-m {
+	background: url(styles/default-v/black/images/item_m_hover.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-drawer .item-bl {
+	background: url(styles/default-v/black/images/item_bl.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-drawer .active .item-bl {
+	background: url(styles/default-v/black/images/item_bl_hover.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-drawer .item-br {
+	background: url(styles/default-v/black/images/item_br.png) 100% 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-drawer .active .item-br {
+	background: url(styles/default-v/black/images/item_br_hover.png) 100% 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-drawer .item-b {
+	background: url(styles/default-v/black/images/item_b.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-drawer .active .item-b {
+	background: url(styles/default-v/black/images/item_b_hover.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-drawer .article h3 {
+	color: #787878;
+}

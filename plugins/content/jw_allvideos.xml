@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+  <name>AllVideos (by JoomlaWorks)</name>
+  <author>JoomlaWorks</author>
+  <authorEmail>contact@joomlaworks.gr</authorEmail>
+  <authorUrl>www.joomlaworks.gr</authorUrl>
+  <creationDate>10/08/2008</creationDate>
+  <copyright>This extension in released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+  <license>GPL v2</license>
+  <version>2.5.3</version>
+  <description>ALLVIDEOS</description>
+  <params>
+    <param name="av_template" type="list" default="Default" label="LAYOUT" description="LAYOUT_DESC">
+      <option value="Default">Default</option>
+      <option value="Sleek">Sleek</option>
+    </param>
+    <param name="av_compressjs" type="radio" default="0" label="COMPRESS" description="COMPRESS_DESC">
+      <option value="0">AV_NO</option>
+      <option value="1">AV_YES</option>
+    </param>
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="@spacer" type="spacer" default="=========== VIDEO PARAMETERS ===========" label="" description="" />
+    <param name="vfolder" type="text" default="images/stories/videos" size="40" label="VFOLDER" description="VFOLDER_DESC" />
+    <param name="vwidth" type="text" default="400" size="4" label="VWIDTH" description="VWIDTH_DESC" />
+    <param name="vheight" type="text" default="300" size="4" label="VHEIGHT" description="VHEIGHT_DESC" />
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="@spacer" type="spacer" default="=========== AUDIO PARAMETERS ===========" label="" description="" />
+    <param name="afolder" type="text" default="images/stories/audio" size="40" label="AFOLDER" description="AFOLDER_DESC" />
+    <param name="awidth" type="text" default="300" size="4" label="AWIDTH" description="AWIDTH_DESC" />
+    <param name="aheight" type="text" default="20" size="4" label="AHEIGHT" description="AHEIGHT_DESC" />
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="@spacer" type="spacer" default="=========== GLOBAL PARAMETERS ===========" label="" description="" />
+    <param name="autoplay" type="radio" default="0" label="AV_AUTOPLAY" description="AV_AUTOPLAY_DESC">
+      <option value="0">AV_NO</option>
+      <option value="1">AV_YES</option>
+    </param>
+    <param name="transparency" type="radio" default="transparent" label="AV_TRANSPARENCY" description="AV_TRANSPARENCY_DESC">
+      <option value="opaque">AV_NO</option>
+      <option value="transparent">AV_YES</option>
+    </param>
+    <param name="background" type="text" default="#ffffff" size="6" label="AV_BACKGROUND" description="AV_BACKGROUND_DESC" />
+    <param name="@spacer" type="spacer" default="" label="" description="" />
+    <param name="@spacer" type="spacer" default="=========== FLV PLAYBACK ===========" label="" description="" />
+    <param name="av_flvcontroller" type="radio" default="bottom" label="FLV_CONTROLS" description="FLV_CONTROLS_DESC">
+      <option value="bottom">FLV_CONTROLS_BOTT</option>
+      <option value="over">FLV_CONTROLS_OVER</option>
+    </param>
+  </params>
+  <files>
+    <filename plugin="jw_allvideos">jw_allvideos.php</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/index.html</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/jw_allvideos_logo.gif</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/jw_allvideos_sources.php</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/templates/Default/template_css.css</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/templates/Sleek/template_css.css</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/templates/index.html</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/AC_QuickTime.js</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/index.html</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/jw_allvideos_scripts.php</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/mediaplayer_4.0.46.swf</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/silverlight.js</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/wmvplayer.js</filename>
+    <filename plugin="jw_allvideos">jw_allvideos/players/wmvplayer.xaml</filename>
+  </files>
+  <languages>
+    <language tag="en-GB">languages/en-GB/en-GB.plg_content_jw_allvideos.ini</language>
+  </languages>
+</install>

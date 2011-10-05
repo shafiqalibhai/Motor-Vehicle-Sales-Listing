@@ -1,0 +1,25 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.whitespace div.yoo-accordion dt.toggler {
+	background: url(styles/whitespace/black/images/item_header_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.whitespace div.yoo-accordion dt span.header-l {
+	background: url(styles/whitespace/black/images/item_header_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.whitespace div.yoo-accordion dt span.header-r {
+	background: url(styles/whitespace/black/images/item_header_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.whitespace div.yoo-accordion dt:hover.toggler {
+	background: url(styles/whitespace/black/images/item_header_m.png) 0 -30px repeat-x;
+}
+
+.yootools-black div.whitespace div.yoo-accordion dt:hover span.header-l {
+	background: url(styles/whitespace/black/images/item_header_l.png) 0 -30px no-repeat;
+}
+
+.yootools-black div.whitespace div.yoo-accordion dt:hover span.header-r {
+	background: url(styles/whitespace/black/images/item_header_r.png) 100% -30px no-repeat;
+}

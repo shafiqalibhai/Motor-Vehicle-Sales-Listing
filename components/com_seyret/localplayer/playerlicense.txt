@@ -1,0 +1,16 @@
+JW FLV MEDIA PLAYER LICENSE INFORMATION
+
+JW FLV Media Player is included in Seyret Video Component installation packages with the grant of LongTail Ad Solutions.
+
+The JW FLV Media Player is licensed under a Creative Commons license. It allows you to use, modify and redistribute the script for noncommercial purposes. For all other use, buy a commercial license.
+
+You must buy a commercial license if:
+
+   1. Your site has any ads (AdSense, display banners, etc.)
+   2. You want to remove the players' attribution (eliminate the right-click link)
+   3. You are a corporation (governmental or nonprofit use is free)
+
+  
+For further information about the license, please check following links:
+
+http://www.jeroenwijering.com/?page=order

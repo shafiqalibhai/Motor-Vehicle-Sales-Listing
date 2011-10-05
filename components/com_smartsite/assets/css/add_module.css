@@ -1,0 +1,479 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+div.inner {
+	background-color: White;
+	text-align: center;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	height: 100%;
+	position: relative;
+}
+
+
+a {
+	color: #ff3300;
+}
+a:hover{
+	text-decoration: none;
+}
+a:visited{
+	color: #FF6600;
+}
+
+table, body, tr, td, input, textarea {
+	font-family: Tahoma, Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #3f3f3f;
+}
+
+img, a img {
+	border: 0px;
+	vertical-align: bottom;
+}
+
+
+div.clr{
+	clear: both;
+}
+
+div.logo{
+	font-family: Verdana, Tahoma;
+	color: #e0e0e0;
+	text-align: center;
+}
+
+div.logo h1{
+	font-family: Verdana, Tahoma;
+	font-size: 72px;
+}
+
+div.logo a.header{
+	color: #e0e0e0;
+	text-decoration: none;
+}
+div.logo a.header:hover{
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+div.logo span{
+	font-size: 38px;
+	font-weight: normal;
+	line-height: 40%;
+}
+
+div.logo span span{
+	font-size: 18px;
+	line-height: 150%;
+}
+
+
+div.fieldName{
+	font-family: Verdana, Tahoma;
+	color: #e0e0e0;
+	text-align: center;
+}
+
+div.fieldName h1{
+	font-family: Verdana, Tahoma;
+}
+
+div.fieldName a.header{
+	color: #e0e0e0;
+	text-decoration: none;
+}
+div.fieldName a.header:hover{
+	text-decoration: none;
+	color: #e0e0e0;
+}
+
+
+div.fieldName span{
+	font-weight: normal;
+	line-height: 40%;
+}
+
+div.fieldName span span{
+	line-height: 150%;
+}
+
+
+
+li.active a, li.active a:visited{
+	color: #666666;
+	text-decoration: none;
+}
+
+span.date{
+	font-size: 10px;
+	color: #b2b2b2;
+}
+
+
+
+
+div.rightcounter{
+	color: #333333;
+	font-size:16px;
+	width: 40%;
+	float: right;
+}
+
+div.header div.right2 span.num,div.header div.right span.num{
+	font-size: 20px;
+	padding-right: 3px;
+	padding-top: 4px;
+	color: #ff3300;
+	display: block;
+	float:right;
+	text-align:center;
+}
+
+div.header div.right2 span.right, div.header div.right span.right {
+	width: 57%;
+	text-align:left;
+	padding-top: 8px;
+	float: right;
+}
+
+div.header div.right2 span.left,div.header div.right span.left{
+	width: 43%;
+	text-align:right;
+	float:left;
+}
+div.header div.right2 span.left span.le,div.header div.right span.left span.le{
+	display: block;
+	float:right;
+	padding-top: 8px;
+	text-align:right;
+}
+
+div.container h2{
+	font-family: Tahoma, Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 22px;
+}
+div.container h3{
+	font-family: Tahoma, Georgia, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	font-size: 18px;
+	padding-right: 40px;
+	padding-left:  50px;
+}
+
+div.footer{
+	height:84px;
+	padding-top: 30px;
+	background: url('footer00.png') repeat-x;
+	width: 100%;
+	min-width: 1000px;
+	position: absolute;
+	bottom: 0;
+	color: #999999;
+	font-size:12px;
+}
+
+div.now{
+	float: right;
+	text-align: right;
+}
+div.footer div.con, div.footer div.content, div.footer div.cont_right{
+	margin-top: 0px;
+	line-height: 100%;
+}
+div.cont_right_mn{
+	float:right;
+	width: 23%;
+	font-size: 14px;
+	color: #666666;
+	margin-top: 20px;
+}
+
+div.cont_right_pl{
+	float:right;
+	width: 20px;
+	text-align:right;
+	color: #666666;
+	margin-top: 20px;
+	margin-right: 40px;
+}
+
+div.right_text, div.content{
+	line-height: 150%;
+}
+
+.login{
+	width: 158px;
+	background-color: #f30;
+	float: left;
+	margin-left: -188px;
+	margin-top: -96px;
+	padding: 5px;
+}
+
+.hide{
+	display: none;
+}
+
+div#pagination{
+	padding-top:20px;
+}
+
+div#pagination a{
+    padding: 4px;
+	text-decoration:none;
+}
+
+div#pagination a:hover{
+	background-color: #ececec;
+}
+
+div#pagination span.ditto_currentpage{
+	padding: 4px;
+	background-color: #ececec;
+}
+
+div#pagination a.ditto_page{
+	text-decoration: underline;
+}
+
+div#pagination a.ditto_page:hover{
+	text-decoration: none;
+}
+
+h2.news_title{
+	padding-bottom: 30px;
+}
+
+div#login input{
+	border: 0px;
+	padding: 5px;
+	margin: 5px;
+	color: #666666;
+	width:130px;
+}
+
+div#login button{
+	border: 0px;
+	background: #f30;
+	color: #fff;
+	text-align:center;
+	padding: 0px;
+	margin: 0px;
+	width: 130px;
+	font-size: 11px;
+	text-decoration: underline;
+}
+div#login{
+	text-align: center;
+}
+
+div#login button#wlpeReminderButton{
+	text-align: right;
+}
+div#login button#wlpeLoginButton, div#login button#wlpeLogoutButton{
+	font-size: 16px;
+    margin-top: 10px;
+	margin-bottom:10px
+}
+
+div.content form label{
+	width: 40%;
+	display: block;
+	float: left;
+}
+div.content form input{
+	border: 1px solid #666;
+	color: #666;
+	width: 200px;
+	padding: 2px;
+}
+div.content form div{
+	padding: 5px 0 5px 0;
+}
+div.content form input.regbutton{
+	background: #fff;
+	width: 100px;
+}
+div.content div.errors{
+	margin-bottom: 10px;
+	color: #ff3300;
+}
+div.errors strong{
+	color: #666;
+}
+
+div.content p{
+	margin: 0 0 15px 0;
+}
+
+
+div.hint {
+	display:none;
+	position: absolute;
+	margin-top: -28px;
+	margin-left: 15px;
+	width: 191px;
+	height: 74px;
+	padding: 10px;
+	color: #000;
+	text-align: center;
+	font-size: 12px;
+	line-height: 130%;
+	font-style:italic;
+	background: #fff url('hint0000.png') no-repeat;
+}
+
+div.hint div{
+	margin-left: 20px;
+}
+
+#inner div.left{
+	margin:0;
+	padding:0;
+}
+
+#inner div.right{
+	margin: 0;
+	padding:0;
+	float: left;
+	text-align: center;
+	width: 420px;
+	height:200px;
+		color: #333333;
+}
+
+#inner div.header h1, #inner div.header span{
+	text-align: center;
+	display: block;
+	width: 420px;
+	line-height: auto;
+}
+
+#inner #container{
+	margin: 0px auto 0px auto;
+	padding-left: 20px;
+}
+#inner div.logo{
+	margin: 0;
+	margin-top: 20px;
+	padding:0;
+}
+
+#inner div.logo span{
+	font-size: 38px;
+	font-weight: normal;
+
+}
+
+#inner div.logo span span{
+	font-size: 18px;
+
+}
+
+#inner div.fieldName{
+	margin: 0;
+	margin-top: 20px;
+	padding:0;
+}
+
+#inner div.fieldName span{
+	font-size: 28px;
+	font-weight: normal;
+
+}
+
+#inner div.fieldName span span{
+	font-size: 18px;
+
+}
+
+#inner div.mail{
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+#inner div.mail p{
+	font-size: 20px;
+	margin-top: 25px;
+}
+#inner div.mail div{
+	height:77px;
+	padding-top:8px;
+	margin-top: 25px;
+	background: url('../images/mail0000.png') no-repeat top center;
+}
+#inner div.mail input{
+	width: 300px;
+	text-align: center;
+	border: 0px;
+	margin-top: 20px;
+	background: transparent;
+ 	font-size: 24px;
+}
+#inner div.fields{
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+#inner div.fields p{
+	font-size: 20px;
+}
+#inner div.fields div{
+	height:35px;
+	padding-top:5px;
+	margin-top: 15px;
+	background: url('../images/fields1.png') no-repeat top center;
+}
+#inner div.fields input{
+	width: 300px;
+	text-align: center;
+	border: 0px;
+	margin-top: 0px;
+	background: transparent;
+ 	font-size: 24px;
+}
+
+
+#inner p.title{
+	margin-top: 25px;
+	margin-bottom: 20px;
+	font-size:14px;
+}
+
+#inner p{
+	font-size: 12px;
+}
+#inner div.mail input.button{
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	color: #666;
+	width: 200px;
+	padding: 2px;
+	font-size: 14px;
+	width: 110px;
+	height:31px;
+}
+
+#inner div.fields input.button{
+	border: 1px solid #d3d3d3;
+	background-color: #fff;
+	color: #666;
+	width: 200px;
+	padding: 2px;
+	margin-top: 10px;
+	font-size: 14px;
+	width: 110px;
+	height:31px;
+}
+

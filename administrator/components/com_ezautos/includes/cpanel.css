@@ -1,0 +1,72 @@
+
+#cpanel {  
+text-align: center;  
+vertical-align: middle; 
+}
+
+#cpanel div.icon   { 
+margin: 2px; 
+}
+
+#cpanel div.icon a { 
+display: block; float: left;
+height: 100px !important;
+height: 103px; 
+width: 98px !important;
+width: 100px; 
+vertical-align: middle; 
+text-decoration : none;
+border: 1px solid #DDDDDD;
+padding: 1px 4px 1px 4px;
+}
+
+#cpanel div.icon a:link    {  
+color : #808080;  
+}
+
+#cpanel div.icon a:hover   { 
+color : #333333; 
+background-color: #F6EFEE;  
+border: 1px solid #990000;
+padding: 2px 3px 0px 5px; 
+}
+
+#cpanel div.icon a:active  {  
+color : #808080;  
+}
+
+#cpanel div.icon a:visited {  
+color : #808080;  
+}
+
+#cpanel div.icon img { 
+margin-top: 1px; 
+}
+
+#cpanel div.icon span { 
+display: block; 
+padding-top: 1px;
+}
+
+.dropbox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 150px;
+}
+
+.widedropbox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 245px;
+}
+
+.shadebox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+background: #C0C0C0;
+color: #4F4F4F;
+}
+

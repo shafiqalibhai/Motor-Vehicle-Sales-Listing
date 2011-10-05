@@ -1,0 +1,265 @@
+
+.h1 {
+	font-size: 170%;
+}
+
+.h2 {
+	font-size: 150%;
+	font-weight: bold;
+}
+
+.h3 {
+	font-size: 130%;
+	font-weight: bold;
+}
+
+.h4 {
+	font-size: 100%;
+	text-transform: uppercase;
+}
+
+
+.searchbox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 150px;
+border: 1px inset #F5F5F5;
+}
+
+.slimsearchbox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 72px;
+border: 1px inset #F5F5F5;
+}
+
+.slimfield {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 65px;
+border: 1px inset #F5F5F5;
+}
+
+
+
+.searchbox2 {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 140px;
+border: 1px inset #F5F5F5;
+}
+
+.slimsearchbox2 {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 120px;
+border: 1px inset #F5F5F5;
+}
+
+.slimfield2 {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+width: 78px;
+border: 1px inset #F5F5F5;
+}
+
+.icons {
+color: #800000;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: bold;
+background-color: inherit;
+vertical-align: top;
+padding-top: 3px;
+}
+
+.readit {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-style: normal;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+background-color: #C00000;
+color: #FFFFFF;
+border: 1px #C00000;
+padding: 1px;
+cursor: pointer;
+width: 80px;
+line-height: 8px;
+}
+
+a.readit:link, a.readit:visited {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-style: normal;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #C00000;
+text-decoration: none;
+border: 1px solid #C00000;
+padding: 1px;
+cursor: pointer;
+width: 80px;
+line-height: 8px;
+}
+
+a.readit:hover {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-style: normal;
+text-align: center;
+font-size: 11px;
+font-weight: bold;
+color: #FFFFFF;
+background-color: #C00000;
+text-decoration: none;
+border: 1px solid #C00000;
+padding: 1px;
+cursor: pointer;
+width: 80px;
+line-height: 8px;
+}
+
+.listbkgr {
+background-color: #F5F5F5;
+line-height: 15px;
+padding: 2px;
+width: 100%;
+}
+
+.listbkgr0 {
+background-color: #F5F5F5;
+line-height: 15px;
+padding: 2px;
+width: 100%;
+}
+
+.listbkgr1 {
+background-color: #FFD3D3;
+line-height: 15px;
+padding: 2px;
+width: 100%;
+}
+
+.listbkgrin0 {
+background-color: #FFFFFF;
+line-height: 15px;
+padding: 2px;
+width: 100%;
+}
+
+.listbkgrin1 {
+background-color: #FFEDED;
+line-height: 15px;
+padding: 2px;
+width: 100%;
+}
+
+.listtableborder {
+width: 100%;
+border: 1px solid #1A2B48;
+padding: 2px;
+}
+
+
+.ontab {
+border:1px solid #585858;
+font-family: Verdana,Helvetica,Arial,sans-serif;
+font-size: 11px;
+color: #000000;
+font-weight: bold;
+background-color: #B7B9C5;
+padding: 4px;
+}
+
+.offtab {
+border:1px solid #585858;
+font-family: Verdana,Helvetica,Arial,sans-serif;
+font-size: 11px;
+color: #000000;
+background-color: #DEE0E4;
+padding: 4px;
+cursor: pointer;
+}
+
+
+.pagetext {
+border:1px solid #585858;
+display: none;
+position: relative;
+top: 0;
+background-color: inherit;
+color: #000000;
+}
+
+a.makemodel:link, a.makemodel:visited {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #6F874D;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+a.makemodel:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #F99B44;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+a.makelist:link, a.makelist:visited {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #6F874D;
+  font-weight: bold;
+  background-color: inherit;
+}
+
+a.makelist:hover {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #F99B44;
+  font-weight: bold;
+  text-decoration: underline;
+  background-color: inherit;
+}
+
+#watermark_box {
+position:relative;
+display:block;
+}
+
+img.watermark {
+position: absolute;
+top: 1px;
+left: 1px;
+}
+
+.shadebox {
+padding: 1px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100%;
+background: #C0C0C0;
+color: #4F4F4F;
+}
+
+.ezright {
+align: right;
+}
+
+.searchbkgr {
+background-color: #F4F6F2;
+}
+.image_th {
+	margin: 1px;
+	padding: 1px;
+	border: 1px solid #666666;
+}

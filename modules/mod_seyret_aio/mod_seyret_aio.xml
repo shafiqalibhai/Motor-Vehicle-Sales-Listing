@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Seyret All In One</name>
+	<author>Mustafa Dindar</author>
+	<creationDate>February 2008</creationDate>
+	<copyright>Mustafa Dindar. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>www.joomlaholic.com</authorUrl>
+	<version>0.3</version>
+	<description><![CDATA[
+
+	
+<style type="text/css">
+<!--
+.directionheader {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color:#000099;
+	background-color: #E5E5FF;
+	padding: 30px;
+	border: 1px solid #000099;
+}
+.moduleinfo {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #ECECEC;
+	padding: 20px;
+	border: 1px solid #999999;
+}
+.style1 {
+	color: #990000;
+	font-weight:bold;
+	}
+-->
+</style>
+<div class="directionheader">Seyret All In One Module</div>
+<div>&nbsp;</div>
+
+<div class="moduleinfo">This module can list the highest rated, most downloaded, most clicked, latest, random Seyret videos. Please define module parameters to use it in respect of your needs. <br/>To enable javascript effects, you'll need to install some javascript files manually. For more detailed instructions please see <a href="http://wiki.joomlaholic.com/index.php?title=Seyret_All_In_One_Module" target="_blank"> http://wiki.joomlaholic.com/index.php?title=Seyret_All_In_One_Module</a></div>
+
+
+
+
+		]]></description>
+	<files>
+		<filename module="mod_seyret_aio">mod_seyret_aio.php</filename>
+	</files>
+	<params>
+		<param name="videolisttype" type="list" default="latest" label="Video List Type" description="Select effect for thumbnails. Don't forget to define parameters related to your selection.">
+			<option value="latest">Latest Videos</option>
+			<option value="highestrated">Highest Rated Videos</option>
+			<option value="mostdownloaded">Most Downloaded Videos</option>
+			<option value="mostclicked">Most Viewed Videos</option>
+			<option value="random">Random Videos</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+<param name="incategories" type="text" default="" label="Categories" description="The categories of videos. If you leave blank, all videos will be shown. Use , (comma) between categories. Like 1,7" />
+		<param name="count" type="text" default="4" label="Video Count" description="The number of items to display (default 4)" />
+		<param name="seyretcolumns" type="text" default="4" label="Columns Count" description="Define column count here. For a vertical module effect, define it 4." />		
+		<param name="seyretscreenname" type="radio" default="username" label="Screen Name" description="Select screenname.">
+			<option value="username">User Name</option>
+			<option value="realname">Real Name</option>
+		</param>		
+
+		<param name="videothumbwidth" type="text" default="120" label="Video Thumbnail Width" description="The Thumbnail Width of Videos" />
+		<param name="videothumbheight" type="text" default="90" label="Video Thumbnail Height" description="The Thumbnail Height of Videos" />
+		
+		<param name="displaytype" type="list" default="thumbnail" label="Video Dislay Type" description="Select Display Type.">
+			<option value="player">Player</option>
+			<option value="thumbnail">Thumbnail</option>
+		</param>
+		
+		
+		<param name="videotitle" type="list" default="top" label="Video Title" description="Select Title Options.">
+			<option value="notitle">No title</option>
+			<option value="top">Top</option>
+			<option value="bottom">Bottom</option>
+		</param>	
+		<param name="videodetails" type="list" default="bottom" label="Video Details Position" description="Select Details Position.">
+			<option value="nodetails">No Details</option>
+			<option value="right">Right</option>
+			<option value="bottom">Bottom</option>
+		</param>	
+
+		<param name="detaillabels" type="list" default="text" label="Detail Labels" description="Select Detail Labels Type.">
+			<option value="image">Image</option>
+			<option value="text">Text</option>
+		</param>		
+
+		<param name="showvideoowner" type="radio" default="1" label="Show Video Owner" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="showrating" type="radio" default="1" label="Show Rating Stars" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="showhit" type="radio" default="1" label="Show Hit" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showdownloads" type="radio" default="0" label="Show Downloads" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="showcategory" type="radio" default="0" label="Show Category" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="showaddeddate" type="radio" default="1" label="Show Added Date" description="Please select.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		
+		
+		<param name="videotitlelength" type="text" default="50" label="Title Length" description="Video title length." />
+
+
+		<param name="row1bakgrcolor" type="text" default="FFFFFF" label="Row1 Background Color" description="Select Background Color for row1."/>
+		<param name="row1fontcolor" type="text" default="4F4F4F" label="Row1 Font Color" description="Select Font Color for row1."/>
+		<param name="row1linecolor" type="text" default="4F4F4F" label="Row1 Line Color" description="Select Line Color for row1."/>		
+
+		<param name="row2bakgrcolor" type="text" default="EDEDED" label="Row2 Background Color" description="Select Background Color for row1."/>
+		<param name="row2fontcolor" type="text" default="4F4F4F" label="Row2 Font Color" description="Select Font Color for row2."/>
+		<param name="row2linecolor" type="text" default="4F4F4F" label="Row2 Line Color" description="Select Line Color for row2."/>		
+
+		<param name="videotitleline" type="text" default="4F4F4F" label="Video Title Line" description="Select Line Color for Video Title Bottom Line."/>		
+
+		<param name="videobottomline" type="text" default="4F4F4F" label="Video Details Bottom Line" description="Select Line Color for Video Details Bottom Line."/>	
+		
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />		
+		<param name="effecttype" type="list" default="noeffects" label="Thumbnail Effect" description="Select effect for thumbnails. Don't forget to define parameters related to your selection.">
+			<option value="noeffects">No Effects</option>
+			<option value="corner">Corner</option>
+			<option value="edge">Edge</option>
+			<option value="filmed">Filmed</option>
+			<option value="glossy">Glossy</option>
+			<option value="instant">Instant</option>
+			<option value="slided">Slided</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	
+		<param name="cornerradius" type="text" default="8" label="Corner- Corner Radius" description="Define the radius of corners. Between 0-100. Default is 8." />
+		<param name="cornerishade" type="text" default="50" label="Corner- Opacity" description="Define the opacity of corners. Makes a bevel effect. Between 0-100. Default is 50" />
+		<param name="cornerishadow" type="text" default="50" label="Corner- Shadow Strength" description="Define the shadow strength. Between 0-100. Default is 50" />
+		<param name="cornerinverse" type="radio" default="0" label="Corner- Inverse Shadow" description="You can change the shadow type.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="edgemaskfile" type="imagelist" directory="/seyretfiles/tools/jseffects/edgemasks" filter="*.png" hide_default="1" default="" label="Edge- Mask File" description="Select the file to be used as mask for your thumbnails." />
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		
+		<param name="filmedifilmcolor" type="text" default="" label="Filmed- Film Color" description="Enter the code for film color here. min=000000 max=ffffff" />
+		<param name="filmedshadow" type="radio" default="0" label="Filmed- Show Shadow" description="Select if you want to show shadow">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>	
+		<param name="filmedshadowopacity" type="text" default="33" label="Filmed- Shadow Opacity" description="Define opacity of shadows. Between 0-100. Default is 33" />	
+		<param name="filmedistrip" type="text" default="100" label="Filmed- Film Opacity" description="Define opacity of film. Between 0-100. Default is 100" />	
+		<param name="filmedishine" type="text" default="25" label="Filmed- Film Shine" description="Define shining of film. Between 0-100. Default is 25" />	
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+
+		<param name="glossyiradius" type="text" default="25" label="Glossy- Corner Radius" description="Define corner radius here. min=20 max=50 default=25" />		
+		<param name="glossyshadow" type="radio" default="1" label="Glossy- Show Shadow" description="Select if you want to show shadow">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="glossyibgcolor" type="text" default="000000" label="Glossy- Background Color" description="Define background color. min=000000 max=ffffff default=000000" />	
+		<param name="glossyigradient" type="text" default="000000" label="Glossy- Gradient Color" description="Define gradient color. min=000000 max=ffffff default=000000" />	
+
+		<param name="glossyhorizontal" type="radio" default="0" label="Glossy- Horizontal" description="Select gradient direction. ">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="instantishadow" type="text" default="33" label="Instant- Shadow Opacity" description="Define shadow opacity. min=0 max=100 default=33" />	
+		<param name="instanticolor" type="text" default="f0f4ff" label="Instant- Frame Color" description="Define Frame Color. min=000000 max=FFFFFF default=f0f4ff" />			
+		<param name="instanttilt" type="list" default="" label="Instant- Tilt Direction" description="Select Tilt Direction for Thumbnails. Default is cycle between left, none, right.">
+			<option value="">Cycle</option>
+			<option value="itiltleft">Left</option>
+			<option value="itiltright">Right</option>
+			<option value="itiltnone">None</option>
+		</param>
+		
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+		<param name="slidedishade" type="text" default="50" label="Slided- Shade Opacity" description="Define shade opacity. min=0 max=100 default=50" />	
+		<param name="slidedibgcolor" type="text" default="E8EAFD" label="Slided- Frame Color" description="Define Frame Color. min=000000 max=ffffff default=E8EAFD" />	
+		<param name="slidedigradient" type="text" default="FFE9BE" label="Slided- Gradient Color" description="Define Gradient Color. min=000000 max=ffffff default=FFE9BE" />	
+		<param name="slidedshadow" type="radio" default="1" label="Slided- Show Shadow" description="Select if you want to show shadow">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="slidedishadow" type="text" default="40" label="Slided- Shadow Opacity" description="Define Shadow Opacity. min=0 max=100 default=40" />
+		<param name="slidedcircles" type="radio" default="1" label="Slided- Circles" description="Select if you want to show circles or not">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="slidedgradientdir" type="list" default="" label="Slided- Gradient Direction" description="Select Gradient Direction.">
+			<option value="">Default</option>
+			<option value="vertical">Vertical</option>
+			<option value="horizontal">Horizontal</option>
+		</param>			
+		<param name="@spacer" type="spacer" default="" label="" description="" />	
+
+		
+
+	</params>
+
+</mosinstall>

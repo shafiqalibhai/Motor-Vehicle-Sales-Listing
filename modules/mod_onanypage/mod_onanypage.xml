@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<install type="module" version="1.5.0" method="upgrade">
+	<name>Mod OnAnyPage</name>
+	<creationDate>01/12/2007</creationDate>
+	<author>Ewout Wierda</author>
+	<authorEmail>mail@joomlaloft.com</authorEmail>
+	<authorUrl>joomlaloft.com</authorUrl>
+	<copyright>Ewout Wierda</copyright>
+	<license>Community Licence, see joomlaloft.com. Free for non-commercial use.</license>
+	<version>1.5.1</version>
+	<description>MODULE DESCRIPTION</description>
+	<files>
+		<filename module="mod_onanypage">mod_onanypage.php</filename>
+		<folder>elements</folder>
+	</files>
+  <languages>
+	  <language tag="en-GB">en-GB.mod_onanypage.ini</language>
+	  <language tag="nl-NL">nl-NL.mod_onanypage.ini</language>
+  </languages>
+	<params addpath="/modules/mod_onanypage/elements">
+		<param name="moap_inexclude" type="list" default="" label="INEXCLUDE MODE LABEL" description="INEXCLUDE MODE DESCRIPTION">
+			<option value="">SET MODE</option>
+			<option value="exclude">EXCLUDE MODE</option>
+			<option value="include">INCLUDE MODE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_display_pos" type="text" default="onanypage" label="MODULE POSITION LABEL" description="MODULE POSITION DESCRIPTION" />
+		<param name="moap_display_style" type="list" default="xhtml" label="MODULE DISPLAY STYLE LABEL" description="MODULE DISPLAY STYLE DESCRIPTION">
+			<option value="">SET STYLE</option>
+			<option value="table">VERT</option>
+			<option value="horz">HORZ</option>
+			<option value="none">OUTLINE</option>
+			<option value="xhtml">XHTML</option>
+			<option value="rounded">ROUNDED</option>
+		</param>
+		<param name="moap_custom_style" type="text" default="" label="CUSTOM STYLE LABEL" description="CUSTOM STYLE DESCRIPTION"/>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+		<param name="moap_spacediv" type="list" default="none" label="SPACING DIV LABEL" description="SPACING DIV DESCRIPTION">
+			<option value="none">NO SPACEDIV</option>
+			<option value="single">SINGLE SPACEDIV</option>
+			<option value="multi">MULTI SPACEDIVS</option>
+			<option value="both">BOTH SPACEDIVS</option>
+		</param>
+		<param name="moap_divspace" type="text" default="0" label="DIV SPACE LABEL" description="DIV SPACE DESCRIPTION"/>
+		<param name="moap_cleardiv" type="list" default="none" label="CLEARING DIV LABEL" description="CLEARING DIV DESCRIPTION">
+			<option value="none">NO CLEARDIV</option>
+			<option value="single">SINGLE CLEARDIV</option>
+			<option value="multi">MULTI CLEARDIVS</option>
+			<option value="both">BOTH CLEARDIVS</option>
+		</param>
+		<param name="moap_stylediv" type="list" default="none" label="STYLING DIV LABEL" description="STYLING DIV DESCRIPTION">
+			<option value="none">NO STYLEDIV</option>
+			<option value="single">SINGLE STYLEDIV</option>
+			<option value="multi">MULTI STYLEDIVS</option>
+			<option value="both">BOTH STYLEDIVS</option>
+		</param>
+		<param name="moap_divstyle" type="text" default="margin: 0 -10px -10px -10px;" label="DIV STYLING LABEL" description="DIV STYLING DESCRIPTION" />
+		<param name="moap_styleadd" type="radio" default="0" label="STYLE ADD LABEL" description="STYLE ADD DESCRIPTION">
+			<option value="0">NOADD</option>
+			<option value="1">HEAD</option>
+			<option value="2">INLINE</option>
+		</param>
+		<param name="moap_addstyle" type="textarea" default="div.moduletable div.moduletable, div.moduletable div.moduletable_menu, div.moduletable div.module, div.moduletable div.module_menu, div.module div.moduletable, div.module div.moduletable_menu, div.module div.module, div.module div.module_menu { padding: 0 -10px -25px -10px; } .mod-preview-wrapper .mod-preview-info { color: #ff6600; } .mod-preview-wrapper .mod-preview-wrapper { border: 2px dotted #ff6600; }" label="ADD STYLE LABEL" description="ADD STYLE DESCRIPTION" rows="5" cols="30" />
+		<param name="moap_stylealt" type="radio" default="0" label="STYLE ALT LABEL" description="STYLE ALT DESCRIPTION">
+			<option value="0">NOADD</option>
+			<option value="1">HEAD</option>
+			<option value="2">INLINE</option>
+		</param>
+		<param name="moap_altstyle" type="textarea" default="div.yourheaderdiv { height: 0px; }" label="ALT STYLE LABEL" description="ALT STYLE DESCRIPTION" rows="2" cols="30" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+	<params group="advanced">		
+		<param name="moap_front" type="radio" default="" label="FRONT PAGE LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_view" type="radio" default="" label="CONTENT ITEMS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_blogcat" type="radio" default="" label="CAT BLOGS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_cat" type="radio" default="" label="CATEGORIES LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_blogsect" type="radio" default="" label="SEC BLOGS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_sect" type="radio" default="" label="SECTIONS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_pagealia" type="text" default="" label="ARTICLE ALIAS LABEL" description="ARTICLE ALIAS DESCRIPTION"/>
+		<param name="moap_pagealias" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_pageids" type="text" default="" label="ARTICLE ID LABEL" description="ARTICLE ID DESCRIPTION"/>
+		<param name="moap_pageid" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_catids" type="text" default="" label="CAT IDS LABEL" description="CAT IDS DESCRIPTION"/>
+		<param name="moap_catall" type="radio" default="1" label="CATS CASCADE LABEL" description="CATS CASCADE DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="moap_catid" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_sectids" type="text" default="" label="SEC IDS LABEL" description="SEC IDS DESCRIPTION"/>
+		<param name="moap_sectall" type="radio" default="1" label="SECS CASCADE LABEL" description="SECS CASCADE DESCRIPTION">
+			<option value="0">NO</option>
+			<option value="1">YES</option>
+		</param>
+		<param name="moap_sectid" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_commost" type="radio" default="" label="NON CONTENT COMS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_comjoom" type="radio" default="" label="ALL CORE COMS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_com3rdp" type="radio" default="" label="ALL 3RDPP COMS LABEL" description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_comnames" type="text" default="" label="COM NAME LABEL" description="COM NAME DESCRIPTION"/>
+		<param name="moap_comname" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="moap_nocomnames" type="text" default="" label="NO COM NAME LABEL" description="COM NAME DESCRIPTION"/>
+		<param name="moap_nocomname" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_urlconds" type="text" default="" label="URL LABEL" description="URL DESCRIPTION"/>
+		<param name="moap_urlcond" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_udefconds" type="textarea" default="" label="CONDITION LABEL" description="CONDITION DESCRIPTION" rows="5" cols="30" />
+		<param name="moap_udefcond" type="radio" default="" label=" " description="SETTTING DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+			<option value="1">INCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_reguser" type="radio" default="" label="REGISTERED LABEL" description="REGISTERED DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+		</param>
+		<param name="moap_noreguser" type="radio" default="" label="VISITOR LABEL" description="VISITOR DESCRIPTION">
+			<option value="">NOT SET</option>
+			<option value="-1">EXCLUDE</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="moap_start" type="calendar" default="" label="START DATE LABEL" description="START DATE DESCRIPTION" format="" />
+		<param name="moap_end" type="calendar" default="" label="END DATE LABEL" description="END DATE DESCRIPTION" format="" />
+		<param name="moap_settimezone" type="list" default="0" label="ADD TIME ZONE LABEL" description="ADD TIME ZONE DESCRIPTION">
+			<option value="0">SYSTEM TIME ZONE</option>
+			<option value="1">CUSTOM TIME ZONE</option>
+			<option value="2">JOOMLA TIME ZONE</option>
+		</param>
+		<param name="moap_admintimezone" type="mytimezones" default="UTC" label="ADMIN TIME ZONE LABEL" description="ADMIN TIME ZONE DESCRIPTION" />
+	</params>
+</install>

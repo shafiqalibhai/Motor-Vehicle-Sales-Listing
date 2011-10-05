@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+    <name>Jumi</name>
+    <author>Martin Hajek</author>
+    <creationDate>December 2008</creationDate>
+    <copyright>Copyright (c) 2006 - 2008 Martin Hajek. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <authorEmail>admin@vedeme.cz</authorEmail>
+    <authorUrl>http://jumi.vedeme.cz</authorUrl>
+    <version>2.0.1</version>
+    <description>JUMIPLUGINDESC</description>
+
+    <files>
+        <filename plugin="jumi">jumi.php</filename>
+        <filename>jumi/jumi_demo.php</filename>
+        <filename>jumi/index.html</filename>
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB.plg_content_jumi.ini</language>
+        <language tag="ru-RU">ru-RU.plg_content_jumi.ini</language>
+        <language tag="cs-CZ">cs-CZ.plg_content_jumi.ini</language>
+        <language tag="hy-AM">hy-AM.plg_content_jumi.ini</language>
+        <language tag="es-ES">es-ES.plg_content_jumi.ini</language>
+    </languages>
+
+    <params>
+        <param name="default_absolute_path" type="text" size ="80" default="" label="Default Absolute Jumi Path" description="PARAMABSPATH" />
+        <param name="hide_code" type="radio" default="0" label="Hide Jumi code" description="PARAMHIDECODE">
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+        </param>
+        <param name="nested_replace" type="radio" default="0" label="Nested replace" description="PARAMNESTED">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+    		</param>
+    </params>
+</install>

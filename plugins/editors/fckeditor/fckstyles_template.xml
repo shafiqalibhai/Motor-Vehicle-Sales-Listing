@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8" ?>
+					<Styles><Style name="contentheading" element="p">
+									<Attribute name="class" value="contentheading" />
+								</Style>
+<Style name="componentheading" element="p">
+									<Attribute name="class" value="componentheading" />
+								</Style>
+<Style name="blog_more" element="p">
+									<Attribute name="class" value="blog_more" />
+								</Style>
+<Style name="1" element="p">
+									<Attribute name="class" value="1" />
+								</Style>
+<Style name="2" element="p">
+									<Attribute name="class" value="2" />
+								</Style>
+<Style name="3" element="p">
+									<Attribute name="class" value="3" />
+								</Style>
+<Style name="4" element="p">
+									<Attribute name="class" value="4" />
+								</Style>
+<Style name="inputbox" element="p">
+									<Attribute name="class" value="inputbox" />
+								</Style>
+<Style name="button" element="p">
+									<Attribute name="class" value="button" />
+								</Style>
+<Style name="article_separator" element="p">
+									<Attribute name="class" value="article_separator" />
+								</Style>
+<Style name="column_separator" element="p">
+									<Attribute name="class" value="column_separator" />
+								</Style>
+<Style name="sectiontableheader" element="p">
+									<Attribute name="class" value="sectiontableheader" />
+								</Style>
+<Style name="redBar" element="p">
+									<Attribute name="class" value="redBar" />
+								</Style>
+<Style name="boxHead" element="p">
+									<Attribute name="class" value="boxHead" />
+								</Style>
+<Style name="searchBackground" element="p">
+									<Attribute name="class" value="searchBackground" />
+								</Style>
+<Style name="liner" element="p">
+									<Attribute name="class" value="liner" />
+								</Style>
+<Style name="linerControlPanel" element="p">
+									<Attribute name="class" value="linerControlPanel" />
+								</Style>
+<Style name="sectiontableentry0" element="tr">
+									<Attribute name="class" value="sectiontableentry0" />
+								</Style>
+<Style name="sectiontableentry1" element="tr">
+									<Attribute name="class" value="sectiontableentry1" />
+								</Style>
+<Style name="sectiontableentry2" element="tr">
+									<Attribute name="class" value="sectiontableentry2" />
+								</Style>
+<Style name="contentpane" element="table">
+									<Attribute name="class" value="contentpane" />
+								</Style>
+<Style name="contentpaneopen" element="table">
+									<Attribute name="class" value="contentpaneopen" />
+								</Style>
+<Style name="contenttoc" element="table">
+									<Attribute name="class" value="contenttoc" />
+								</Style>
+<Style name="poll" element="table">
+									<Attribute name="class" value="poll" />
+								</Style>
+<Style name="pollstableborder" element="table">
+									<Attribute name="class" value="pollstableborder" />
+								</Style>
+<Style name="searchintro" element="table">
+									<Attribute name="class" value="searchintro" />
+								</Style>
+<Style name="category" element="p">
+									<Attribute name="class" value="category" />
+								</Style>
+<Style name="contentdescription" element="p">
+									<Attribute name="class" value="contentdescription" />
+								</Style>
+<Style name="blog" element="table">
+									<Attribute name="class" value="blog" />
+								</Style>
+<Style name="moduletable" element="p">
+									<Attribute name="class" value="moduletable" />
+								</Style>
+<Style name="pagenavbar" element="p">
+									<Attribute name="class" value="pagenavbar" />
+								</Style>
+<Style name="pagenavcounter" element="p">
+									<Attribute name="class" value="pagenavcounter" />
+								</Style>
+<Style name="sectiontableentry1:hover" element="tr">
+									<Attribute name="class" value="sectiontableentry1:hover" />
+								</Style>
+<Style name="sectiontableentry2:hover" element="tr">
+									<Attribute name="class" value="sectiontableentry2:hover" />
+								</Style>
+<Style name="smalldark" element="p">
+									<Attribute name="class" value="smalldark" />
+								</Style>
+<Style name="syndicate" element="div">
+									<Attribute name="class" value="syndicate" />
+								</Style>
+<Style name="article-toolswrap" element="p">
+									<Attribute name="class" value="article-toolswrap" />
+								</Style>
+<Style name="article-tools" element="p">
+									<Attribute name="class" value="article-tools" />
+								</Style>
+<Style name="article-meta" element="p">
+									<Attribute name="class" value="article-meta" />
+								</Style>
+<Style name="createby" element="p">
+									<Attribute name="class" value="createby" />
+								</Style>
+<Style name="createdate" element="p">
+									<Attribute name="class" value="createdate" />
+								</Style>
+<Style name="modifydate" element="p">
+									<Attribute name="class" value="modifydate" />
+								</Style>
+<Style name="buttonheading" element="div">
+									<Attribute name="class" value="buttonheading" />
+								</Style>
+<Style name="wrapper" element="p">
+									<Attribute name="class" value="wrapper" />
+								</Style>
+<Style name="header" element="p">
+									<Attribute name="class" value="header" />
+								</Style>
+<Style name="mosttopmenu" element="p">
+									<Attribute name="class" value="mosttopmenu" />
+								</Style>
+<Style name="container" element="p">
+									<Attribute name="class" value="container" />
+								</Style>
+<Style name="footer" element="p">
+									<Attribute name="class" value="footer" />
+								</Style>
+<Style name="footerupper" element="p">
+									<Attribute name="class" value="footerupper" />
+								</Style>
+<Style name="footerupper_inner" element="p">
+									<Attribute name="class" value="footerupper_inner" />
+								</Style>
+<Style name="bottom" element="p">
+									<Attribute name="class" value="bottom" />
+								</Style>
+<Style name="contentwrap" element="p">
+									<Attribute name="class" value="contentwrap" />
+								</Style>
+<Style name="leftlayout" element="p">
+									<Attribute name="class" value="leftlayout" />
+								</Style>
+<Style name="colwrap" element="p">
+									<Attribute name="class" value="colwrap" />
+								</Style>
+<Style name="containerwrap" element="p">
+									<Attribute name="class" value="containerwrap" />
+								</Style>
+<Style name="containerwrap-f" element="p">
+									<Attribute name="class" value="containerwrap-f" />
+								</Style>
+<Style name="containerwrap-c" element="p">
+									<Attribute name="class" value="containerwrap-c" />
+								</Style>
+<Style name="module_text" element="div">
+									<Attribute name="class" value="module_text" />
+								</Style>
+<Style name="module_menu" element="div">
+									<Attribute name="class" value="module_menu" />
+								</Style>
+<Style name="module_hilite" element="div">
+									<Attribute name="class" value="module_hilite" />
+								</Style>
+<Style name="module-lightgrey" element="div">
+									<Attribute name="class" value="module-lightgrey" />
+								</Style>
+<Style name="module" element="div">
+									<Attribute name="class" value="module" />
+								</Style>
+<Style name="box-br" element="div">
+									<Attribute name="class" value="box-br" />
+								</Style>
+<Style name="box-bl" element="div">
+									<Attribute name="class" value="box-bl" />
+								</Style>
+<Style name="box-tr" element="div">
+									<Attribute name="class" value="box-tr" />
+								</Style>
+<Style name="box-tl" element="div">
+									<Attribute name="class" value="box-tl" />
+								</Style>
+<Style name="boxw-br" element="p">
+									<Attribute name="class" value="boxw-br" />
+								</Style>
+<Style name="boxw-bl" element="p">
+									<Attribute name="class" value="boxw-bl" />
+								</Style>
+<Style name="boxw-tr" element="p">
+									<Attribute name="class" value="boxw-tr" />
+								</Style>
+<Style name="boxw-tl" element="p">
+									<Attribute name="class" value="boxw-tl" />
+								</Style>
+<Style name="mdtool" element="span">
+									<Attribute name="class" value="mdtool" />
+								</Style>
+<Style name="banneritem_text" element="div">
+									<Attribute name="class" value="banneritem_text" />
+								</Style>
+<Style name="advs" element="div">
+									<Attribute name="class" value="advs" />
+								</Style>
+<Style name="headerwrap" element="p">
+									<Attribute name="class" value="headerwrap" />
+								</Style>
+<Style name="mainnav" element="p">
+									<Attribute name="class" value="mainnav" />
+								</Style>
+<Style name="subnav" element="p">
+									<Attribute name="class" value="subnav" />
+								</Style>
+<Style name="bject" element="p">
+									<Attribute name="class" value="bject" />
+								</Style>
+<Style name="pathway" element="p">
+									<Attribute name="class" value="pathway" />
+								</Style>
+<Style name="box-full" element="p">
+									<Attribute name="class" value="box-full" />
+								</Style>
+<Style name="box-left" element="p">
+									<Attribute name="class" value="box-left" />
+								</Style>
+<Style name="box-center" element="p">
+									<Attribute name="class" value="box-center" />
+								</Style>
+<Style name="box-right" element="p">
+									<Attribute name="class" value="box-right" />
+								</Style>
+<Style name="bottomwrapper" element="p">
+									<Attribute name="class" value="bottomwrapper" />
+								</Style>
+<Style name="footerwrap" element="p">
+									<Attribute name="class" value="footerwrap" />
+								</Style>
+<Style name="footerupperwrap" element="p">
+									<Attribute name="class" value="footerupperwrap" />
+								</Style>
+<Style name="form-login" element="p">
+									<Attribute name="class" value="form-login" />
+								</Style>
+<Style name="modlgn_username" element="p">
+									<Attribute name="class" value="modlgn_username" />
+								</Style>
+<Style name="modlgn_passwd" element="p">
+									<Attribute name="class" value="modlgn_passwd" />
+								</Style>
+<Style name="col3" element="p">
+									<Attribute name="class" value="col3" />
+								</Style>
+<Style name="search" element="p">
+									<Attribute name="class" value="search" />
+								</Style>
+<Style name="search:hover" element="p">
+									<Attribute name="class" value="search:hover" />
+								</Style>
+<Style name="banner" element="p">
+									<Attribute name="class" value="banner" />
+								</Style>
+<Style name="back_button" element="div">
+									<Attribute name="class" value="back_button" />
+								</Style>
+<Style name="clr" element="p">
+									<Attribute name="class" value="clr" />
+								</Style>
+<Style name="hasTip" element="p">
+									<Attribute name="class" value="hasTip" />
+								</Style>
+<Style name="innerdiv" element="div">
+									<Attribute name="class" value="innerdiv" />
+								</Style>
+<Style name="usertoolswrap" element="p">
+									<Attribute name="class" value="usertoolswrap" />
+								</Style>
+<Style name="usertools" element="p">
+									<Attribute name="class" value="usertools" />
+								</Style>
+<Style name="usertools-font" element="p">
+									<Attribute name="class" value="usertools-font" />
+								</Style>
+<Style name="usertools-body" element="p">
+									<Attribute name="class" value="usertools-body" />
+								</Style>
+<Style name="usertools-layout" element="p">
+									<Attribute name="class" value="usertools-layout" />
+								</Style>
+<Style name="usertools-expand" element="p">
+									<Attribute name="class" value="usertools-expand" />
+								</Style>
+<Style name="usertools-modfunc" element="p">
+									<Attribute name="class" value="usertools-modfunc" />
+								</Style>
+<Style name="tool-tip" element="p">
+									<Attribute name="class" value="tool-tip" />
+								</Style>
+<Style name="tool-title" element="p">
+									<Attribute name="class" value="tool-title" />
+								</Style>
+<Style name="tool-text" element="p">
+									<Attribute name="class" value="tool-text" />
+								</Style>
+<Style name="system-message" element="p">
+									<Attribute name="class" value="system-message" />
+								</Style>
+<Style name="clearfix:after" element="p">
+									<Attribute name="class" value="clearfix:after" />
+								</Style>
+<Style name="moving" element="p">
+									<Attribute name="class" value="moving" />
+								</Style>
+<Style name="flash" element="p">
+									<Attribute name="class" value="flash" />
+								</Style>
+<Style name="mosttopmenuwrap" element="p">
+									<Attribute name="class" value="mosttopmenuwrap" />
+								</Style>
+<Style name="outer" element="p">
+									<Attribute name="class" value="outer" />
+								</Style>
+<Style name="headerOuter" element="p">
+									<Attribute name="class" value="headerOuter" />
+								</Style>
+<Style name="contentwrap-c" element="p">
+									<Attribute name="class" value="contentwrap-c" />
+								</Style>
+<Style name="leftwrap" element="p">
+									<Attribute name="class" value="leftwrap" />
+								</Style>
+<Style name="rightwrap" element="p">
+									<Attribute name="class" value="rightwrap" />
+								</Style>
+<Style name="contentcol1" element="p">
+									<Attribute name="class" value="contentcol1" />
+								</Style>
+<Style name="contentcol2" element="p">
+									<Attribute name="class" value="contentcol2" />
+								</Style>
+<Style name="contentcol1-c" element="p">
+									<Attribute name="class" value="contentcol1-c" />
+								</Style>
+<Style name="footer_copyrights" element="p">
+									<Attribute name="class" value="footer_copyrights" />
+								</Style>
+<Style name="footermenu" element="p">
+									<Attribute name="class" value="footermenu" />
+								</Style>
+<Style name="module_login" element="div">
+									<Attribute name="class" value="module_login" />
+								</Style>
+<Style name="module_right_menu" element="div">
+									<Attribute name="class" value="module_right_menu" />
+								</Style>
+<Style name="module_right_box" element="div">
+									<Attribute name="class" value="module_right_box" />
+								</Style>
+<Style name="button_right_box" element="p">
+									<Attribute name="class" value="button_right_box" />
+								</Style>
+<Style name="right_box_inner_top" element="div">
+									<Attribute name="class" value="right_box_inner_top" />
+								</Style>
+<Style name="right_box_inner_bottom" element="div">
+									<Attribute name="class" value="right_box_inner_bottom" />
+								</Style>
+<Style name="right_bottom_text" element="div">
+									<Attribute name="class" value="right_bottom_text" />
+								</Style>
+<Style name="bgspacer" element="div">
+									<Attribute name="class" value="bgspacer" />
+								</Style>
+<Style name="buyTable" element="p">
+									<Attribute name="class" value="buyTable" />
+								</Style>
+<Style name="buyTableRow" element="p">
+									<Attribute name="class" value="buyTableRow" />
+								</Style>
+<Style name="box_upp_left" element="p">
+									<Attribute name="class" value="box_upp_left" />
+								</Style>
+<Style name="box_upp_center" element="p">
+									<Attribute name="class" value="box_upp_center" />
+								</Style>
+<Style name="box_upp_right" element="p">
+									<Attribute name="class" value="box_upp_right" />
+								</Style>
+<Style name="box_center_left" element="p">
+									<Attribute name="class" value="box_center_left" />
+								</Style>
+<Style name="box_center_center" element="p">
+									<Attribute name="class" value="box_center_center" />
+								</Style>
+<Style name="box_center_right" element="p">
+									<Attribute name="class" value="box_center_right" />
+								</Style>
+<Style name="box_down_left" element="p">
+									<Attribute name="class" value="box_down_left" />
+								</Style>
+<Style name="box_down_center" element="p">
+									<Attribute name="class" value="box_down_center" />
+								</Style>
+<Style name="box_down_right" element="p">
+									<Attribute name="class" value="box_down_right" />
+								</Style>
+<Style name="Yello_box_upp_left" element="p">
+									<Attribute name="class" value="Yello_box_upp_left" />
+								</Style>
+<Style name="Yello_box_upp_center" element="p">
+									<Attribute name="class" value="Yello_box_upp_center" />
+								</Style>
+<Style name="Yello_box_upp_right" element="p">
+									<Attribute name="class" value="Yello_box_upp_right" />
+								</Style>
+<Style name="Orange_box_upp_left" element="p">
+									<Attribute name="class" value="Orange_box_upp_left" />
+								</Style>
+<Style name="Orange_box_upp_center" element="p">
+									<Attribute name="class" value="Orange_box_upp_center" />
+								</Style>
+<Style name="Orange_box_upp_right" element="p">
+									<Attribute name="class" value="Orange_box_upp_right" />
+								</Style>
+<Style name="Blue_box_upp_left" element="p">
+									<Attribute name="class" value="Blue_box_upp_left" />
+								</Style>
+<Style name="Blue_box_upp_center" element="p">
+									<Attribute name="class" value="Blue_box_upp_center" />
+								</Style>
+<Style name="Blue_box_upp_right" element="p">
+									<Attribute name="class" value="Blue_box_upp_right" />
+								</Style>
+<Style name="Rbox_upp_left" element="p">
+									<Attribute name="class" value="Rbox_upp_left" />
+								</Style>
+<Style name="Rbox_upp_center" element="p">
+									<Attribute name="class" value="Rbox_upp_center" />
+								</Style>
+<Style name="Rbox_upp_right" element="p">
+									<Attribute name="class" value="Rbox_upp_right" />
+								</Style>
+<Style name="Rbox_center_left" element="p">
+									<Attribute name="class" value="Rbox_center_left" />
+								</Style>
+<Style name="Rbox_center_center" element="p">
+									<Attribute name="class" value="Rbox_center_center" />
+								</Style>
+<Style name="Rbox_center_right" element="p">
+									<Attribute name="class" value="Rbox_center_right" />
+								</Style>
+<Style name="Rbox_down_left" element="p">
+									<Attribute name="class" value="Rbox_down_left" />
+								</Style>
+<Style name="Rbox_down_center" element="p">
+									<Attribute name="class" value="Rbox_down_center" />
+								</Style>
+<Style name="Rbox_down_right" element="p">
+									<Attribute name="class" value="Rbox_down_right" />
+								</Style>
+<Style name="CSSTextAlignRight" element="p">
+									<Attribute name="class" value="CSSTextAlignRight" />
+								</Style>
+<Style name="CSSTextAlignLeft" element="p">
+									<Attribute name="class" value="CSSTextAlignLeft" />
+								</Style>
+<Style name="Floating_menu_popup_flash" element="p">
+									<Attribute name="class" value="Floating_menu_popup_flash" />
+								</Style>
+<Style name="col1" element="p">
+									<Attribute name="class" value="col1" />
+								</Style>
+<Style name="col2" element="p">
+									<Attribute name="class" value="col2" />
+								</Style>
+
+</Styles>

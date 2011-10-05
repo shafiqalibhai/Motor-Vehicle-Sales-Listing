@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>The Flash Module</name>
+  <author>Michael Carico</author>
+  <creationDate>June 2008</creationDate>
+  <copyright>(C) 2005 - 2008 Michael Carico. All rights reserved.</copyright>
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+  <authorEmail>mike@kabam.net</authorEmail>
+  <authorUrl>www.kabam.net</authorUrl>
+  <version>3</version>
+  <description>Display Flash (SWF) file in a module.</description>
+  <files>
+    <filename module="mod_flash">index.html</filename>
+    <filename module="mod_flash">mod_flash.php</filename>
+    <filename module="mod_flash">mod_flash.js</filename>
+  </files>
+  <params>
+    <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="PARAMMODULECLASSSUFFIX" />
+    <param name="fm_path" type="text" default="images/flash/" label="File Path" 
+      description="Relative path to the SWF file.">
+    </param>
+    <param name="fm_source" type="text" default="" label="Filename" 
+      description="Name of flash file">
+    </param>
+    <param name="fm_width" type="text" default="" label="Width" 
+      description="Width of SWF file.">
+    </param>
+    <param name="fm_height" type="text" default="" label="Height" 
+      description="Height of SWF file.">
+    </param>
+    <param name="fm_name" type="text" default="" label="Object Name / ID"
+	  description="Identifies the Flash movie to the host environment.">
+	</param>  
+   <param name="fm_version" type="list" default="8.0.22.0" label="Flash Version"
+      description="Verions of the Flash Player required to play the SWF.  When possible, the lastest version of the selected player is used.">
+     <option value="1.0.0.0">Flash Player 1 (1.0.0.0)</option>	  
+     <option value="2.0.0.0">Flash Player 2 (2.0.0.0)</option>	  
+     <option value="3.0.0.0">Flash Player 3 (3.0.0.0)</option>	  
+     <option value="4.0.28.0">Flash Player 4 (4.0.28.0)</option>	  
+     <option value="5.0.41.0">Flash Player 5 (5.0.41.0)</option>	  
+     <option value="6.0.79.0">Flash Player 6 (6.0.79.0)</option>	  
+     <option value="7.0.61.0">Flash Player 7 (7.0.61.0)</option>	  
+     <option value="8.0.22.0">Flash Player 8 (8.0.22.0)</option>	  	 	 
+     <option value="9.0.47.0">Flash Player 9 (9.0.47.0)</option>	  	 	 
+    </param>
+	<param name="fm_quality" type="list" default="high" label="Quality"
+	  description="Quality setting to use in the Flash Player.">
+	  <option value="best">Best</option>
+	  <option value="high">High</option>	
+	  <option value="medium">Medium</option>	
+	  <option value="low">Low</option>
+	  <option value="autohigh">Auto High</option>	  	
+	  <option value="autolow">Auto Low</option>
+	</param>  
+	<param name="fm_loop" type="list" default="Yes" label="Loop"
+	  description="Specifies whether the movie repeats indefinitely or stops when it reaches the last frame.">
+	  <option value="yes">Yes</option>
+	  <option value="no">No</option>
+	</param>
+	<param name="fm_wmode" type="list" default="window" label="Window Mode"
+	  description="Sets the Window Mode property of the Flash movie for transparency, layering, and positioning in the browser.">
+	  <option value="window">Window</option>
+	  <option value="opaque">Opaque</option>
+	  <option value="transparent">Transparent</option>
+    </param> 			
+ </params>
+  <params group="advanced">
+	<param name="fm_usejs" type="list" default="yes" label="Display using JavaScript?"
+	  description="If this is set to YES, this will display the SWF using Javascript (which will 'fix' IE).  If this is set to NO, then the SWF is displayed inline.">
+	  <option value="yes">Yes</option>
+	  <option value="no">No</option>	
+	</param>  
+	<param name="fm_noscript" type="list" default="flashmovie" label="NOSCRIPT Display"
+	  description="If Javascript is not detected, what should the module display (No-Flash HTML or FLASH Movie)?">
+	  <option value="flashmovie">Flash Movie</option>
+	  <option value="noflash">No-Flash HTML</option>
+	</param>
+    <param name="fm_noflash" type="textarea" cols="35" rows="10" default="" label="No Flash HTML" description="HTML to display if Flash is not detected and the NOSCRIPT Display is set to No-Flash HTML." ></param>	
+  </params>
+</install>

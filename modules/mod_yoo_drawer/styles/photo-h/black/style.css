@@ -1,0 +1,9 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.photo-h div.yoo-drawer ul.list li.item {
+	border-right: 10px solid #141414;
+}
+
+.yootools-black div.photo-h div.yoo-drawer ul.list li.last {
+	border-right: none;
+}

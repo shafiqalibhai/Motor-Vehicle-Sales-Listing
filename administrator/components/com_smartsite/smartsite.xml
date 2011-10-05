@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5">
+   <name>SmartSite</name>
+   <author>Anton Nikiforov</author>
+   <creationDate>October 2008</creationDate>
+   <copyright>(c) 2008 Recly Interactive. All rights reserved.</copyright>
+   <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+   <authorEmail>support@recly.com</authorEmail>
+   <authorUrl>www.smartsite.su</authorUrl>
+   <version>1.0.1</version>
+
+   <description><![CDATA[SmartSite is a set of tools that brings a web2.0 twist to a Joomla website.]]></description>
+
+   <installfile>install.smartsite.php</installfile>
+   <installfile>uninstall.smartsite.php</installfile>
+
+
+   <files folder="site">
+      <filename>smartsite.php</filename>
+      <filename>smartsite.html.php</filename>
+      <filename>index.html</filename>
+      <filename>smartsite_template.zip</filename>
+      <filename>plugin_smartsite_system.zip</filename>
+
+      <filename>assets/index.html</filename>   
+      <filename>assets/css/index.html</filename>
+      <filename>assets/css/add_module.css</filename>
+      <filename>assets/css/smartsite_1.css</filename>
+      <filename>assets/css/smartsite_2.css</filename>
+      <filename>assets/images/index.html</filename>
+      <filename>assets/images/icons.gif</filename>
+      <filename>assets/images/fields1.png</filename>
+      <filename>assets/images/mail0000.png</filename>
+      <filename>assets/js/index.html</filename>
+      <filename>assets/js/add_module.js</filename>
+      <filename>assets/js/smartsite.js</filename>
+
+      <filename>controllers/index.html</filename>
+      <filename>controllers/default.php</filename>
+      <filename>controllers/json_modules.php</filename>
+      <filename>controllers/modules.php</filename>
+
+      <filename>lib/index.html</filename>
+      <filename>lib/jmodulehelpersmartsite.php</filename>
+      <filename>lib/jpanesmartsite.php</filename>
+      <filename>lib/smart_modules.php</filename>
+
+      <filename>models/index.html</filename>
+      <filename>models/json_modules.php</filename>
+      <filename>models/module.php</filename>
+      <filename>models/modules.php</filename>
+
+      <filename>views/index.html</filename>
+
+      <filename>views/default/index.html</filename>
+      <filename>views/default/view.php</filename>
+      <filename>views/default/tmpl/index.html</filename>
+      <filename>views/default/tmpl/default.php</filename>
+
+      <filename>views/smartsite/index.html</filename>
+      <filename>views/smartsite/view.php</filename>
+      <filename>views/smartsite/tmpl/index.html</filename>
+      <filename>views/smartsite/tmpl/default_add_module.php</filename>
+      <filename>views/smartsite/tmpl/default_add_module_big.php</filename>
+      <filename>views/smartsite/tmpl/default_add_module_submit.php</filename>
+      <filename>views/smartsite/tmpl/default_front_page.php</filename>
+      <filename>views/smartsite/tmpl/default_success.php</filename>
+   </files>
+
+	<languages folder="site">
+		<language tag="en-GB">languages/en-GB.com_smartsite.ini</language>
+	</languages>
+
+
+   <administration>
+      <files folder="admin">
+         <filename>config.xml</filename>
+         <filename>smartsite.php</filename>
+         <filename>install.smartsite.php</filename>
+         <filename>uninstall.mysql.sql</filename>
+         <filename>index.html</filename>
+         <filename>assets/images/index.html</filename>
+         <filename>assets/images/tick.gif</filename>
+         <filename>assets/images/cross.gif</filename>
+         <filename>assets/images/smartsite_logo.gif</filename>
+      </files>
+      <menu>SmartSite</menu>
+
+	<languages folder="admin">
+		<language tag="en-GB">languages/en-GB.com_smartsite.ini</language>
+	</languages>
+
+   </administration>
+   
+  <uninstall>
+    <sql>
+      <file driver="mysql" charset="utf8">uninstall.mysql.sql</file>
+    </sql>
+  </uninstall>   
+   
+     <params>
+     		<param name="show_registered_only" type="list" default="1" label="Mode" description="Show registered-only buttons if user is not logged in">
+    			<option value="0">No</option>
+    			<option value="1">Yes</option>
+    		</param>
+     		<param name="error_log_enabled" type="list" default="0" label="Error Log" description="You can turn on logging and check out the log at [JOOMLA_DIR]/logs/smartsite.php">
+    			<option value="0">Disabled</option>
+    			<option value="1">Enabled</option>
+    		</param>
+     </params>    
+</install>

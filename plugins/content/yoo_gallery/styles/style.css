@@ -1,0 +1,17 @@
+/* (C) 2007 YOOtheme.com */
+
+div.yoo-gallery {
+	overflow: hidden;
+}
+
+div.yoo-gallery img {
+	border: 0;
+}
+
+div.yoo-gallery div.thumbnails {
+}
+
+/* slideshow */
+div.yoo-gallery div.slideshow-bg {
+	margin-bottom: 10px;
+}

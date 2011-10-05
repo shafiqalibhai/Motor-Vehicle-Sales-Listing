@@ -1,0 +1,816 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>{$lang_style_title}</title>
+	<script language="javascript" type="text/javascript" src="istyles/aa.js"></script>
+	<script src="../../dialog/common/fck_dialog_common.js" type="text/javascript"></script>
+	<link type="text/css" rel="stylesheet" href="istyles/aa.css"></link>
+
+<script>
+     
+function combotext_onkeydown(e,oText,oSelect){  
+  
+  var keyCode = e.keyCode;  
+  
+   
+  if (keyCode == 40 || keyCode == 38) {  
+    oSelect.style.display = 'block';  
+    oSelect.focus();
+    comboselect_onchange(oSelect, oText);  
+  }  
+  else if (keyCode == 13) {  
+    e.cancelBubble = true;  
+    if (e.returnValue) e.returnValue = false;  
+    if (e.stopPropagation) e.stopPropagation();  
+    comboselect_onchange(oSelect, oText);  
+    oText.focus();  
+    return false;  
+  }  
+  else if(keyCode == 9) return true;  
+  else { //alert(keyCode);  
+  
+    oSelect.style.display = 'block';  
+  
+    var c = String.fromCharCode(keyCode);  
+	
+    c = c.toUpperCase();   
+    var toFind = oText.value.toUpperCase() + c;  
+  
+   
+    for (i=0; i < oSelect.options.length; i++){  
+	   
+       var nextOptionText = oSelect.options[i].text.toUpperCase();  
+     	   
+        if(toFind == nextOptionText){  
+            oSelect.selectedIndex = i;  
+            break;  
+        }  
+  
+        if(i < oSelect.options.length-1){  
+           var lookAheadOptionText = oSelect.options[i+1].text.toUpperCase() ;  
+           if( (toFind > nextOptionText) &&   
+              (toFind < lookAheadOptionText) ){  
+              oSelect.selectedIndex = i+1;  
+              break;  
+           }  
+         }  
+         else {  
+           if(toFind > nextOptionText){  
+               oSelect.selectedIndex = oSelect.options.length-1; // stick it at the end  
+               break;  
+           }  
+       }  
+    }  
+  }  
+   
+}  
+ 
+function comboselect_onchange(oSelect,oText) {  
+  if(oSelect.selectedIndex != -1)  
+    oText.value = oSelect.options[oSelect.selectedIndex].text;
+   // oText.focus();   
+}  
+  
+function comboselect_onkeyup(keyCode,oSelect,oText){  
+  comboselect_onchange(oSelect, oText);  
+  if (keyCode == 13) {  
+    
+    //oSelect.style.display='none'; 
+    oText.focus();  
+  }  
+}  
+  
+</script>
+
+
+
+	<script language="JavaScript">
+	function SelectTextColor()
+	{
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnTextColor, window ) ;
+	}
+
+	function SelectBackgroundColor()
+	{
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnBackgroundColor, window ) ;
+	}
+
+	function SelectBorderColorTop()
+	{
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnBorderColorTop, window ) ;
+	}
+	function SelectBorderColorRight()
+	{
+		if(document.getElementById('border_color_same').checked==false)
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnBorderColorRight, window ) ;
+	}
+	function SelectBorderColorLeft()
+	{
+		if(document.getElementById('border_color_same').checked==false)
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnBorderColorLeft, window ) ;
+	}
+	function SelectBorderColorBottom()
+	{
+		if(document.getElementById('border_color_same').checked==false)
+		oEditor.FCKDialog.OpenDialog( 'FCKDialog_Color', oEditor.FCKLang.DlgColorTitle, 'dialog/fck_colorselector.html', 400, 330, ReturnBorderColorBottom, window ) ;
+	}
+	
+	function ReturnTextColor( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('text_color').style.background = color ;
+			RefreshPreview();
+		}
+	}
+	function ReturnBackgroundColor( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('background_color').style.background = color ;
+			RefreshPreview(); 
+		}
+	}
+	function ReturnBorderColorTop( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('border_color_top').style.background = color ;
+			if(document.getElementById('border_color_same').checked==true){
+				document.getElementById('border_color_right').style.background = color ;
+				document.getElementById('border_color_left').style.background = color ;
+				document.getElementById('border_color_bottom').style.background = color ;
+			}
+			 RefreshPreview(); 
+		}
+	}
+	function ReturnBorderColorRight( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('border_color_right').style.background = color ;
+			RefreshPreview(); 
+		}
+	}
+	function ReturnBorderColorLeft( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('border_color_left').style.background = color ;
+			 RefreshPreview();
+		}
+	}
+	function ReturnBorderColorBottom( color )
+	{
+		if ( color && color.length > 0 ) {
+			document.getElementById('border_color_bottom').style.background = color ;
+			 RefreshPreview();
+		}
+	}
+	
+	function BrowseServer()
+	{
+		OpenFileBrowser(oEditor.FCKConfig.ImageBrowserURL,oEditor.FCKConfig.ImageBrowserWindowWidth,oEditor.FCKConfig.ImageBrowserWindowHeight ) ;
+	}
+	
+	function SetUrl( url, width, height, alt )
+	{
+		document.getElementById('background_image').value=url;
+		RefreshPreview();
+	}
+	
+	function RefreshPreview()
+	{
+	    var container = document.getElementById("preview_container");
+		var prev=document.getElementById("text_preview");
+		prev.style.cssText=generateCSS();
+		prev.style.overflow = "hidden";
+		
+		if (prev.offsetHeight > 105 || prev.offsetWidth > 670)
+		{
+		 	if(prev.offsetHeight > 105)
+		 		container.style.height = prev.offsetHeight +15; // + "px";
+			else 
+				container.style.height = 105;
+		 	if(prev.offsetWidth > 670)
+		 		container.style.width = prev.offsetWidth -10; // + "px";
+			else  
+			   container.style.width = 670;
+		}
+		else
+		{
+		 container.style.height = 105;
+		 container.style.width = 670 ;
+		}
+	}
+	
+	function _onload()
+	{
+		// Reset the preview
+		RefreshPreview();
+	}
+	</script>
+
+	<base target="_self" />
+</head>
+<body id="styleprops" onLoad="init();" onclick="">
+	<form >
+
+		<div class="panel_wrapper" style="height:15%;">
+			<div id="text_panel" class="panel current">
+				<table border="0" width="100%">
+					<tr>
+						<td><label for="text_font" fckLang="DlgStyleTextFont">{$lang_style_text_font}</label></td>
+						<td colspan="3">
+							<select id="text_font" name="text_font" onChange="RefreshPreview();" className="FCKEditableSelect" ></select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="text_size" fckLang="DlgStyleTextSize">{$lang_style_text_size}</label></td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><select id="text_size" name="text_size"   onChange="RefreshPreview();"  className="FCKEditableSelect"></select></td>
+								<td>&nbsp;<select id="text_size_measurement"  onChange="RefreshPreview();" name="text_size_measurement" className="FCKEditableSelect"></select>
+							</tr></table>
+						</td>
+						<td><label for="text_weight" fckLang="DlgStyleTextWeight">{$lang_style_text_weight}</label></td>
+						<td valign="top">
+						<select id="text_weight" name="text_weight"  onChange="RefreshPreview();" className="FCKEditableSelect"></select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="text_style" fckLang="DlgStyleTextStyle">{$lang_style_text_style}</label></td>
+						<td>
+							<select id="text_style" name="text_style"  onChange="RefreshPreview();" className="FCKEditableSelect"></select>
+						</td>
+						<td><label for="text_variant" fckLang="DlgStyleTextVariant">{$lang_style_text_variant}</label></td>
+						<td>
+							<select id="text_variant" onChange="RefreshPreview();"  name="text_variant" className="FCKEditableSelect"></select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="text_lineheight" fckLang="DlgStyleTextLineHeight">{$lang_style_text_lineheight}</label></td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0">
+							<tr>
+                <td valign="top" width="70px">
+                  <div style="position:relative">
+                    <input id="text_lineheight" name="text_lineheight"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.text_lineheight_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                  <select id="text_lineheight_opt" name="text_lineheight_opt"  onChange="comboselect_onchange(this, this.form.text_lineheight);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+    ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.text_lineheight)"></select>
+                </div>
+                </td>
+                <td>&nbsp;<select  type="text"  onChange="RefreshPreview();"  id="text_lineheight_measurement" name="text_lineheight_measurement" className="FCKEditableSelect"></select>
+							</tr>
+							</table>
+						</td>
+						<td><label for="text_case"  fckLang="DlgStyleTextCase">{$lang_style_text_case}</label></td>
+						<td>
+							<select id="text_case" name="text_case" className="FCKEditableSelect"  onChange="RefreshPreview();" ></select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="text_color"  fckLang="DlgStyleTextColor">{$lang_style_text_color}</label></td>
+						<td colspan="2">
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="text_color" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectTextColor();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td  fckLang="DlgStyleTextDecoration"><label fckLang="DlgStyleTextDecoration"></label></td>
+						<td colspan="2">
+							<table border="0" cellspacing="0" cellpadding="0">
+								<tr><td><input  onChange="RefreshPreview();" id="text_underline" name="text_underline" class="checkbox" type="checkbox" /></td><td><label for="text_underline">underline</label></td></tr>
+								<tr><td><input  onChange="RefreshPreview();" id="text_overline" name="text_overline" class="checkbox" type="checkbox" /></td><td><label for="text_overline">overline</label></td></tr>
+								<tr><td><input  onChange="RefreshPreview();" id="text_linethrough" name="text_linethrough" class="checkbox" type="checkbox" /></td><td><label for="text_linethrough">line-through</label></td></tr>
+								<tr><td><input  onChange="RefreshPreview();" id="text_blink" name="text_blink" class="checkbox" type="checkbox" /></td><td><label for="text_blink">blink</label></td></tr>
+								<tr><td><input  onChange="RefreshPreview();" id="text_none" name="text_none" class="checkbox" type="checkbox" /></td><td><label for="text_none">none</label></td></tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="background_panel" class="panel">
+				<table border="0">
+					<tr>
+						<td width="100"><label for="background_color"  fckLang="DlgStyleBackgroundColor">{$lang_style_background_color}</label></td>
+						<td width="100">
+							<table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="background_color" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectBackgroundColor();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+									<td id="background_color_pickcontainer">&nbsp;</td>
+								</tr>
+							</table>
+						</td>	
+					</tr>
+
+					<tr>
+						<td><label for="background_image" fckLang="DlgStyleBackgroundImage">{$lang_style_background_image}</label></td>
+						<td style="width:40;" width="40"><input id="background_image" name="background_image" type="text" className="FCKEditableSelect"/></td>
+          				  <td style="width:20;" width="20"><a href="javascript:;" onClick="BrowseServer();return false;"><input type="image" src="istyles/images/browse.gif"></a></td>	
+					</tr>
+
+					<tr>
+						<td><label for="background_repeat" fckLang="DlgStyleBackgroundRepeat">{$lang_style_background_repeat}</label></td>
+						<td><select id="background_repeat"  onChange="RefreshPreview();" name="background_repeat" className="FCKEditableSelect"></select></td>	
+					</tr>
+
+					<tr>
+						<td><label for="background_attachment" fckLang="DlgStyleBackgroundAttachment">{$lang_style_background_attachment}</label></td>
+						<td><select id="background_attachment"  onChange="RefreshPreview();"  name="background_attachment" className="FCKEditableSelect"></select>
+          </td>	
+					</tr>
+
+					<tr>
+						<td><label for="background_hpos" fckLang="DlgStyleBackgroundHpos">{$lang_style_background_hpos}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="background_hpos" name="background_hpos"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.background_hpos_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+							<select id="background_hpos_opt" name="background_hpos_opt"  onChange="comboselect_onchange(this, this.form.background_hpos);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.background_hpos)"></select>
+						</div>
+								</td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="background_hpos_measurement" name="background_hpos_measurement"></select></td>
+							</tr></table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="background_vpos" fckLang="DlgStyleBackgroundVpos">{$lang_style_background_vpos}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="background_vpos" name="background_vpos"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.background_vpos_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+							<select id="background_vpos_opt" name="background_vpos_opt"  onChange="comboselect_onchange(this, this.form.background_vpos);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.background_vpos)"></select>
+						</div>
+								</td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="background_vpos_measurement" name="background_vpos_measurement"></select>
+								</td>
+							</tr></table>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="block_panel" class="panel">
+				<table border="0">
+					<tr>
+						<td><label for="block_wordspacing" fckLang="DlgStyleBlockWordSpacing">{$lang_style_block_wordspacing}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>.
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="block_wordspacing" name="block_wordspacing"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.block_wordspacing_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="block_wordspacing_opt" name="block_wordspacing_opt"  onChange="comboselect_onchange(this, this.form.block_wordspacing);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.block_wordspacing)"></select>
+                </div>..
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="block_wordspacing_measurement" name="block_wordspacing_measurement"></select></td>
+							</tr></table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="block_letterspacing" fckLang="DlgStyleBlockLetterSpacing">{$lang_style_block_letterspacing}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="block_letterspacing" name="block_letterspacing"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.block_letterspacing_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="block_letterspacing_opt" name="block_letterspacing_opt"  onChange="comboselect_onchange(this, this.form.block_letterspacing);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.block_letterspacing)"></select>
+                </div>
+								</td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="block_letterspacing_measurement" name="block_letterspacing_measurement"></select></td>
+							</tr></table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="block_vertical_alignment" fckLang="DlgStyleBlockVerticalAlignment">{$lang_style_block_vertical_alignment}</label></td>
+						<td><select  onChange="RefreshPreview();" id="block_vertical_alignment" name="block_vertical_alignment" className="FCKEditableSelect"></select></td>	
+					</tr>
+
+					<tr>
+						<td><label for="block_text_align" fckLang="DlgStyleBlockTextAlign">{$lang_style_block_text_align}</label></td>
+						<td><select  onChange="RefreshPreview();" id="block_text_align" name="block_text_align" className="FCKEditableSelect"></select></td>	
+					</tr>
+
+					<tr>
+						<td><label for="block_text_indent" fckLang="DlgStyleBlockTextIndent">{$lang_style_block_text_indent}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><input  onChange="RefreshPreview();" type="text" id="block_text_indent" name="block_text_indent" /></td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="block_text_indent_measurement" name="block_text_indent_measurement"></select>
+							</tr></table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label for="block_whitespace" fckLang="DlgStyleBlockWhiteSpace">{$lang_style_block_whitespace}</label></td>
+						<td><select  onChange="RefreshPreview();" id="block_whitespace" name="block_whitespace" className="FCKEditableSelect"></select></td>	
+					</tr>
+
+					<tr>
+						<td><label for="block_display" fckLang="DlgStyleBlockDisplay">{$lang_style_block_display}</label></td>
+						<td><select  onChange="RefreshPreview();" id="block_display" name="block_display" className="FCKEditableSelect"></select></td>	
+					</tr>
+				</table>
+			</div>
+
+			<div id="box_panel" class="panel">
+				<table border="0">
+					<tr>
+						<td><label for="box_width" fckLang="DlgStyleBoxWidth">{$lang_style_box_width}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><input   type="text" id="box_width" name="box_width" onChange="synch('box_width','positioning_width');" /></td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="box_width_measurement" name="box_width_measurement"></select>
+							</tr></table>
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;<label for="box_float" fckLang="DlgStyleBoxFloat">{$lang_style_box_float}</label></td>
+						<td><select  onChange="RefreshPreview();" id="box_float" name="box_float" className="FCKEditableSelect"></select></td>							
+					</tr>
+
+					<tr>
+						<td><label for="box_height" fckLang="DlgStyleBoxHeight">{$lang_style_box_height}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><input type="text" id="box_height"name="box_height" onChange="synch('box_height','positioning_height');" /></td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="box_height_measurement" name="box_height_measurement"></select>
+							</tr></table>
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;<label for="box_clear" fckLang="DlgStyleBoxClear">{$lang_style_box_clear}</label></td>
+						<td><select id="box_clear"  onChange="RefreshPreview();" name="box_clear" className="FCKEditableSelect"></select></td>							
+					</tr>					
+				</table>
+				<div style="float: left; width: 49%">
+					<fieldset>
+						<legend><label fckLang="DlgStylePadding"></label></legend>
+
+						<table border="0">
+							<tr>
+								<td>&nbsp;</td>
+								<td><input type="checkbox"  onChange="RefreshPreview();" id="box_padding_same" name="box_padding_same" class="checkbox" checked="checked" onClick="toggleSame(this,'box_padding');" /> <label for="box_padding_same" fckLang="DlgStyleSame">{$lang_style_same}</label></td>
+							</tr>
+							<tr>
+								<td><label for="box_padding_top" fckLang="DlgStyleBoxPaddingTop">{$lang_style_top}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_padding_top" name="box_padding_top" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_padding_top_measurement" name="box_padding_top_measurement"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_padding_right" fckLang="DlgStyleBoxPaddingRight">{$lang_style_right}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_padding_right" name="box_padding_right" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_padding_right_measurement" name="box_padding_right_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_padding_bottom" fckLang="DlgStyleBoxPaddingBottom">{$lang_style_bottom}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_padding_bottom" name="box_padding_bottom" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_padding_bottom_measurement" name="box_padding_bottom_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_padding_left" fckLang="DlgStyleBoxPaddingLeft">{$lang_style_left}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_padding_left" name="box_padding_left" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_padding_left_measurement" name="box_padding_left_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<div style="float: right; width: 49%">
+					<fieldset>
+						<legend><label fckLang="DlgStyleMargin"></label></legend>
+
+						<table border="0">
+							<tr>
+								<td>&nbsp;</td>
+								<td><input  onChange="RefreshPreview();" type="checkbox" id="box_margin_same" name="box_margin_same" class="checkbox" checked="checked" onClick="toggleSame(this,'box_margin');" /> <label for="box_margin_same" fckLang="DlgStyleSame">{$lang_style_same}</label></td>
+							</tr>
+							<tr>
+								<td><label for="box_margin_top" fckLang="DlgStyleBoxMarginTop">{$lang_style_top}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_margin_top" name="box_margin_top" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_margin_top_measurement" name="box_margin_top_measurement"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_margin_right" fckLang="DlgStyleBoxMarginRight">{$lang_style_right}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_margin_right" name="box_margin_right" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_margin_right_measurement" name="box_margin_right_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_margin_bottom" fckLang="DlgStyleBoxMarginBottom">{$lang_style_bottom}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_margin_bottom" name="box_margin_bottom" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_margin_bottom_measurement" name="box_margin_bottom_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label for="box_margin_left" fckLang="DlgStyleBoxMarginLeft">{$lang_style_left}</label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="box_margin_left" name="box_margin_left" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="box_margin_left_measurement" name="box_margin_left_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<br style="clear: both" />
+			</div>
+
+			<div id="border_panel" class="panel">
+				<table border="0" cellspacing="0" cellp2adding="0" width="100%">
+					<tr>
+						<td class="tdelim">&nbsp;</td>
+						<td class="tdelim delim">&nbsp;</td>
+						<td class="tdelim"><label fckLang="DlgStyleStyle"></label></td>
+						<td class="tdelim delim">&nbsp;</td>
+						<td class="tdelim"><label fckLang="DlgStyleWidth"></label></td>
+						<td class="tdelim delim">&nbsp;</td>
+						<td class="tdelim"><label fckLang="DlgStyleColor"></label></td>
+					</tr>
+
+					<tr>
+						<td>&nbsp;</td>
+						<td class="delim">&nbsp;</td>
+						<td><input  onChange="RefreshPreview();" type="checkbox" id="border_style_same" name="border_style_same" class="checkbox" checked="checked" onClick="toggleSame(this,'border_style');" /> <label for="border_style_same" fckLang="DlgStyleSame">{$lang_style_same}</label></td>
+						<td class="delim">&nbsp;</td>
+						<td><input  onChange="RefreshPreview();" type="checkbox" id="border_width_same" name="border_width_same" class="checkbox" checked="checked" onClick="toggleSame(this,'border_width');" /> <label for="border_width_same" fckLang="DlgStyleSame">{$lang_style_same}</label></td>
+						<td class="delim">&nbsp;</td>
+						<td><input  onChange="RefreshPreview();" type="checkbox" id="border_color_same" name="border_color_same" class="checkbox" checked="checked" onClick="toggleSame(this,'border_color');" /> <label for="border_color_same" fckLang="DlgStyleSame">{$lang_style_same}</label></td>
+					</tr>
+
+					<tr>
+						<td><label fckLang="DlgStyleTop"></label></td>
+						<td class="delim">&nbsp;</td>
+						<td><select  onChange="RefreshPreview();" id="border_style_top" name="border_style_top" className="FCKEditableSelect"></select></td>
+            <td class="delim">&nbsp;</td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="border_width_top" name="border_width_top"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.border_width_top_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="border_width_top_opt" name="border_width_top_opt"  onChange="comboselect_onchange(this, this.form.border_width_top);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.border_width_top)"></select>
+                </div>
+								</td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="border_width_top_measurement" name="border_width_top_measurement"></select></td>
+							</tr></table>
+						</td>
+						<td class="delim">&nbsp;</td>
+						<td><table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="border_color_top" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectBorderColorTop();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+									<td id="border_color_top_pickcontainer">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label fckLang="DlgStyleRight"></label></td>
+						<td class="delim">&nbsp;</td>
+						<td><select  onChange="RefreshPreview();" id="border_style_right" name="border_style_right" className="FCKEditableSelect" disabled="disabled"></select></td>
+						<td class="delim">&nbsp;</td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="border_width_right" name="border_width_right"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.border_width_right_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="border_width_right_opt" name="border_width_right_opt"  onChange="comboselect_onchange(this, this.form.border_width_right);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.border_width_right)"></select>
+                </div>
+								<td>&nbsp;<select onChange="RefreshPreview();"  id="border_width_right_measurement" name="border_width_right_measurement" disabled="disabled"></select></td>
+							</tr></table>
+						</td>
+						<td class="delim">&nbsp;</td>
+						<td><table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="border_color_right" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectBorderColorRight();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+									<td id="border_color_right_pickcontainer">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label fckLang="DlgStyleBottom"></label></td>
+						<td class="delim">&nbsp;</td>
+						<td><select onChange="RefreshPreview();"  id="border_style_bottom" name="border_style_bottom" className="FCKEditableSelect" disabled="disabled"></select></td>
+						<td class="delim">&nbsp;</td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="border_width_bottom" name="border_width_bottom"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.border_width_bottom_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="border_width_bottom_opt" name="border_width_bottom_opt"  onChange="comboselect_onchange(this, this.form.border_width_bottom);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.border_width_bottom)"></select>
+                </div>
+								</td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="border_width_bottom_measurement" name="border_width_bottom_measurement" disabled="disabled"></select></td>
+							</tr></table>
+						</td>
+						<td class="delim">&nbsp;</td>
+						<td><table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="border_color_bottom" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectBorderColorBottom();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+									<td id="border_color_bottom_pickcontainer">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td><label fckLang="DlgStyleLeft"></label></td>
+						<td class="delim">&nbsp;</td>
+						<td><select id="border_style_left"  onChange="RefreshPreview();" name="border_style_left" className="FCKEditableSelect" disabled="disabled"></select></td>
+						<td class="delim">&nbsp;</td>
+						<td>
+							<table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td valign="top" width="70px">
+								<div style="position:relative">
+						    <input id="border_width_left" name="border_width_left"  AUTOCOMPLETE="OFF" ONKEYDOWN="return combotext_onkeydown(event, this, this.form.border_width_left_opt)" className="FCKEditableSelect" STYLE="position:absolute; top:1px; left:3px;z-index:100;height:16px;width:49px;border:none;"> 
+                <select id="border_width_left_opt" name="border_width_left_opt"  onChange="comboselect_onchange(this, this.form.border_width_left);RefreshPreview();" className="FCKEditableSelect"   STYLE="position:absolute; top:0px; left:0px;height:18px"
+ONKEYUP="comboselect_onkeyup(event.keyCode, this, this.form.border_width_left)"></select>
+                </div>
+								</td>
+								<td>&nbsp;<select id="border_width_left_measurement" name="border_width_left_measurement" disabled="disabled"></select></td>
+							</tr></table>
+						</td>
+						<td class="delim">&nbsp;</td>
+						<td><table border="0" cellpadding="0" cellspacing="0">
+								<tr>
+									<td><div id="border_color_left" width="30" style="border:1px solid black; width=30;height=10;" onClick="SelectBorderColorLeft();">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div></td>
+									<td id="border_color_left_pickcontainer">&nbsp;</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<div id="list_panel" class="panel">
+				<table border="0">
+					<tr>
+						<td><label for="list_type" fckLang="DlgStyleListType">{$lang_style_list_type}</label></td>
+						<td><select id="list_type"  onChange="RefreshPreview();" name="list_type" className="FCKEditableSelect"></select></td>	
+					</tr>
+
+					<tr>
+						<td><label for="list_bullet_image" fckLang="DlgStyleListBullerImage">{$lang_style_bullet_image}</label></td>
+						<td><input id="list_bullet_image"  onChange="RefreshPreview();" name="list_bullet_image" type="text" className="FCKEditableSelect"/></td>	
+					</tr>
+
+					<tr>
+						<td><label for="list_position" fckLang="DlgStyleListPosition">{$lang_style_position}</label></td>
+						<td><select id="list_position"  onChange="RefreshPreview();" name="list_position" className="FCKEditableSelect"></select></td>	
+					</tr>
+				</table>
+			</div>
+
+			<div id="positioning_panel" class="panel">
+				<table border="0">
+					<tr>
+						<td><label for="positioning_type" fckLang="DlgStylePositioningType">{$lang_style_positioning_type}</label></td>
+						<td><select id="positioning_type"  onChange="RefreshPreview();" name="positioning_type" className="FCKEditableSelect"></select></td>
+						<td>&nbsp;&nbsp;&nbsp;<label for="positioning_visibility" fckLang="DlgStylePositioningVisiblity">{$lang_style_visibility}</label></td>
+						<td><select id="positioning_visibility"  onChange="RefreshPreview();" name="positioning_visibility" className="FCKEditableSelect"></select></td>							
+					</tr>
+
+					<tr>
+						<td><label for="positioning_width" fckLang="DlgStylePositioningWidth">{$lang_style_width}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><input type="text" className="FCKEditableSelect" id="positioning_width" name="positioning_width" onChange="synch('positioning_width','box_width');" /></td>
+								<td>&nbsp;<select  id="positioning_width_measurement" className="FCKEditableSelect" name="positioning_width_measurement"></select>
+							</tr></table>
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;<label for="positioning_zindex" fckLang="DlgStylePositioningZindex">{$lang_style_zindex}</label></td>
+						<td><input type="text"  onChange="RefreshPreview();" id="positioning_zindex" name="positioning_zindex" className="FCKEditableSelect" /></td>							
+					</tr>
+
+					<tr>
+						<td><label for="positioning_height" fckLang="DlgStylePositioningHeight">{$lang_style_height}</label></td>
+						<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+								<td><input type="text"  className="FCKEditableSelect" id="positioning_height" name="positioning_height" onChange="synch('positioning_height','box_height');" /></td>
+								<td>&nbsp;<select  onChange="RefreshPreview();" id="positioning_height_measurement" name="positioning_height_measurement"></select>
+							</tr></table>
+						</td>
+						<td>&nbsp;&nbsp;&nbsp;<label for="positioning_overflow" fckLang="DlgStylePositioningStyleOverflow">{$lang_style_overflow}</label></td>
+						<td><select  onChange="RefreshPreview();" id="positioning_overflow" name="positioning_overflow" className="FCKEditableSelect"></select></td>							
+					</tr>					
+				</table>
+
+				<div style="float: left; position:absolute; top:100; width: 45%">
+					<fieldset>
+						<legend><label fckLang="DlgStylePlacement"></label></legend>
+
+						<table border="0">
+							<tr>
+								<td>&nbsp;</td>
+								<td><input onChange="RefreshPreview();"  type="checkbox" id="positioning_placement_same" name="positioning_placement_same" class="checkbox" checked="checked" onClick="toggleSame(this,'positioning_placement');" /> <label for="positioning_placement_same" fckLang="DlgStyleSame"></label></td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleTop"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input onChange="RefreshPreview();"  type="text" id="positioning_placement_top" name="positioning_placement_top" /></td>
+										<td>&nbsp;<select onChange="RefreshPreview();"  id="positioning_placement_top_measurement" name="positioning_placement_top_measurement"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleRight"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="positioning_placement_right" name="positioning_placement_right" disabled="disabled" /></td>
+										<td>&nbsp;<select onChange="RefreshPreview();"  id="positioning_placement_right_measurement" name="positioning_placement_right_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleBottom"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="positioning_placement_bottom" name="positioning_placement_bottom" disabled="disabled" /></td>
+										<td>&nbsp;<select onChange="RefreshPreview();"  id="positioning_placement_bottom_measurement" name="positioning_placement_bottom_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleLeft"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="positioning_placement_left" name="positioning_placement_left" disabled="disabled" /></td>
+										<td>&nbsp;<select onChange="RefreshPreview();"  id="positioning_placement_left_measurement" name="positioning_placement_left_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<div style="float: right; position:absolute; top:100; left:376; width: 45%">
+					<fieldset>
+						<legend><label fckLang="DlgStyleClip"></label></legend>
+
+						<table border="0">
+							<tr>
+								<td>&nbsp;</td>
+								<td><input  onChange="RefreshPreview();" type="checkbox" id="positioning_clip_same" name="positioning_clip_same" class="checkbox" checked="checked" onClick="toggleSame(this,'positioning_clip');" /> <label for="positioning_clip_same" fckLang="DlgStyleSame"></label></td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleTop"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input onChange="RefreshPreview();"  type="text" id="positioning_clip_top" name="positioning_clip_top" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="positioning_clip_top_measurement" name="positioning_clip_top_measurement"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleRight"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input  onChange="RefreshPreview();" type="text" id="positioning_clip_right" name="positioning_clip_right" disabled="disabled" /></td>
+										<td>&nbsp;<select onChange="RefreshPreview();"  id="positioning_clip_right_measurement" name="positioning_clip_right_measurement" disabled="disabled" ></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleBottom"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input onChange="RefreshPreview();"  type="text" id="positioning_clip_bottom" name="positioning_clip_bottom" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="positioning_clip_bottom_measurement" name="positioning_clip_bottom_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+							<tr>
+								<td><label fckLang="DlgStyleLeft"></label></td>
+								<td><table border="0" cellspacing="0" cellpadding="0"><tr>
+										<td><input onChange="RefreshPreview();"  type="text" id="positioning_clip_left" name="positioning_clip_left" disabled="disabled" /></td>
+										<td>&nbsp;<select  onChange="RefreshPreview();" id="positioning_clip_left_measurement" name="positioning_clip_left_measurement" disabled="disabled"></select>
+									</tr></table>
+								</td>
+							</tr>
+						</table>
+					</fieldset>
+				</div>
+				<br style="clear: both" />
+			</div>
+		</div>
+		
+	<fieldset id="preview_container" style="position:absolute; left:14; top:245; width:670;height:105; bgColor:white; border:1px solid black;overflow:hidden">
+	<legend><label fckLang="DlgStylePreview"></label></legend>
+    <div id="text_preview">AaBbCcDdEeFfGgXxYyZz</div>
+		</div>
+	</fieldset>
+	</form>
+ 	<div style="display: none;">
+		<div id="container"></div>
+	</div>
+</body>
+</html>

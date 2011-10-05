@@ -1,0 +1,39 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.plain div.yoo-carousel {
+	background: #141414;
+}
+
+/* tabs */
+.yootools-black div.plain div.yoo-carousel div.top ul.tabs {
+	background: url(styles/plain/black/images/tab_separator.png) 0 0 no-repeat;
+}
+
+.yootools-black div.plain div.yoo-carousel div.top ul.tabs li {
+	background: url(styles/plain/black/images/tab_bg.png) 0 0 repeat-x;
+}
+
+
+.yootools-black div.plain div.yoo-carousel div.top ul.tabs li.selected {
+	background: url(styles/plain/black/images/tab_bg.png) 0 -30px repeat-x;
+}
+
+.yootools-black div.plain div.yoo-carousel div.top ul.tabs li a span {
+	background: url(styles/plain/black/images/tab_separator.png) 100% 0 no-repeat;
+}
+
+/* links */
+.yootools-black div.plain div.yoo-carousel li a:link,
+.yootools-black div.plain div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black div.plain div.yoo-carousel li a:hover,
+.yootools-black div.plain div.yoo-carousel li.selected a:link,
+.yootools-black div.plain div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+.yootools-black div.plain div.yoo-carousel .article h3 {
+	color: #646464;
+}

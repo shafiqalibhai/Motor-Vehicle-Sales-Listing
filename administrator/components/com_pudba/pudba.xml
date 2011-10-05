@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<mosinstall type="component">
+	<name>PUdba</name>
+	<creationDate>04/25/2007</creationDate>
+	<author>Pragmatic Utopia, Oleg Savchuk</author>
+	<copyright>This component is released under the GNU/GPL License.</copyright>
+	<authorEmail>rick@pragmaticutopia.com</authorEmail>
+	<authorUrl>www.pragmaticutopia.com</authorUrl>
+	<version>1.0.0</version>
+	<description>PU Database Admin 1.0.0 - A Joomla Database Administration Component.</description>
+	<installfile>install.pudba.php</installfile>
+	<uninstallfile>uninstall.pudba.php</uninstallfile>
+	<administration>
+		<menu>PU Database Admin</menu>
+		<files>
+			<filename>admin.pudba.php</filename>
+			<filename>admin.pudba.html.php</filename>
+      			<filename>toolbar.pudba.php</filename>
+      			<filename>toolbar.pudba.html.php</filename>
+			<filename>index.html</filename>
+			<filename>images/index.html</filename>
+			<filename>images/menu.png</filename>
+			<filename>images/PUDBA_logo.png</filename>
+			<filename>lang/english.php</filename>
+			<filename>lang/index.html</filename>
+			<filename>lang/german.php</filename>
+			<filename>lang/dutch.php</filename>
+			<filename>lang/italian.php</filename>
+			<filename>lang/czech.php</filename>
+			<filename>lang/spanish.php</filename>
+			<filename>lang/portuguese.php</filename>
+		</files>
+	</administration>
+</mosinstall>
+

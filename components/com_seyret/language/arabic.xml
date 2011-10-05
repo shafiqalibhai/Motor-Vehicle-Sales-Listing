@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Arabic Language for Seyret</name>
+	<packageversion>7</packageversion>
+	<type>language</type>
+	<date>14.12.2008</date>
+	<author>Mustafa Dindar</author>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaholic.com</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>Arabic language file for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/language</targetfolder>
+	<compatibility>0.2.8.2; 0.2.8.3; 0.2.8.4</compatibility>
+	<files>
+		<filename>arabic.xml</filename>
+		<filename>arabic.php</filename>
+	</files>
+</seyretxml>

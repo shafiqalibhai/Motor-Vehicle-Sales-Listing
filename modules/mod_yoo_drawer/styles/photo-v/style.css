@@ -1,0 +1,10 @@
+/* (C) 2007 YOOtheme.com */
+
+div.photo-v div.yoo-drawer ul.list li.item {
+	border-bottom: 10px solid #ffffff;
+	display: block;
+}
+
+div.photo-v div.yoo-drawer ul.list li.last {
+	border-bottom: none;
+}

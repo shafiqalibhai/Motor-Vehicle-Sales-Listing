@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>getid3 Package - version 1.7.8b2</name>
+	<packageversion>1</packageversion>
+	<type>tool</type>
+	<date>04.04.08</date>
+	<author>James Heinrich</author>
+	<authorEmail>info@getid3.org</authorEmail>
+	<authorUrl>http://getid3.sourceforge.net</authorUrl>
+	<copyright>James Heinrich</copyright>
+	<description>getid3 package automatic installation.</description>
+	<targetfolder>/seyretfiles/tools/getid3</targetfolder>
+	<files>
+
+            <filename>changelog.txt</filename>
+            <filename>getid3/extension.cache.dbm.php</filename>
+            <filename>getid3/extension.cache.mysql.php</filename>
+            <filename>getid3/getid3.lib.php</filename>
+            <filename>getid3/getid3.php</filename>
+            <filename>getid3/module.archive.gzip.php</filename>
+            <filename>getid3/module.archive.rar.php</filename>
+            <filename>getid3/module.archive.szip.php</filename>
+            <filename>getid3/module.archive.tar.php</filename>
+            <filename>getid3/module.archive.zip.php</filename>
+            <filename>getid3/module.audio-video.asf.php</filename>
+            <filename>getid3/module.audio-video.bink.php</filename>
+            <filename>getid3/module.audio-video.flv.php</filename>
+            <filename>getid3/module.audio-video.matroska.php</filename>
+            <filename>getid3/module.audio-video.mpeg.php</filename>
+            <filename>getid3/module.audio-video.nsv.php</filename>
+            <filename>getid3/module.audio-video.quicktime.php</filename>
+            <filename>getid3/module.audio-video.real.php</filename>
+            <filename>getid3/module.audio-video.riff.php</filename>
+            <filename>getid3/module.audio-video.swf.php</filename>
+            <filename>getid3/module.audio.aac.php</filename>
+            <filename>getid3/module.audio.ac3.php</filename>
+            <filename>getid3/module.audio.au.php</filename>
+            <filename>getid3/module.audio.avr.php</filename>
+            <filename>getid3/module.audio.bonk.php</filename>
+            <filename>getid3/module.audio.dts.php</filename>
+            <filename>getid3/module.audio.flac.php</filename>
+            <filename>getid3/module.audio.la.php</filename>
+            <filename>getid3/module.audio.lpac.php</filename>
+            <filename>getid3/module.audio.midi.php</filename>
+            <filename>getid3/module.audio.mod.php</filename>
+            <filename>getid3/module.audio.monkey.php</filename>
+            <filename>getid3/module.audio.mp3.php</filename>
+            <filename>getid3/module.audio.mpc.php</filename>
+            <filename>getid3/module.audio.ogg.php</filename>
+            <filename>getid3/module.audio.optimfrog.php</filename>
+            <filename>getid3/module.audio.rkau.php</filename>
+            <filename>getid3/module.audio.shorten.php</filename>
+            <filename>getid3/module.audio.tta.php</filename>
+            <filename>getid3/module.audio.voc.php</filename>
+            <filename>getid3/module.audio.vqf.php</filename>
+            <filename>getid3/module.audio.wavpack.php</filename>
+            <filename>getid3/module.graphic.bmp.php</filename>
+            <filename>getid3/module.graphic.gif.php</filename>
+            <filename>getid3/module.graphic.jpg.php</filename>
+            <filename>getid3/module.graphic.pcd.php</filename>
+            <filename>getid3/module.graphic.png.php</filename>
+            <filename>getid3/module.graphic.svg.php</filename>
+            <filename>getid3/module.graphic.tiff.php</filename>
+            <filename>getid3/module.misc.doc.php</filename>
+            <filename>getid3/module.misc.exe.php</filename>
+            <filename>getid3/module.misc.iso.php</filename>
+            <filename>getid3/module.misc.msoffice.php</filename>
+            <filename>getid3/module.misc.par2.php</filename>
+            <filename>getid3/module.misc.pdf.php</filename>
+            <filename>getid3/module.tag.apetag.php</filename>
+            <filename>getid3/module.tag.id3v1.php</filename>
+            <filename>getid3/module.tag.id3v2.php</filename>
+            <filename>getid3/module.tag.lyrics3.php</filename>
+            <filename>getid3/write.apetag.php</filename>
+            <filename>getid3/write.id3v1.php</filename>
+            <filename>getid3/write.id3v2.php</filename>
+            <filename>getid3/write.lyrics3.php</filename>
+            <filename>getid3/write.metaflac.php</filename>
+            <filename>getid3/write.php</filename>
+            <filename>getid3/write.real.php</filename>
+            <filename>getid3/write.vorbiscomment.php</filename>
+            <filename>getid3.xml</filename>
+            <filename>helperapps/readme.txt</filename>
+            <filename>license.commercial.txt</filename>
+            <filename>license.txt</filename>
+            <filename>readme.txt</filename>
+            <filename>structure.txt</filename>
+
+	</files>
+</seyretxml>

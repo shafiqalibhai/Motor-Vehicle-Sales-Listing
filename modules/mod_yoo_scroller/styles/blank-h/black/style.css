@@ -1,0 +1,34 @@
+/* (C) 2007 YOOtheme.com */
+
+/* panel */
+.yootools-black div.blank-h div.yoo-scroller div.scrollarea {
+	background: url(styles/blank-h/black/images/scrollarea_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.scrollarea-l {
+	background: url(styles/blank-h/black/images/scrollarea_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.scrollarea-r {
+	background: url(styles/blank-h/black/images/scrollarea_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.scrollknob {
+	background: url(styles/blank-h/black/images/scrollknob_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.scrollknob-r {
+	background: url(styles/blank-h/black/images/scrollknob_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.scrollknob-m {
+	background: url(styles/blank-h/black/images/scrollknob_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.forward {
+	background: url(styles/blank-h/black/images/scroll_forward.png) 0 0 no-repeat;
+}
+
+.yootools-black div.blank-h div.yoo-scroller div.back {
+	background: url(styles/blank-h/black/images/scroll_back.png) 0 0 no-repeat;
+}

@@ -1,0 +1,97 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.basic div.yoo-carousel {
+	background: #141414;
+}
+
+/* tabs */
+/* top */
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs {
+	background: url(styles/basic/black/images/top_tab_bg.png) 0 100% repeat-x;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li a {
+	background: url(styles/basic/black/images/top_tab_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li.selected a {
+	background: url(styles/basic/black/images/top_tab_l.png) 0 -30px no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li a span {
+	background: url(styles/basic/black/images/top_tab_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li.selected a span {
+	background: url(styles/basic/black/images/top_tab_r.png) 100% -30px no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li a span span {
+	background: url(styles/basic/black/images/top_tab_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.basic div.yoo-carousel div.top ul.tabs li.selected a span span {
+	background: url(styles/basic/black/images/top_tab_m.png) 0 -30px repeat-x;
+}
+
+/* bottom */
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs {
+	background: url(styles/basic/black/images/bottom_tab_bg.png) 0 100% repeat-x;
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li a {
+	background: url(styles/basic/black/images/bottom_tab_l.png) 0 0 no-repeat; 
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li.selected a {
+	background: url(styles/basic/black/images/bottom_tab_l.png) 0 -30px no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li a span {
+	background: url(styles/basic/black/images/bottom_tab_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li.selected a span {
+	background: url(styles/basic/black/images/bottom_tab_r.png) 100% -30px no-repeat; 
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li a span span {
+	background: url(styles/basic/black/images/bottom_tab_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.basic div.yoo-carousel div.bottom ul.tabs li.selected a span span {
+	background: url(styles/basic/black/images/bottom_tab_m.png) 0 -30px repeat-x;
+}
+
+/* links */
+.yootools-black div.basic div.yoo-carousel li a:link, .yootools-black div.basic div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black div.basic div.yoo-carousel li a:hover, .yootools-black div.basic div.yoo-carousel li.selected a:link, .yootools-black div.basic div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+/* scroller */
+.yootools-black div.basic div.yoo-carousel .top .panel-container-outer {
+	border-left: 1px solid #323232;
+	border-right: 1px solid #323232;
+	border-bottom: 1px solid #323232;
+	background: #141414;
+}
+
+.yootools-black div.basic div.yoo-carousel .bottom .panel-container-outer {
+	border-left: 1px solid #323232;
+	border-right: 1px solid #323232;
+	border-top: 1px solid #323232;
+	background: #141414;
+}
+
+.yootools-black div.basic div.yoo-carousel .panel-container-inner {
+	background: url(styles/basic/black/images/panel_b.png) 0 100% repeat-x;
+}
+
+/* article */
+.yootools-black div.basic div.yoo-carousel .article h3 {
+	color: #787878;
+}

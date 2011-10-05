@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - AutosHeadTag</name>
+	<author>Kathy Strickland</author>
+	<creationDate>4th October 2008</creationDate>
+	<copyright>(C) 2008 Raptor Developments Pty Ltd. All rights reserved.</copyright>
+	<license>Commercial</license>
+	<authorEmail>kathy@raptorservices.com.au</authorEmail>
+	<authorUrl>www.raptorservices.com.au</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	System Mambot for EZ Autos to insert special files and code into the template header
+	]]></description>
+<files>
+	<filename plugin="autosheadtag">autosheadtag.php</filename>
+</files>
+</install>

@@ -1,0 +1,70 @@
+/* (C) 2007 YOOtheme.com */
+
+/* panel */
+.yootools-black div.default-v div.yoo-scroller .panel-container-t {
+	background: #323232 url(styles/default-v/black/images/panel_t.png) 0 0 repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-b {
+	background: url(styles/default-v/black/images/panel_b.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-l {
+	background: url(styles/default-v/black/images/panel_l.png) 0 0 repeat-y;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-r {
+	background: url(styles/default-v/black/images/panel_r.png) 100% 0 repeat-y;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-tl {
+	background: url(styles/default-v/black/images/panel_tl.png) 0 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-tr {
+	background: url(styles/default-v/black/images/panel_tr.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-bl {
+	background: url(styles/default-v/black/images/panel_bl.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller .panel-container-br {
+	background: url(styles/default-v/black/images/panel_br.png) 100% 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.panel {
+	background: url(styles/default-v/black/images/panel_bg.png) 0 100% repeat-x;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollarea {
+	background: url(styles/default-v/black/images/scrollarea_m.png) 0 0 repeat-y;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollarea-t {
+	background: url(styles/default-v/black/images/scrollarea_t.png) 0 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollarea-b {
+	background: url(styles/default-v/black/images/scrollarea_b.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollknob {
+	background: url(styles/default-v/black/images/scrollknob_t.png) 0 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollknob-b {
+	background: url(styles/default-v/black/images/scrollknob_b.png) 0 100% no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.scrollknob-m {
+	background: url(styles/default-v/black/images/scrollknob_m.png) 0 0 repeat-y;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.forward {
+	background: url(styles/default-v/black/images/scroll_forward.png) 0 0 no-repeat;
+}
+
+.yootools-black div.default-v div.yoo-scroller div.back {
+	background: url(styles/default-v/black/images/scroll_back.png) 0 0 no-repeat;
+}

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>YOOscroller</name>
+	<author>YOOtheme</author>
+	<creationDate>June 2008</creationDate>
+	<copyright>Copyright (C) 2007 - 2008 YOOtheme Ltd. &amp; Co. KG</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>info@yootheme.com</authorEmail>
+	<authorUrl>http://www.yootheme.com</authorUrl>
+	<version>1.5.6</version>
+	<description>YOOscroller module of the YOOtheme club (http://www.yootheme.com) for Joomla! 1.5. Requires mootools 1.1</description>
+	<files>
+		<filename module="mod_yoo_scroller">mod_yoo_scroller.php</filename>
+		<filename>mod_yoo_scroller.css.php</filename>
+		<filename>mod_yoo_scroller.js</filename>
+		<filename>mod_yoo_scroller.xml</filename>
+		<filename>helper.php</filename>
+		<filename>changelog.php</filename>
+		<filename>index.html</filename>
+		<filename>tmpl/basic-h.php</filename>
+		<filename>tmpl/basic-v.php</filename>
+		<filename>tmpl/blank-h.php</filename>
+		<filename>tmpl/blank-v.php</filename>
+		<filename>tmpl/default-h.php</filename>
+		<filename>tmpl/default-v.php</filename>
+		<filename>tmpl/index.html</filename>
+		<filename>tmpl/_item.php</filename>
+		<filename>styles/basic-h/black/images/index.html</filename>
+		<filename>styles/basic-h/black/images/panel_bg.png</filename>
+		<filename>styles/basic-h/black/images/scrollarea_bg.png</filename>
+		<filename>styles/basic-h/black/images/scrollknob_l.png</filename>
+		<filename>styles/basic-h/black/images/scrollknob_m.png</filename>
+		<filename>styles/basic-h/black/images/scrollknob_r.png</filename>
+		<filename>styles/basic-h/black/images/scroll_back.png</filename>
+		<filename>styles/basic-h/black/images/scroll_forward.png</filename>
+		<filename>styles/basic-h/black/index.html</filename>
+		<filename>styles/basic-h/black/style.css</filename>
+		<filename>styles/basic-h/ie6hacks.css</filename>
+		<filename>styles/basic-h/images/index.html</filename>
+		<filename>styles/basic-h/images/panel_bg.png</filename>
+		<filename>styles/basic-h/images/scrollarea_bg.png</filename>
+		<filename>styles/basic-h/images/scrollknob_l.png</filename>
+		<filename>styles/basic-h/images/scrollknob_m.png</filename>
+		<filename>styles/basic-h/images/scrollknob_r.png</filename>
+		<filename>styles/basic-h/images/scroll_back.png</filename>
+		<filename>styles/basic-h/images/scroll_forward.png</filename>
+		<filename>styles/basic-h/index.html</filename>
+		<filename>styles/basic-h/style.css</filename>
+		<filename>styles/basic-v/black/images/index.html</filename>
+		<filename>styles/basic-v/black/images/panel_bg.png</filename>
+		<filename>styles/basic-v/black/images/scrollarea_bg.png</filename>
+		<filename>styles/basic-v/black/images/scrollknob_b.png</filename>
+		<filename>styles/basic-v/black/images/scrollknob_m.png</filename>
+		<filename>styles/basic-v/black/images/scrollknob_t.png</filename>
+		<filename>styles/basic-v/black/images/scroll_back.png</filename>
+		<filename>styles/basic-v/black/images/scroll_forward.png</filename>
+		<filename>styles/basic-v/black/index.html</filename>
+		<filename>styles/basic-v/black/style.css</filename>
+		<filename>styles/basic-v/images/index.html</filename>
+		<filename>styles/basic-v/images/panel_bg.png</filename>
+		<filename>styles/basic-v/images/scrollarea_bg.png</filename>
+		<filename>styles/basic-v/images/scrollknob_b.png</filename>
+		<filename>styles/basic-v/images/scrollknob_m.png</filename>
+		<filename>styles/basic-v/images/scrollknob_t.png</filename>
+		<filename>styles/basic-v/images/scroll_back.png</filename>
+		<filename>styles/basic-v/images/scroll_forward.png</filename>
+		<filename>styles/basic-v/index.html</filename>
+		<filename>styles/basic-v/style.css</filename>
+		<filename>styles/blank-h/black/images/index.html</filename>
+		<filename>styles/blank-h/black/images/scrollarea_l.png</filename>
+		<filename>styles/blank-h/black/images/scrollarea_m.png</filename>
+		<filename>styles/blank-h/black/images/scrollarea_r.png</filename>
+		<filename>styles/blank-h/black/images/scrollknob_l.png</filename>
+		<filename>styles/blank-h/black/images/scrollknob_m.png</filename>
+		<filename>styles/blank-h/black/images/scrollknob_r.png</filename>
+		<filename>styles/blank-h/black/images/scroll_back.png</filename>
+		<filename>styles/blank-h/black/images/scroll_forward.png</filename>
+		<filename>styles/blank-h/black/index.html</filename>
+		<filename>styles/blank-h/black/style.css</filename>
+		<filename>styles/blank-h/images/index.html</filename>
+		<filename>styles/blank-h/images/scrollarea_l.png</filename>
+		<filename>styles/blank-h/images/scrollarea_m.png</filename>
+		<filename>styles/blank-h/images/scrollarea_r.png</filename>
+		<filename>styles/blank-h/images/scrollknob_l.png</filename>
+		<filename>styles/blank-h/images/scrollknob_m.png</filename>
+		<filename>styles/blank-h/images/scrollknob_r.png</filename>
+		<filename>styles/blank-h/images/scroll_back.png</filename>
+		<filename>styles/blank-h/images/scroll_forward.png</filename>
+		<filename>styles/blank-h/index.html</filename>
+		<filename>styles/blank-h/style.css</filename>
+		<filename>styles/blank-v/black/images/index.html</filename>
+		<filename>styles/blank-v/black/images/scrollarea_b.png</filename>
+		<filename>styles/blank-v/black/images/scrollarea_m.png</filename>
+		<filename>styles/blank-v/black/images/scrollarea_t.png</filename>
+		<filename>styles/blank-v/black/images/scrollknob_b.png</filename>
+		<filename>styles/blank-v/black/images/scrollknob_m.png</filename>
+		<filename>styles/blank-v/black/images/scrollknob_t.png</filename>
+		<filename>styles/blank-v/black/images/scroll_back.png</filename>
+		<filename>styles/blank-v/black/images/scroll_forward.png</filename>
+		<filename>styles/blank-v/black/index.html</filename>
+		<filename>styles/blank-v/black/style.css</filename>
+		<filename>styles/blank-v/ie6hacks.css</filename>
+		<filename>styles/blank-v/images/index.html</filename>
+		<filename>styles/blank-v/images/scrollarea_b.png</filename>
+		<filename>styles/blank-v/images/scrollarea_m.png</filename>
+		<filename>styles/blank-v/images/scrollarea_t.png</filename>
+		<filename>styles/blank-v/images/scrollknob_b.png</filename>
+		<filename>styles/blank-v/images/scrollknob_m.png</filename>
+		<filename>styles/blank-v/images/scrollknob_t.png</filename>
+		<filename>styles/blank-v/images/scroll_back.png</filename>
+		<filename>styles/blank-v/images/scroll_forward.png</filename>
+		<filename>styles/blank-v/index.html</filename>
+		<filename>styles/blank-v/style.css</filename>
+		<filename>styles/default-h/black/images/index.html</filename>
+		<filename>styles/default-h/black/images/panel_b.png</filename>
+		<filename>styles/default-h/black/images/panel_bl.png</filename>
+		<filename>styles/default-h/black/images/panel_br.png</filename>
+		<filename>styles/default-h/black/images/panel_l.png</filename>
+		<filename>styles/default-h/black/images/panel_r.png</filename>
+		<filename>styles/default-h/black/images/panel_t.png</filename>
+		<filename>styles/default-h/black/images/panel_tl.png</filename>
+		<filename>styles/default-h/black/images/panel_tr.png</filename>
+		<filename>styles/default-h/black/images/scrollarea_l.png</filename>
+		<filename>styles/default-h/black/images/scrollarea_m.png</filename>
+		<filename>styles/default-h/black/images/scrollarea_r.png</filename>
+		<filename>styles/default-h/black/images/scrollknob_l.png</filename>
+		<filename>styles/default-h/black/images/scrollknob_m.png</filename>
+		<filename>styles/default-h/black/images/scrollknob_r.png</filename>
+		<filename>styles/default-h/black/images/scroll_back.png</filename>
+		<filename>styles/default-h/black/images/scroll_forward.png</filename>
+		<filename>styles/default-h/black/index.html</filename>
+		<filename>styles/default-h/black/style.css</filename>
+		<filename>styles/default-h/images/index.html</filename>
+		<filename>styles/default-h/images/panel_b.png</filename>
+		<filename>styles/default-h/images/panel_bl.png</filename>
+		<filename>styles/default-h/images/panel_br.png</filename>
+		<filename>styles/default-h/images/panel_l.png</filename>
+		<filename>styles/default-h/images/panel_r.png</filename>
+		<filename>styles/default-h/images/panel_t.png</filename>
+		<filename>styles/default-h/images/panel_tl.png</filename>
+		<filename>styles/default-h/images/panel_tr.png</filename>
+		<filename>styles/default-h/images/scrollarea_l.png</filename>
+		<filename>styles/default-h/images/scrollarea_m.png</filename>
+		<filename>styles/default-h/images/scrollarea_r.png</filename>
+		<filename>styles/default-h/images/scrollknob_l.png</filename>
+		<filename>styles/default-h/images/scrollknob_m.png</filename>
+		<filename>styles/default-h/images/scrollknob_r.png</filename>
+		<filename>styles/default-h/images/scroll_back.png</filename>
+		<filename>styles/default-h/images/scroll_forward.png</filename>
+		<filename>styles/default-h/index.html</filename>
+		<filename>styles/default-h/style.css</filename>
+		<filename>styles/default-v/black/images/index.html</filename>
+		<filename>styles/default-v/black/images/panel_b.png</filename>
+		<filename>styles/default-v/black/images/panel_bl.png</filename>
+		<filename>styles/default-v/black/images/panel_br.png</filename>
+		<filename>styles/default-v/black/images/panel_l.png</filename>
+		<filename>styles/default-v/black/images/panel_r.png</filename>
+		<filename>styles/default-v/black/images/panel_t.png</filename>
+		<filename>styles/default-v/black/images/panel_tl.png</filename>
+		<filename>styles/default-v/black/images/panel_tr.png</filename>
+		<filename>styles/default-v/black/images/scrollarea_b.png</filename>
+		<filename>styles/default-v/black/images/scrollarea_m.png</filename>
+		<filename>styles/default-v/black/images/scrollarea_t.png</filename>
+		<filename>styles/default-v/black/images/scrollknob_b.png</filename>
+		<filename>styles/default-v/black/images/scrollknob_m.png</filename>
+		<filename>styles/default-v/black/images/scrollknob_t.png</filename>
+		<filename>styles/default-v/black/images/scroll_back.png</filename>
+		<filename>styles/default-v/black/images/scroll_forward.png</filename>
+		<filename>styles/default-v/black/index.html</filename>
+		<filename>styles/default-v/black/style.css</filename>
+		<filename>styles/default-v/ie6hacks.css</filename>
+		<filename>styles/default-v/images/index.html</filename>
+		<filename>styles/default-v/images/panel_b.png</filename>
+		<filename>styles/default-v/images/panel_bl.png</filename>
+		<filename>styles/default-v/images/panel_br.png</filename>
+		<filename>styles/default-v/images/panel_l.png</filename>
+		<filename>styles/default-v/images/panel_r.png</filename>
+		<filename>styles/default-v/images/panel_t.png</filename>
+		<filename>styles/default-v/images/panel_tl.png</filename>
+		<filename>styles/default-v/images/panel_tr.png</filename>
+		<filename>styles/default-v/images/scrollarea_b.png</filename>
+		<filename>styles/default-v/images/scrollarea_m.png</filename>
+		<filename>styles/default-v/images/scrollarea_t.png</filename>
+		<filename>styles/default-v/images/scrollknob_b.png</filename>
+		<filename>styles/default-v/images/scrollknob_m.png</filename>
+		<filename>styles/default-v/images/scrollknob_t.png</filename>
+		<filename>styles/default-v/images/scroll_back.png</filename>
+		<filename>styles/default-v/images/scroll_forward.png</filename>
+		<filename>styles/default-v/index.html</filename>
+		<filename>styles/default-v/style.css</filename>
+		<filename>styles/index.html</filename>
+		<filename>styles/style.css</filename>
+	</files>
+	<params>
+		<param name="catid" type="category" default="0" label="Category" description="A content category which items are used for the YOOscroller" />
+		<param name="style" type="list" default="default-v" label="Style" description="The YOOscroller styling">
+			<option value="default-v">Default (Vertical)</option>
+			<option value="default-h">Default (Horizontal)</option>
+			<option value="blank-v">Blank (Vertical)</option>
+			<option value="blank-h">Blank (Horizontal)</option>
+			<option value="basic-v">Basic (Vertical)</option>
+			<option value="basic-h">Basic (Horizontal)</option>
+		</param>
+		<param name="module_width" type="text" default="400" label="Module width (px)" description="Width of the whole module" />
+		<param name="module_height" type="text" default="200" label="Module height (px)" description="Height of the whole module" />
+		<param name="slide_size" type="text" default="200" label="Slide size (px)" description="Size of one slide. When aligned vertical it's the slide height. When aligned horizontal it's the slide width." />
+		<param name="slide_interval" type="text" default="10000" label="Slide interval (ms)" description="Time interval of changing between items when autoplay on in milliseconds" />
+		<param name="autoplay" type="radio" default="1" label="Autoplay" description="Changing between items automatically">
+			<option value="1">Yes</option>
+			<option value="0">No</option>
+		</param>
+		<param name="order" type="list" default="o_asc" label="Ordering" description="Ordering options">
+			<option value="o_asc">Article Order</option>
+			<option value="c_dsc">Recently Added First</option>
+			<option value="m_dsc">Recently Modified First</option>
+			<option value="h_dsc">Most Popular</option>			
+			<option value="rnd">Randomize</option>
+	  	</param>
+		<param name="readmore" type="list" default="0" label="Read More" description="Show/Hide the Read More button">
+			<option value="0">Hide</option>
+			<option value="1">Show</option>
+		</param>
+		<param name="items" type="text" default="4" label="No. of Items" description="Maximum no of items to display" />
+		<param name="moduleclass_sfx" type="text" default="-blank" label="Module Class Suffix" description="Module Class Suffix" />
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

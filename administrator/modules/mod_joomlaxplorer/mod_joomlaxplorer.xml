@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" client="administrator">
+	<name>JoomlaXplorer</name>
+	<author>Mike Leeper</author>
+	<creationDate>July 2007</creationDate>
+	<copyright>(C) 2007. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>web@mlwebtechnologies.com</authorEmail>
+	<authorUrl>http://www.mlwebtechnologies.com</authorUrl>
+	<version>1.3.0</version>
+	<description>
+  <![CDATA[This module provides a quick link to the JoomlaXplorer Component your site.<br />Publish to <strong>HEADER</strong> position.]]>
+  </description>
+	<files>
+		<filename module="mod_joomlaxplorer">mod_joomlaxplorer.php</filename>
+	</files>
+	<params/>
+</mosinstall>

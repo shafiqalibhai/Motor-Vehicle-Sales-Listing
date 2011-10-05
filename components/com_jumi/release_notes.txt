@@ -1,0 +1,38 @@
+Jumi package for Joomla 1.5
+Developer's web pages: http://edo.webmaster.am
+Downloads and guides: http://jumi.vedeme.cz
+Tips and tricks: http://edo.webmaster.am/jumi
+================================
+Version 2.0.1
+Release date: 2008/12/09
+================================
+This is the next generation Jumi. It is based on previous 1.x.x versions of Jumi Module, Plugin and Application Component.
+All previous Jumi extensions underwent internal enhacement, improvement and mutual integration.
+When upgrading from any previous version of any Jumi extension it is strictly recomended to uninstall all previous versions of any Jumi extension and install this one.
+All extensions contained in this package are installed automatically.
+This package contains the following extensions:
+    - Jumi component
+    - Jumi content plugin
+    - Jumi module
+
+Changes:
+    - added plugin nesting possibility: interpreting Jumi code in included scripts too
+    - added AM, CS, ES, RU languages into component, plugin and module
+    - has been extended component database compatibility to MySQL 4 too
+    - has been created router for component allowing access to the application item by entering URL like this http://example.com/application-
+alias (if the Joomla! SEO is enabled)
+		- fixed undefined variable cacheTime in blogger.php demo file
+
+================================
+Demo
+There are several demos there. All of them are installed automatically. Any one is accessible by any Jumi extension.
+Component demo: there are two component demos in Jumi table of
+your Joomla! database. The first one, Hello Jumi!, is automatically assign
+the main menu item. The second one, Blogspot, can be accessed through the
+previous demo or you can assign to it a menu item manually - by a standard
+Joomla! manner.
+Module demo file: modules/mod_jumi/jumi_demo.php
+Plugin demo file: plugins/content/jumi/jumi_demo.php
+================================
+Remarks:
+    - uninstallation of Jumi component uninstalls Jumi module and Jumi plugin as well.

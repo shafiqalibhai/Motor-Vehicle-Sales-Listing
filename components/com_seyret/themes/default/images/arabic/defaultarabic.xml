@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Arabic Buttons for Default Theme</name>
+	<packageversion>3</packageversion>
+	<type>localizedbuttons</type>
+	<date>22.11.08</date>
+	<author>Mohammed Al-Obaid</author>
+	<authorEmail>Mohammed Al-Obaid</authorEmail>
+	<authorUrl>Mohammed Al-Obaid</authorUrl>
+	<copyright>2008 Joomlaholic Team</copyright>
+	<description>Arabic Buttons for Default Theme. Initial test release.</description>
+	<targetfolder>/components/com_seyret/themes/default/images/arabic</targetfolder>
+	<compatibility>0.2.8.2; 0.2.8.3;</compatibility>
+	<files>
+		     <filename>defaultarabic.xml</filename>
+            <filename>addvideo.png</filename>
+            <filename>addvideo_2.png</filename>
+            <filename>allvideos.png</filename>
+            <filename>allvideos_2.png</filename>
+            <filename>batchconversion.png</filename>
+            <filename>batchconversion_2.png</filename>
+            <filename>featured.png</filename>
+            <filename>featured_2.png</filename>
+            <filename>help.png</filename>
+            <filename>help_2.png</filename>
+            <filename>home.png</filename>
+            <filename>home_2.png</filename>
+            <filename>index.html</filename>
+            <filename>myvideos.png</filename>
+            <filename>myvideos_2.png</filename>
+            <filename>pendingvideos.png</filename>
+            <filename>pendingvideos_2.png</filename>
+            <filename>reportedvideos.png</filename>
+            <filename>reportedvideos_2.png</filename>
+            <filename>uploadvideo.png</filename>
+            <filename>uploadvideo_2.png</filename>
+
+	</files>
+</seyretxml>

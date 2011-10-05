@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Spanish Language for Seyret</name>
+	<packageversion>2</packageversion>
+	<type>language</type>
+	<date>27.04.2008</date>
+	<author>Mustafa Dindar</author>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaholic.com</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>Spanish language file for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/language</targetfolder>
+	<files>
+		<filename>spanish.xml</filename>
+		<filename>spanish.php</filename>
+	</files>
+</seyretxml>

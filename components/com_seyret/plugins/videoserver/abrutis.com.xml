@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>abrutis.com Plugin for Seyret</name>
+	<packageversion>7</packageversion>
+	<type>videoserver</type>
+	<date>15.10.2008</date>
+	<author>iGala.net</author>
+	<authorEmail>igala.net@gmail.com</authorEmail>
+	<authorUrl>http://video.igala.net</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>abrutis.com plugin for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/plugins/videoserver</targetfolder>
+	<compatibility>0.2.8.1; 0.2.8.2</compatibility>
+	<files>
+		<filename>abrutis.com.xml</filename>
+		<filename>abrutis.com.php</filename>
+	</files>
+</seyretxml>

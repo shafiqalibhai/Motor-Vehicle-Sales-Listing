@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--
+ * FCKeditor - The text editor for internet
+ * Copyright (C) 2003-2006 Frederico Caldeira Knabben
+ * 
+ * Licensed under the terms of the GNU Lesser General Public License:
+ * 		http://www.opensource.org/licenses/lgpl-license.php
+ * 
+ * For further information visit:
+ * 		http://www.fckeditor.net/
+ * 
+ * "Support Open Source software. What about a donation today?"
+ * 
+ * File Name: fck_dblink.html
+ * 	dbLink Plugin.
+ *      for phpnuke CMS and equivalents
+ *        create URL using title of contents from tables pages, stories, FAQ, Encyclopia, Download, WebLink,  Ephemerids
+ * File Authors:
+ * 		Gustavo G. Vilchez B. (ggvilchez@gmail.com)
+ * 
+-->
+ 
+<head> 
+<title>dB Properties</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta content="noindex, nofollow" name="robots"> 
+ 
+<link href="suggest.css" rel="stylesheet" type="text/css" />
+<!--Colocar el path y url del FCKeditor plugin -->
+<script type="text/javascript" src="fckxml.js"></script>
+<script type="text/javascript" src="suggest.js"></script>
+
+</head> 
+ 
+<body scroll="no" style="OVERFLOW: hidden"> 
+<table height="100%" cellSpacing="0" cellPadding="0" width="100%" border="0"> 
+<tr> 
+<td> 
+<table cellSpacing="0" cellPadding="0" align="center" border="0"> 
+<tr>
+<td height="10px">&nbsp;</td>
+<td height="10px">&nbsp;</td>
+</tr>
+<tr> 
+<td height="10px">&nbsp;</td>
+<td height="10px">&nbsp;</td>
+</tr>
+<tr> 
+<td height="20px">&nbsp;</td>
+<td height="20px">&nbsp;</td>
+</tr>
+<tr> 
+<td> URL:  </td>
+<td> <input id="txtHref" type="text" name="txtHref" size="53"></td> 
+</tr>
+<tr> 
+<td height="15px">&nbsp;</td>
+<td height="15px">&nbsp;</td>
+</tr>
+<tr> 
+<td> Caption:</td> 
+<td><input id="txtCaption" type="text" name="txtCaption"  size="53"> </td> 
+</tr>
+</table> 
+<table cellSpacing="0" cellPadding="0" align="center" border="0"> 
+<tr> 
+<td> 
+<div id="content" onclick="hideSuggestions();">
+	
+	<div id="message">Enter the first letters of the title of content:
+	</div>
+
+
+	<input name="keyword" id="keyword" maxlength="150" size="61" value="" type="text" />
+	<div id="scroll">
+	<div id="suggest">
+	</div>
+
+	</div>
+
+</div>
+</td> 
+</tr> 
+</table> 
+</td> 
+</tr> 
+
+</table> 
+</body> 
+</html> 
+ 
+<!-- End Code --> 

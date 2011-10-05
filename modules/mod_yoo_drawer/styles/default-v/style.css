@@ -1,0 +1,87 @@
+/* (C) 2007 YOOtheme.com */
+
+div.default-v div.yoo-drawer span.header-r,
+div.default-v div.yoo-drawer span.header-m {
+	display: block;
+}
+
+div.default-v div.yoo-drawer .header-l {
+	margin: 0px;
+	padding: 0px;
+	background: url(styles/default-v/images/header_l.png) 0 0 no-repeat;
+	line-height: 25px;
+	color: #646464;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+div.default-v div.yoo-drawer .header-r {
+	padding: 0px 10px 0px 10px;
+	background: url(styles/default-v/images/header_r.png) 100% 0 no-repeat;
+}
+
+div.default-v div.yoo-drawer .header-m {
+	height: 25px;
+	background: url(styles/default-v/images/header_m.png) 0 0 repeat-x;
+}
+
+div.default-v div.yoo-drawer .item-bg {
+	padding: 0px 1px 0px 1px;
+	border-left: 1px solid #C8C8C8;
+	border-right: 1px solid #C8C8C8;
+	background: #ffffff;
+}
+
+div.default-v div.yoo-drawer .item-m {
+	background: #ffffff;
+}
+
+div.default-v div.yoo-drawer .active .item-m {
+	background: url(styles/default-v/images/item_m_hover.png) 0 100% repeat-x;
+}
+
+div.default-v div.yoo-drawer .item-bl {
+	background: url(styles/default-v/images/item_bl.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .active .item-bl {
+	background: url(styles/default-v/images/item_bl_hover.png) 0 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .item-br {
+	padding: 0px 10px 0px 10px;
+	background: url(styles/default-v/images/item_br.png) 100% 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .active .item-br {
+	background: url(styles/default-v/images/item_br_hover.png) 100% 100% no-repeat;
+}
+
+div.default-v div.yoo-drawer .item-b {
+	height: 10px;
+	background: url(styles/default-v/images/item_b.png) 0 100% repeat-x;
+}
+
+div.default-v div.yoo-drawer .active .item-b {
+	background: url(styles/default-v/images/item_b_hover.png) 0 100% repeat-x;
+}
+
+div.default-v div.yoo-drawer .article {
+	padding: 18px 10px 0px 10px;
+	font-size: 95%;
+	line-height: 125%;
+	overflow: hidden;
+}
+
+div.default-v div.yoo-drawer li.item1 .article {
+	padding: 10px 10px 0px 10px;
+}
+
+div.default-v div.yoo-drawer .article h3 {
+	padding-bottom: 0px;
+	margin-bottom: 5px;
+	line-height: 100%;
+	font-size: 150%;
+	font-weight: bold;
+	color: #323232;
+}

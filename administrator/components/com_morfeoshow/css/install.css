@@ -1,0 +1,185 @@
+div#jb {
+  width: 700px; 
+  margin: 0 auto;
+}
+
+div#jb div.t, div.mboxdown {
+  height: 6px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+div#jb div.m {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0 8px;
+}
+div#jb div#element-box {
+  background: #fff;  
+  width: 700px;
+  margin-bottom: 5px;
+}
+div#jb div#element-box div.m {
+  padding: 5px 10px;
+}
+div#jb div#element-box div.t {
+  background: url(border.png) 0 0 repeat-x;
+}
+div#jb div#element-box div.t div.t {
+   background: url(crn_tr_light.png) 100% 0 no-repeat;
+}
+div#jb div#element-box div.t div.t div.t {
+   background: url(crn_tl_light.png) 0 0 no-repeat;
+}
+div#jb div#element-box div.mboxdown {
+  background: url(border.png) 0 100% repeat-x;
+}
+div#jb div#element-box div.mboxdown div.mboxdown {
+   background: url(crn_br_light.png) 100% 0 no-repeat;
+}
+div#jb div#element-box div.mboxdown div.mboxdown div.mboxdown {
+   background: url(crn_bl_light.png) 0 0 no-repeat;
+}
+
+div#jb {
+  width: 710px; 
+  margin: 0 auto;
+}
+
+div#jb div.t, div.mboxdown {
+  height: 6px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+div#jbo div.m {
+  border-left: 0px solid #ccc;
+  border-right: 0px solid #ccc;
+  padding: 0 8px;
+}
+div#jbo div#element-box {
+  background: #fff;  
+  width: 710px;
+  margin-bottom: 5px;
+}
+div#jbo div#element-box div.m {
+  padding: 5px 1px;
+}
+div#jbo div#element-box div.t {
+  background: url(border.png) 0 0 repeat-x;
+}
+div#jbo div#element-box div.t div.t {
+   background: url(crn_tr_light.png) 100% 0 no-repeat;
+}
+div#jbo div#element-box div.t div.t div.t {
+   background: url(crn_tl_light.png) 0 0 no-repeat;
+}
+div#jbo div#element-box div.mboxdown {
+  background: url(border.png) 0 100% repeat-x;
+}
+div#jbo div#element-box div.mboxdown div.mboxdown {
+   background: url(crn_br_light.png) 100% 0 no-repeat;
+}
+div#jbo div#element-box div.mboxdown div.mboxdown div.mboxdown {
+   background: url(crn_bl_light.png) 0 0 no-repeat;
+}
+
+
+div#jc {
+  width: 600px; 
+  margin: 0 auto;
+}
+
+div#jc div.t, div.mboxdown {
+  height: 6px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+div#jc div.m {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 0 8px;
+}
+div#jc div#element-box {
+  background: #fff;  
+  width: 600px;
+  margin-bottom: 5px;
+}
+div#jc div#element-box div.m {
+  padding: 5px 10px;
+}
+div#jc div#element-box div.t {
+  background: url(border.png) 0 0 repeat-x;
+}
+div#jc div#element-box div.t div.t {
+   background: url(crn_tr_light.png) 100% 0 no-repeat;
+}
+div#jc div#element-box div.t div.t div.t {
+   background: url(crn_tl_light.png) 0 0 no-repeat;
+}
+div#jc div#element-box div.mboxdown {
+  background: url(border.png) 0 100% repeat-x;
+}
+div#jc div#element-box div.mboxdown div.mboxdown {
+   background: url(crn_br_light.png) 100% 0 no-repeat;
+}
+div#jc div#element-box div.mboxdown div.mboxdown div.mboxdown {
+   background: url(crn_bl_light.png) 0 0 no-repeat;
+}
+
+
+
+.statuserr {color:red;}
+.statusok {color:green;}
+span.copyright {
+        color: #777;
+        display: block;
+	margin-top: 12px;
+}
+div#element-box span.componentname {
+	color : #004080;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	font-weight: bold;
+}
+div#element-box span.componentdesc {
+	color : #cccccc;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 12px;
+	font-weight: bold;
+}
+div#element-box span.componentdate {
+	color : #FF9900;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px;
+	font-weight: normal;
+}
+div#element-box span.installheader {
+	color : #FF9900;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 16px;
+	font-weight: bold;
+}
+
+.button-left { float: right; }
+.button-left div { float: left; }
+.button-left { background: url(button1_left.png) no-repeat; margin-left: 5px; }
+.button-left .next  { background: url(button1_next.png) 100% 0 no-repeat; }
+.button-left a {
+	display: block;
+	height: 26px;
+	float: left;
+	line-height: 26px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333;
+	cursor: pointer;
+	padding: 0 30px 0 6px;
+}
+.button-left a:hover { 
+	text-decoration: none; color: #0B55C4; 
+}

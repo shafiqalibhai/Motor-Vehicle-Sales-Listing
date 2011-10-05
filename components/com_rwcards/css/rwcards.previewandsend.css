@@ -1,0 +1,92 @@
+.rwcards, .rwcardsfull 
+{
+border: 1px #999 solid;
+font-size: 12px;
+}
+
+.rwcardsImage
+{
+border: 1px #999 solid;
+width:auto;
+padding: 10px;
+margin-bottom:20px;
+}
+* html .rwcardsfull  /* this is recognized by IE only */
+{
+  width: 415px;  /* total width, only for IE5.x/Win */
+  w\idth: 415px; /* content width for other IE */
+}
+
+.rwcardsfull
+{
+	width:auto;
+	padding: 10px;
+	margin-bottom:20px;
+	margin-left:0px;
+	text-align:center;
+}
+
+
+* html .rwcards  /* this is recognized by IE only */
+{
+  width: 190px;  /* total width, only for IE5.x/Win */
+  w\idth: 190px; /* content width for other IE */
+}
+
+.rwcards
+{
+	height: 200px;
+	width: 208px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+.rwcardsLeftForm
+{
+	width:50%;
+	float: left;
+	text-align:left;
+	clear:none;
+}
+.rwcardsRightForm
+{
+	width: 49%;
+	float: right;
+	text-align:right;
+	border-left: 1px #999 dotted;
+	height:auto;
+	min-height:220px;
+}
+.rwcards_buttons_bottom
+{
+	font-size: 12px;
+	text-align: center;
+}
+
+.selectbox
+{
+	font-size: 12px;
+}
+
+.rwcardsClr 
+{
+	clear: both;
+}
+
+.rwcardsLink
+{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.rwcardsLink:hover
+{
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	color:#135CAE;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>Clipfish.de Plugin for Seyret</name>
+	<packageversion>7</packageversion>
+	<type>videoserver</type>
+	<date>01.04.2008</date>
+	<author>Mustafa Dindar</author>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaholic.com</authorUrl>
+	<copyright>2008 Mustafa Dindar</copyright>
+	<description>Clipfish.de plugin for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/plugins/videoserver</targetfolder>
+	<compatibility>0.2.8.1; 0.2.8.2</compatibility>
+	<files>
+		<filename>clipfish.de.xml</filename>
+		<filename>clipfish.de.php</filename>
+	</files>
+</seyretxml>

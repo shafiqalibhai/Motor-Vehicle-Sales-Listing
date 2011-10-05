@@ -1,0 +1,48 @@
+/* (C) 2007 YOOtheme.com */
+
+.yootools-black div.basiclist div.yoo-carousel {
+	background: #141414;
+}
+
+/* panel */
+.yootools-black div.basiclist div.yoo-carousel .panel-container {
+	border: 1px solid #323232;
+}
+
+/* tabs */
+.yootools-black div.basiclist div.yoo-carousel div.left div.tabs-container {
+	background: #282828 url(styles/basiclist/black/images/tabs_l.png) 0 0 repeat-y;
+}
+
+.yootools-black div.basiclist div.yoo-carousel div.left ul.tabs {
+	background: url(styles/basiclist/black/images/tabs_r.png) 100% 0 repeat-y;
+}
+
+.yootools-black div.basiclist div.yoo-carousel div.left ul.tabs li.selected a {
+	background: url(styles/basiclist/black/images/tab_m.png) 0 0 repeat-x;
+}
+
+.yootools-black div.basiclist div.yoo-carousel div.left ul.tabs li.selected a span {
+	background: url(styles/basiclist/black/images/tab_l.png) 0 0 no-repeat;
+}
+
+.yootools-black div.basiclist div.yoo-carousel div.left ul.tabs li.selected a span span {
+	background: url(styles/basiclist/black/images/tab_r.png) 100% 0 no-repeat;
+}
+
+.yootools-black div.basiclist div.yoo-carousel li a:link, .yootools-black div.basiclist div.yoo-carousel li a:visited {
+	color: #646464;
+}
+
+.yootools-black div.basiclist div.yoo-carousel li a:hover, .yootools-black div.basiclist div.yoo-carousel li.selected a:link, .yootools-black div.basiclist div.yoo-carousel li.selected a:visited {
+	color: #969696;
+}
+
+/* scroller */
+.yootools-black div.basiclist div.yoo-carousel .panel-container-b {
+	background: url(styles/basiclist/black/images/panel_b.png) 0 100% repeat-x;
+}
+
+.yootools-black div.basiclist div.yoo-carousel .article h3 {
+	color: #787878;
+}

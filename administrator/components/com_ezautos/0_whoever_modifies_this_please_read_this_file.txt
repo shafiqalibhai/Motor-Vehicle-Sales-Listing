@@ -1,0 +1,19 @@
+Hello
+
+- I have noticed that someone is constantly 
+overwriting my modified files with older ones.
+
+- Please notice that my version of code contains 
+all modifications needed to show additional country and city data for search and advanced search
+
+- If you need to modify any file BE SURE to copy latest version from the server and then upload your modified file WITH your comented name in file so that I can know which parts are edited.
+
+- Othervise we will continue to overwrite eachother files and keep loosing our time.
+
+- it would be the best to be synchronised:
+You may contact me on skype: krkljuz, or send me mail: info@znaor.com
+
+
+22nd november 2008.
+Regards,
+Hrvoje

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+ <params>
+     		<param name="show_registered_only" type="list" default="1" label="Show registered-only buttons to visitors" description="Show registered-only buttons if user is not logged in">
+    			<option value="0">No</option>
+    			<option value="1">Yes</option>
+    		</param>
+     		<param name="error_log_enabled" type="list" default="0" label="Error Log" description="You can turn on logging and check out the log at [JOOMLA_DIR]/logs/smartsite.php">
+    			<option value="0">Disabled</option>
+    			<option value="1">Enabled</option>
+    		</param>
+  </params>
+</config>

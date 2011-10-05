@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>Featured EZ Autos Vehicle Listing</name>
+	<author>K.J. Strickland</author>
+	<creationDate>14th October 2008</creationDate>
+	<copyright>(C) 2006-2008 K.J. Strickland</copyright>
+	<license>Commercial</license>
+	<authorEmail>kathy@raptorservices.com.au</authorEmail>
+	<authorUrl>www.raptorservices.com.au</authorUrl>
+	<version>3.14</version>
+	<description>This module shows details of a featured EZ Autos Vehicle listing.</description>
+	<files>
+		<filename module="mod_ezautos_featured">mod_ezautos_featured.php</filename>
+		<filename module="mod_ezautos_featured">mod_ezautos_featured/english.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imgalign" type="text" default="left" label="Image Alignment" description="Main image alignment (default is left)" />
+		<param name="horizspace" type="text" default="10" label="Horizontal Space (px)" description="Horizontal space between image and wrapped text (default is 10)" />
+		<param name="vertspace" type="text" default="10" label="Vertical Space (px)" description="Vertical space between image and wrapped text (default is 10)" />
+		<param name="width" type="text" default="200" label="Image Width (px)" description="Width to resize image to (default is 200 pixels wide)" />
+		<param name="slimbox4" type="list" default="1" label="Type of Image Display" description="Select what sort of image system to use with the previews">
+			<option value="0">Image Only</option>
+			<option value="1">Slimbox Preview</option>
+			<option value="2">Javascript Pop-up</option>
+		</param>
+		<param name="popwidth1" type="text" default="400" label="Popup Image Width (px)" description="Width to resize popup image to (default is 400 pixels wide)" />
+	</params>
+</mosinstall>

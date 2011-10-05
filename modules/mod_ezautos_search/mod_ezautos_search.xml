@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<mosinstall type="module" version="1.0.0">
+	<name>EZ Autos Search Filter Module</name>
+	<author>K.J. Strickland</author>
+	<creationDate>3rd November 2008</creationDate>
+	<copyright>(C) 2006-2008 K.J. Strickland</copyright>
+	<license>Commercial</license>
+	<authorEmail>kathy@raptorservices.com.au</authorEmail>
+	<authorUrl>www.raptorservices.com.au</authorUrl>
+	<version>2.9</version>
+	<description>This module shows an EZ Autos search filter for use in a side-bar module position - or anywhere you have a module position available.</description>
+	<files>
+		<filename module="mod_ezautos_search">mod_ezautos_search.php</filename>
+		<filename module="mod_ezautos_search">mod_ezautos_search/english.php</filename>
+		<filename module="mod_ezautos_search">mod_ezautos_search/french.php</filename>
+		<filename module="mod_ezautos_search">mod_ezautos_search/russian.php</filename>
+		<filename module="mod_ezautos_search">mod_ezautos_search/turkish.php</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="cache" type="radio" default="0" label="Enable Cache" description="Select whether to cache the content of this module">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="usecat" type="radio" default="1" label="Use Category" description="Select whether to display the vehicle category list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="usemakmod" type="radio" default="1" label="Use Make/Model" description="Select whether to display the vehicle make/model lists">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="usetrans" type="radio" default="1" label="Use Transmission" description="Select whether to display the transmission list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="useengine" type="radio" default="1" label="Use Engine Size" description="Select whether to display the engine size list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usefuel" type="radio" default="1" label="Use Fuel Type" description="Select whether to display the fuel type list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usecolour" type="radio" default="1" label="Use Colour List" description="Select whether to display the vehicle colour list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usedoors" type="radio" default="1" label="Use Door Number" description="Select whether to display the door number list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usebody" type="radio" default="1" label="Use Body Type" description="Select whether to display the body type list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="useyear" type="radio" default="1" label="Use Min/Max Year" description="Select whether to display the min/max year list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usemileage" type="radio" default="1" label="Use Maximum Mileage" description="Select whether to display the maximum mileage field">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+		<param name="usecond" type="radio" default="1" label="Use Condition" description="Select whether to use the vehicle condition list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="usepcode" type="radio" default="1" label="Use Zip/Postcode Radius" description="Select whether to use the zip/postcode radius search fields">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+
+
+
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="tagit_demo" type="radio" default="1" label="Use demonstrator selector option" description="Select whether to display the demonstrator item in the vehicle condition list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="tagit_asnew" type="radio" default="1" label="Use 'As New' selector option" description="Select whether to display the 'as new' item in the vehicle condition list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="tagit_preluv" type="radio" default="1" label="Use 'Pre-loved' selector option" description="Select whether to use the 'pre-loved' item in the vehicle condition list">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="tagit_spare" type="radio" default="1" label="Use the spare entry selector option" description="Select whether to use the 'spare entry' item in the vehicle condition list. If you need to use this - remember to give it a new name by editing the language file">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</mosinstall>

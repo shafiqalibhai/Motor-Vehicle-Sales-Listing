@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="content">
+<name>Content - MorfeoShow</name>
+<author>Vamba</author>
+<creationDate>Aug 2008</creationDate>
+<copyright>(C) 2008 - morfeoshow.joomlaitalia.com</copyright>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+<authorEmail>morfeoshow@gmail.com</authorEmail>
+<authorUrl>www.joomlaitalia.com</authorUrl>
+<version>1.2.0</version>
+<description>MorfeoShow Plugin for Joomla 1.5.</description>
+<files>
+<filename plugin="morfeoshow">morfeoshow.php</filename>
+</files>
+	<languages>
+		<language tag="en-GB">en-GB.plg_content_morfeoshow.ini</language>
+		<language tag="fr-FR">fr-FR.plg_content_morfeoshow.ini</language>
+		<language tag="fr-FR">de-DE.plg_content_morfeoshow.ini</language>			
+	</languages>
+</install>

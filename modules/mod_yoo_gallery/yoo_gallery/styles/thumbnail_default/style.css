@@ -1,0 +1,17 @@
+/* (C) 2007 YOOtheme.com */
+
+div.default div.yoo-gallery div.thumbnail {
+	padding: 2px;
+	float: left;
+}
+
+div.default div.yoo-gallery div.thumbnail-bg {
+	padding: 1px;
+	border: 1px solid #c8c8c8;
+	background: #ffffff;
+	float: left;
+}
+
+div.default div.yoo-gallery div.thumbnail img {
+	float: left;
+}

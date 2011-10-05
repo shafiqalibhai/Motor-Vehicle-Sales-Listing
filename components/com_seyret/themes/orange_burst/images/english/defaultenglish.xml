@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>English Buttons for Default Theme</name>
+	<packageversion>1</packageversion>
+	<type>localizedbuttons</type>
+	<date>04.05.08</date>
+	<author>Joomlaholic Team</author>
+	<authorEmail>dindarm@gmail.com</authorEmail>
+	<authorUrl>http://www.joomlaholic.com</authorUrl>
+	<copyright>2008 Joomlaholic Team</copyright>
+	<description>English Buttons for Default Theme. Initial test release.</description>
+	<targetfolder>/components/com_seyret/themes/default/images/english</targetfolder>
+	<files>
+		     <filename>defaultenglish.xml</filename>
+            <filename>addvideo.png</filename>
+            <filename>addvideo_2.png</filename>
+            <filename>allvideos.png</filename>
+            <filename>allvideos_2.png</filename>
+            <filename>batchconversion.png</filename>
+            <filename>batchconversion_2.png</filename>
+            <filename>featured.png</filename>
+            <filename>featured_2.png</filename>
+            <filename>help.png</filename>
+            <filename>help_2.png</filename>
+            <filename>home.png</filename>
+            <filename>home_2.png</filename>
+            <filename>index.html</filename>
+            <filename>myvideos.png</filename>
+            <filename>myvideos_2.png</filename>
+            <filename>pendingvideos.png</filename>
+            <filename>pendingvideos_2.png</filename>
+            <filename>reportedvideos.png</filename>
+            <filename>reportedvideos_2.png</filename>
+            <filename>uploadvideo.png</filename>
+            <filename>uploadvideo_2.png</filename>
+
+	</files>
+</seyretxml>

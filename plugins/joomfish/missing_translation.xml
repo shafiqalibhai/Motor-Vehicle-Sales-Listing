@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="joomfish">
+	<name>Joomfish - Missing Translation</name>
+	<author>Geraint Edwards</author>
+	<creationDate>7 January 2009</creationDate>
+	<copyright>2003 - 2009, Think Network GmbH, Munich</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail></authorEmail>
+	<authorUrl>http://www.joomfish.net</authorUrl>
+	<version>2.0.1</version>
+	<description>Joomfish Missing Translation Handler</description>
+	<files>
+		<filename plugin="missing_translation">missing_translation.php</filename>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB.plg_joomfish_missing_translation.ini</language>
+   	</languages>	
+	<params>
+	</params>
+</install>

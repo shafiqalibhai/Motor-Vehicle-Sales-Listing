@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module" version="1.7.0">
+	<name>LastVBF</name>
+	<author>masih.ad</author>
+	<creationDate>9 May 2008</creationDate>
+	<copyright>2008 by Masih.ad</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>masih.ad@gmail.com</authorEmail>
+	<authorUrl></authorUrl>
+	<version>1.7.0</version>
+	<description>
+	<![CDATA[
+<div style="padding:0px 8px 8px 0px;">
+<p><strong><span style="font-size: large; color: #FF0000">LastVBF</span></strong></p>
+<p><br />
+This Module Display Latest Threads Title&#39;s<span lang="en-us"> and Link&#39;s</span> of VBulletin<span lang="en-us"> 
+Forums</span><br />
+<br />
+<strong>Install :</strong><br />
+1- <span style="color: #FF0000">Before Installation be sure that External Data 
+is Enable &amp; Guests Have permission to view threads.</span><br />
+<br />
+&nbsp;&nbsp;&nbsp; admincp &gt;&gt; vBulletin Options &gt;&gt; vBulletin Options &gt;&gt; External 
+Data Provider &gt;&gt; Enable External Javascript do yes &amp; enable it.<br />
+<br />
+&nbsp;&nbsp;&nbsp; Admincp -&gt; Add Module -&gt; [Template] -&gt; Fill All Fields as 
+Described...<br />
+2-Enter the url of you forum in the module Parameters<br />
+<span style="color: #FF0000">&nbsp;&nbsp;&nbsp; DO NOT ADD&nbsp; &#39;</span><span style="color: #0000FF">/</span><span style="color: #FF0000">&#39;&nbsp; 
+IN THE END OF YOUR URL</span><br />
+&nbsp;&nbsp;&nbsp; for example : http://forums.yoursite.com
+<span lang="en-us">&nbsp; </span>is true<br />
+&nbsp;&nbsp;&nbsp; http://forums.yoursite.com<span style="color: #0000FF">/</span><span lang="en-us" style="color: #0000FF">&nbsp;
+</span>&nbsp;is false</p>
+3- <span style="color: #FF0000">(new):</span>If you dont want to show all forums , type Forums id in Text box. for 
+example : 04&nbsp;&nbsp;&nbsp; or&nbsp; 01,02,03,08,09
+<br />
+&nbsp;&nbsp;&nbsp;
+The forumid number of a forum can be found by editing a forum in the AdminCP. 
+It&#39;s listed at the top, next to the forum name.<br />
+&nbsp;&nbsp;&nbsp;
+if you want to see all forum , empty this Textbox <br />
+4- <span lang="en-us">Choose Your Module Style and Change the Module Parameters</span><br />
+5- <span lang="en-us">P</span>ublish module and enjoy<br />
+</div>
+		]]>
+	</description>
+	<files>
+		<filename module="mod_lastvbf">mod_lastvbf.php</filename>
+    </files>
+	<params>
+		<param name="@spacer" type="spacer" default="" label="Do not use '/' in the end of your forum url !" description="" />
+		<param name="url_js" type="text" label="Your Forum url:" description="Do not use '/' in the end of your forum url">
+    	</param>
+    	<param name="max_ch" type="text" label="Max Threads Title Lenght :" description="Max Threads Title Lenght">
+    	</param>
+    	<param name="forum_id" type="text" label="Forums_id (seperated by commas):" description="for example : 01,02,03,... if this Textbox is Empty, module show all forum">
+    	</param>
+    	<param name="t_number" type="text" label="Threads Number to show" description="Threads Number to show">
+    	</param>
+    	<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="module_style" type="list" default="0" label="Module Style:" description="Module Style">
+			<option value="0">Table1</option>
+			<option value="1">Table2</option>
+			<option value="2">Table3</option>
+			<option value="3">Marquee</option>
+			<option value="4">Table4 (just for vbseo)</option>
+		</param>
+	
+		<param name="tr1" type="text" label="TD Color 1:" description="for example black,red,#BFC4C1,...">
+    	</param>
+		<param name="tr2" type="text" label="TD Color 2:" description="for example black,red,#BFC4C1,...">
+    	</param>
+    	<param name="linkcolor" type="text" label="Link Color:" description="for example black,red,#BFC4C1,...">
+    	</param>
+		<param name="infocolor" type="text" label="Info color:" description="for example black,red,#BFC4C1,...">
+    	</param>
+    	<param name="fsize" type="text" label="Font Size (pt):" description="for example 12,10,8,...">
+    	</param>
+    	<param name="height_m" type="text" label="height(px) in marquee (Empty=Autosize):" description="marquee height size . just in marquee style... empty= auto height size">
+    	</param>
+    	<param name="direction_m" type="list" default="0" label="Direction in marquee:" description="Marquee Direction">
+			<option value="0">up</option>
+			<option value="1">down</option>
+    	</param>
+    	<param name="marqueebg" type="text" label="marquee background color:" description="">
+    	</param>
+		<param name="@spacer" type="spacer" default="" label="Language" description="" />
+    	<param name="by_vbf" type="text" label="By :" description="" default="By">
+    	</param>
+		<param name="in_vbf" type="text" label="in :" description="" default="In">
+    	</param>
+		<param name="title_vbf" type="text" label="Title :" description="" default="Title">
+    	</param>
+    	<param name="author_vbf " type="text" label="Author :" description="" default="Author">
+    	</param>
+    	<param name="@spacer" type="spacer" default="" label="" description="" />
+    	<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	</params>
+</mosinstall>

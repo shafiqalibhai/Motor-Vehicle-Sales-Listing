@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<seyretxml>
+	<name>JW Player 4.2</name>
+	<packageversion>1</packageversion>
+	<type>tool</type>
+	<date>21.10.2008</date>
+	<author>http://jeroenwijering.com/</author>
+	<authorEmail>http://jeroenwijering.com/</authorEmail>
+	<authorUrl>http://jeroenwijering.com/</authorUrl>
+	<copyright>2008 http://jeroenwijering.com/</copyright>
+	<description>JW Player for Seyret. Initial test release...</description>
+	<targetfolder>/components/com_seyret/localplayer</targetfolder>
+	<compatibility>0.2.8.1</compatibility>
+	<files>
+		<filename>player.xml</filename>
+		<filename>player.swf</filename>
+	</files>
+</seyretxml>

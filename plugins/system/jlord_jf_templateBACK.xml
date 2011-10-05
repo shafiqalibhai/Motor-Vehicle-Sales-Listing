@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>Jlord Joomfish Template</name>
+	<author>Joomlord Team</author>
+	<creationDate>Oct 2008</creationDate>
+	<copyright>Copyright (C) 2008 Joomlord Team. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
+	<authorEmail>minhna@gmail.com</authorEmail>
+	<authorUrl>www.joomlord.com</authorUrl>
+	<version>1.0.0</version>
+	<description>
+		<![CDATA[
+		Change template for each language
+		]]>
+	</description>
+	<files>
+		<filename plugin="jlord_jf_template">jlord_jf_template.php</filename>
+	</files>
+	<params>
+		<param name="template_config" type="text" size="40"
+			default="" label="Configure" description="shortcode=>template_code, separate by ','. Example: en=>rhuk_milkyway,fr=>beez" />
+	</params>
+</install>

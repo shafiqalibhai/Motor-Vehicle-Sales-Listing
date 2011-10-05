@@ -1,0 +1,121 @@
+.dynamic-tab-pane-control.tab-pane {
+	position:	relative;
+	/*width:		100%;		 width needed weird IE bug */
+	/*margin-right:	-2px;	 to make room for the shadow */
+}
+.dynamic-tab-pane-control .tab-row .tab {
+	width: 94px;
+	height: 19px;
+	color:#FFFFFF;
+	position: relative;
+	top: 0;
+	display: inline;
+	float: left;
+	overflow: hidden;
+	cursor: pointer;
+	margin: 0px -1px 1px 0px;
+	padding: 2px 0px 0px 0px;
+	border: 0;
+	z-index: 1;
+	font: 11px Tahoma, Helvetica, sans-serif;
+	white-space: nowrap;
+	text-align: center;
+	background-image:url(../images/tabpas.png) !important;;
+	background-repeat:repeat-x;
+	padding-top:7px;
+}
+
+.tab-row {
+padding-left:10px;
+}
+
+.dynamic-tab-pane-control .tab-row .tab a {
+	font:	11px Tahoma, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.dynamic-tab-pane-control .tab-row .tab.selected {
+	width: 94px !important;
+	height: 19px !important;
+	z-index: 3;
+	padding:	2px 0px 0px 0px;
+	margin: 0px -1px -1px 0px;
+	top: 0px;
+	font: 11px Tahoma, Helvetica, sans-serif;
+	background-image:url(../images/tabact.png)  !important;;
+	background-repeat:repeat-x;
+	padding-top:7px;
+}
+
+.dynamic-tab-pane-control .tab-row .tab.hover {
+	font:	11px Tahoma, Helvetica, sans-serif;
+	width: 94px;
+	height: 19px;
+	background-image:url(../images/tabhov.png) !important;;
+	background-repeat:repeat-x;
+	padding-top:7px;	
+}
+.dynamic-tab-pane-control .tab-page {
+	border: none;
+	border-top:#333333 1px solid;
+
+	background: transparent;
+	z-index: 2;
+	position: relative;
+	top: -2px;
+	font: 11px Tahoma, Helvetica, sans-serif;
+
+	/*244, 243, 238*/
+	/* 145, 155, 156*/
+	padding:	5px;
+	width: 97%;  /* stupid stupid stupid IE!!! */
+	float: left;
+
+}
+.dynamic-tab-pane-control .tab-row {
+	z-index: 1;
+	white-space: nowrap;
+}
+
+
+
+
+
+dl.tabs {
+	float: left;
+	margin: 10px 0 -1px 0;
+	z-index: 50;
+
+}
+
+dl.tabs dt {
+	float: left;
+	color:#FFFFFF;
+	text-align:center;
+	padding-top:6px;
+	font-size:11px;
+	width: 94px;
+	height: 19px;
+	background-image:url(../images/tabpas.png) !important;
+}
+
+dl.tabs dt.open {
+	z-index: 100;
+	background-image:url(../images/tabact.png) !important;
+}
+
+div.current {
+	clear: both;
+	*clear:right; 
+	_clear:right;
+	border-top:#333333 1px solid;
+	padding-top:10px;
+
+}
+
+div.current dd {
+	padding: 0;
+	margin: 0;
+}

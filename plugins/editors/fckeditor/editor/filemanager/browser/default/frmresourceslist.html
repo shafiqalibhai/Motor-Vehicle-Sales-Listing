@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2008 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *    Modified by WebxSolutions Ltd
+ * == END LICENSE ==
+ *
+ * This page shows all resources available in a folder in the File Browser.
+-->
+<html>
+<head>
+	<title>Resources</title>
+	<link href="browser.css" type="text/css" rel="stylesheet">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<style type="text/css">
+	<!--
+		/* Added by Webxsolutions */
+		
+	   a {
+	  	  text-decoration: none;
+       }
+		
+		
+		
+		a:visted span,a:link span  
+		{
+		  text-decoration:none;		
+		}
+			
+		a:hover {
+		   position: relative;
+		   /*cursor:help;*/
+		}
+		a span {
+		   display: none;
+		   text-decoration: none;
+		}
+		a:hover span {
+		   display: block;
+		   position: absolute; top: 10px; left: 0;
+		   /* formatting only styles */
+		   padding: 10px; margin: 10px; z-index: 100;
+		   background-color: #f0f0f0; 
+		   border: 1px dotted #c0c0c0;
+		   opacity: 0.9;
+		  /* end formatting */
+		   text-decoration: none;
+		   color:#000000;
+		   height:auto;
+		   width:auto;
+		   min-height:50px !important;
+		   min-width:50px !important;
+		
+		   		  
+		}
+  
+         
+	 	a:hover span img {
+		  border: 1px solid #c0c0c0;
+		  height:auto;
+		  width:auto;
+		  max-height:200px !important;
+		  max-width:200px !important;
+		/*  
+		  height: expression( document.body.clientHeight > 200 ? "200px" : "auto" );
+		  max-width:200px;
+		  width: expression( 300  > 200 ? "200px" : "auto" );
+		 */ 
+		 	}
+		
+		  a:hover span div#previewText {
+		  border: 1px dotted #c0c0c0;
+		  margin-top:5px;
+		  width:100%;
+		  }
+		  
+		   /*IE fix  */
+		  img { behavior: url(iepngfix.htc) }
+		
+   -->
+   </style> 
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript">
+
+
+var oListManager = new Object() ;
+
+oListManager.Clear = function()
+{
+	document.body.innerHTML = '' ;
+}
+
+function ProtectPath(path)
+{
+	path = path.replace( /\\/g, '\\\\') ;
+	path = path.replace( /'/g, '\\\'') ;
+	return path ;
+}
+
+oListManager.GetFolderRowHtml = function( folderName, folderPath )
+{
+	// Build the link to view the folder.
+	var sLink = '<a href="#" onclick="OpenFolder(\'' + ProtectPath( folderPath ) + '\');return false;">' ;
+
+	return '<tr>' +
+			'<td width="16">' +
+				sLink +
+				'<img alt="" src="images/Folder.gif" width="16" height="16" border="0"><\/a>' +
+			'<\/td><td nowrap colspan="2">&nbsp;' +
+				sLink +
+				folderName +
+				'<\/a>' +
+		'<\/td><\/tr>' ;
+}
+
+oListManager.GetFileRowHtml = function( fileName, fileUrl, fileSize )
+{
+    // Modified by Webxsolutions AW
+	// Build the link to view the folder.
+	var sLink = '<a href="#" onclick="OpenFile(\'' + ProtectPath( fileUrl ) + '\');return false;">' ;
+
+	// Get the file icon.
+	var sIcon = oIcons.GetIcon( fileName ) ;
+
+	return '<tr>' +
+			'<td width="16">' +
+				sLink +
+				'<img alt="" src="images/icons/' + sIcon + '.gif" width="16" height="16" border="0">' +
+				(ProtectPath( fileUrl ).match(/.+\.(gif|jpg|png)$/i) ? 
+				'<span><img id="' + fileName.replace(/(\.gif|\.jpg|\.png)$/i,'') +'"  alt="" src="' + ProtectPath( fileUrl ) + '" border="0"><\/span><\/a>' : '<\/a>' ) +
+			'<\/td><td>&nbsp;' +
+				sLink +
+				fileName +
+				'<\/a>' +
+			'<\/td><td align="right" nowrap>&nbsp;' +
+				fileSize +
+				' KB' +
+		'<\/td><\/tr>' ;
+}
+
+function OpenFolder( folderPath )
+{
+	// Load the resources list for this folder.
+	window.parent.frames['frmFolders'].LoadFolders( folderPath ) ;
+}
+
+function OpenFile( fileUrl )
+{
+	window.top.opener.SetUrl( encodeURI( fileUrl ).replace( '#', '%23' ) ) ;
+	window.top.close() ;
+	window.top.opener.focus() ;
+}
+
+function LoadResources( resourceType, folderPath )
+{
+	oListManager.Clear() ;
+	oConnector.ResourceType = resourceType ;
+	oConnector.CurrentFolder = folderPath ;
+	oConnector.SendCommand( 'GetFoldersAndFiles', null, GetFoldersAndFilesCallBack ) ;
+}
+
+function Refresh()
+{
+	LoadResources( oConnector.ResourceType, oConnector.CurrentFolder ) ;
+}
+
+function GetFoldersAndFilesCallBack( fckXml )
+{
+	if ( oConnector.CheckError( fckXml ) != 0 )
+		return ;
+
+	// Get the current folder path.
+	var oFolderNode = fckXml.SelectSingleNode( 'Connector/CurrentFolder' ) ;
+	if ( oFolderNode == null )
+	{
+		alert( 'The server didn\'t reply with a proper XML data. Please check your configuration.' ) ;
+		return ;
+	}
+	var sCurrentFolderPath	= oFolderNode.attributes.getNamedItem('path').value ;
+	var sCurrentFolderUrl	= oFolderNode.attributes.getNamedItem('url').value ;
+
+//	var dTimer = new Date() ;
+
+	var oHtml = new StringBuilder( '<div id="cover"></div><table id="tableFiles" cellspacing="1" cellpadding="0" width="100%" border="0">' ) ;
+
+	// Add the Folders.
+	var oNodes ;
+	oNodes = fckXml.SelectNodes( 'Connector/Folders/Folder' ) ;
+	for ( var i = 0 ; i < oNodes.length ; i++ )
+	{
+		var sFolderName = oNodes[i].attributes.getNamedItem('name').value ;
+		oHtml.Append( oListManager.GetFolderRowHtml( sFolderName, sCurrentFolderPath + sFolderName + "/" ) ) ;
+	}
+
+	// Add the Files.
+	oNodes = fckXml.SelectNodes( 'Connector/Files/File' ) ;
+	for ( var j = 0 ; j < oNodes.length ; j++ )
+	{
+		var oNode = oNodes[j] ;
+		var sFileName = oNode.attributes.getNamedItem('name').value ;
+		var sFileSize = oNode.attributes.getNamedItem('size').value ;
+
+		// Get the optional "url" attribute. If not available, build the url.
+		var oFileUrlAtt = oNodes[j].attributes.getNamedItem('url') ;
+		var sFileUrl = oFileUrlAtt != null ? oFileUrlAtt.value : sCurrentFolderUrl + sFileName ;
+
+		oHtml.Append( oListManager.GetFileRowHtml( sFileName, sFileUrl, sFileSize ) ) ;
+	}
+    /* below Added by Webxsolutions ltd */
+	oHtml.Append( '<\/table>' ) ;
+	document.body.innerHTML = oHtml.ToString() ;
+	var ScriptElement = document.createElement("script");
+	ScriptElement.language = "JavaScript";
+	ScriptElement.type = "text/javascript";
+	ScriptElement.src = "js/JFCKFileBrowserImages.js";
+	document.body.appendChild(ScriptElement);
+ 
+//	window.top.document.title = 'Finished processing in ' + ( ( ( new Date() ) - dTimer ) / 1000 ) + ' seconds' ;
+    //document.write("<script>alert('got here beacuse i am not a muppet browser');<\/script>");
+
+
+}
+
+
+window.onload = function()
+{
+	window.top.IsLoadedResourcesList = true ;
+
+}
+
+</script>
+</head>
+<body class="FileArea">
+
+</body>
+</html>

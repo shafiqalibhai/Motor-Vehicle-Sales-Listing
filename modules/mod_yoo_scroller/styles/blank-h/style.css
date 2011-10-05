@@ -1,0 +1,70 @@
+/* (C) 2007 YOOtheme.com */
+
+div.blank-h div.yoo-scroller {
+}
+
+/* panel */
+div.blank-h div.yoo-scroller .panel-container {
+	padding: 0px 0px 10px 0px;
+}
+
+div.blank-h div.yoo-scroller .panel-container-bg {
+	overflow: hidden;
+}
+
+div.blank-h div.yoo-scroller div.panel {
+	overflow: hidden;
+}
+
+div.blank-h div.yoo-scroller div.panel div.slide {
+	float: left;
+	overflow: hidden;
+}
+
+div.blank-h div.yoo-scroller div.scrollarea {
+	margin: 0px 20px 0px 20px;
+	background: url(styles/blank-h/images/scrollarea_m.png) 0 0 repeat-x;
+	cursor: pointer;
+}
+
+div.blank-h div.yoo-scroller div.scrollarea-l {
+	background: url(styles/blank-h/images/scrollarea_l.png) 0 0 no-repeat;
+}
+
+div.blank-h div.yoo-scroller div.scrollarea-r {
+	background: url(styles/blank-h/images/scrollarea_r.png) 100% 0 no-repeat;
+}
+
+div.blank-h div.yoo-scroller div.scrollbar {
+	float: left;
+}
+
+div.blank-h div.yoo-scroller div.scrollknob {
+	margin: 2px 0px 2px 0px;
+	min-width: 10px;
+	background: url(styles/blank-h/images/scrollknob_l.png) 0 0 no-repeat;
+}
+
+div.blank-h div.yoo-scroller div.scrollknob-r {
+	padding: 0px 10px 0px 10px;
+	background: url(styles/blank-h/images/scrollknob_r.png) 100% 0 no-repeat;
+}
+
+div.blank-h div.yoo-scroller div.scrollknob-m {
+	height: 14px;
+	background: url(styles/blank-h/images/scrollknob_m.png) 0 0 repeat-x;
+}
+
+div.blank-h div.yoo-scroller div.forward, div.blank-h div.yoo-scroller div.back {
+	width: 21px;
+	height: 18px;
+	float: left;
+}
+
+div.blank-h div.yoo-scroller div.forward {
+	background: url(styles/blank-h/images/scroll_forward.png) 0 0 no-repeat;
+}
+
+div.blank-h div.yoo-scroller div.back {
+	background: url(styles/blank-h/images/scroll_back.png) 0 0 no-repeat;
+}

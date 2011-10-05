@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mosinstall type="module">
+	<name>Seyret Sites Fader</name>
+	<author>Larry Gillock Jr (JoomlaToys)</author>
+	<creationDate>05/27/07</creationDate>	
+	<copyright>This extension is released under the GNU/GPL License - http://www.gnu.org/copyleft/gpl.html</copyright>
+	<authorEmail>admin@joomlatoys.com</authorEmail>
+	<authorUrl>http://www.joomlatoys.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		<![CDATA[
+<style type="text/css">
+<!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000066;
+	font-size: 18px;
+}
+.style2 {
+	color: #333333;
+	font-style: italic;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.style3 {
+	color:#333333;
+	padding:10px;
+	border:1px #000099 solid;
+	background-color:#EEEEEE;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+-->
+</style>
+<p class="style1">SEYRET VIDEO COMPONENT - SUPPORTED SERVERS MODULE</p>
+<p align="left"><span class="style2">with javascript fader effect</span></p>
+<p align="left">&nbsp;</p>
+<div class="style3">This module shows all supported servers from Seyret component. Now please define all parameters. Please note credits for original fade effect script.</div>
+<b>Original work by <a href="http://www.joomlaworks.gr" target="_blank">JoomlaWorks</a><b><br />
+<b>Modified work by <a href="http://www.joomlatoys.com" target="_blank">JoomlaToys</a><b><br />
+<b>Modified for Seyret Video Component <a href="http://www.joomlaholic.com" target="_blank">JoomlaHolic</a><b><br />
+		]]>
+	</description>
+	<files>
+	<filename module="mod_seyretsites_fader">mod_seyretsites_fader.php</filename>
+	<filename module="mod_seyretsites_fader">mod_seyretsites_fader/mod_seyretsites_fader.js</filename>
+	<filename module="mod_seyretsites_fader">mod_seyretsites_fader/loading.gif</filename>
+	<filename module="mod_seyretsites_fader">mod_seyretsites_fader/loading_black.gif</filename>
+	   <filename>mod_seyretsites_fader/logos/bliptv.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/bolt.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/break.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/clipfish.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/dailymotion.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/gametrailers.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/google.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/gofish.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/guba.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/ifilm.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/izlesene.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/livevideo.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/metacafe.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/milliyet.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/mojoflix.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/myspace.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/myvideode.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/pikniktube.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/putfile.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/revver.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/snowvision.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/stupidvideos.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/trtube.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/veoh.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/vimeo.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/youtube.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/glumbert.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/brightcove.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/sevenload.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/neufstream.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/vidivodo.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/movieweb.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/sclipo.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/soapbox.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/stage6.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/uzmantv.jpg</filename>
+	   <filename>mod_seyretsites_fader/logos/megavideo.jpg</filename>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable). This allows individual module styling." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="imagefolder" type="text" default="modules/mod_seyretsites_fader/logos" label="Image Folder path" description="Set here the path to the folder containing the images to be displayed. The module will scan this folder and display images automatically!" />
+		<param name="display" type="list" default="random" label="Display order" description="Should the images display in sequence or randomly?">
+			<option value="random">Random</option>
+			<option value="sequence">Sequence</option>
+		</param>		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="transition" type="text" default="20" label="Rotation speed" description="Set here the rotation speed (in 1/100th seconds) between images. 100 means 1 second." />
+		<param name="delay" type="text" default="1000" label="Rotation timeout" description="Set here the rotation timeout (in miliseconds) for every image. 1000 means 1 second." />
+		<param name="width" type="text" default="120" label="Image (header) width" description="Set here the target width of all images in pixels." />
+		<param name="height" type="text" default="52" label="Image (header) height" description="Set here the target height of all images in pixels." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="forceresize" type="list" default="0" label="Force image resize (if wider)" description="Should we force all images exceeding the given width above to resize, using CSS?.">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>		
+		<param name="enablelink" type="list" default="1" label="Enable link to images?" description="Should the images have a universal link pointing to a single URL? If you choose no, then the next parameter is disabled, obviously!">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link" type="text" default="index.php?option=com_seyret" label="Link to URL" description="Insert here a link to a URL that users will be redirected to when they click on the 'Seyret Sites Fader'. Enter '#' (without the quotes) for same page." />
+		<param name="target" type="list" default="0" label="Where should the above link open?" description="Choose whether the 'master' link will open in a new or in the same window.">
+			<option value="0">Same window</option>
+			<option value="1">New window</option>
+		</param>
+		<param name="linktitle" type="text" default="JoomlaToys Seyret Sites Fader" label="Link title" description="Insert here the link title which will be shown to the visitor when they hover their mouse ver the images. Do not use single or double quotes or the HTML will break." />
+		<param name="darkbg" type="list" default="0" label="Display 'loading icon' for..." description="Display different loading icon per template color scheme, white or dark.">
+			<option value="0">Light colored template</option>
+			<option value="1">Dark colored template</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="useforbanners" type="list" default="0" label="Should the Fader be used to display banners from the Banner Component?" description="This option will retrieve all published banners and display them.">
+			<option value="0">No</option>
+			<option value="1">Yes (bypasses all options above)</option>
+		</param>		
+		<param name="bannerfolder" type="text" default="images/banners/" label="Banner folder" description="Leave as is if you haven't changed the default banners location." />		
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+	</params>
+</mosinstall>

@@ -1,0 +1,17 @@
+<playlist version="1" xmlns="http://xspf.org/ns/0/">
+<title>Playlist</title>
+<vdtime>2008-12-24 00:39:44</vdtime>
+<trackList>
+
+
+
+<track>
+<title>Video</title>
+<creator>Seyret</creator>
+<location>http://www.youtube.com/get_video.php?video_id=P0xfoJ6_xbM&t=OEgsToPDskIi-RX_8AGvf30kVpfzBNh5</location>
+<image>seyretfiles/images/video_i1_ytimg_com_vi_P0xfoJ6_xbM_default_jpg.jpg</image>
+<meta rel="type">video/flv</meta>
+</track>
+
+</trackList>
+</playlist>
